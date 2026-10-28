@@ -1,0 +1,29 @@
+{
+ "n": 739,
+ "understood": 330,
+ "by": {
+  "chat": {
+   "n": 20,
+   "understood": 11
+  },
+  "define": {
+   "n": 119,
+   "understood": 4
+  },
+  "intent": {
+   "n": 279,
+   "understood": 191
+  },
+  "lookup": {
+   "n": 40,
+   "understood": 13
+  },
+  "math": {
+   "n": 281,
+   "understood": 111,
+   "solved": 84,
+   "checked": 111,
+   "agreed": 84
+  }
+ }
+}

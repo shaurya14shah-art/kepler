@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy · Kepler</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="top"><div class="wrap"><a class="brand" href="../index.html">← Kepler</a></div></header>
+<main class="doc">
+<h1>Privacy Policy</h1>
+<p><em>DRAFT. Effective {{EFFECTIVE_DATE}}.</em></p>
+<p>{{COMPANY}} ("we", "us") makes Kepler, self-hosted software for monitoring metrics. This policy explains what personal data we handle and why. Contact: {{EMAIL}}, {{ADDRESS}}.</p>
+<h2>1. Kepler runs on your servers</h2>
+<p>Kepler is self-hosted. <strong>The data you put into Kepler (metrics, incidents, settings, files you index, questions you ask Kepler AI, and what you teach it) stays on the servers where you install it. We don't receive it.</strong> You control it, including backups and deletion; in that respect you are the controller of any personal data it contains.</p>
+<p>Kepler only contacts third parties when you turn on a feature that needs to:</p>
+<table><thead><tr><th>feature</th><th>what is sent</th><th>where</th><th>how to turn it off</th></tr></thead><tbody><tr><td>Alert destinations you configure (Slack, PagerDuty, email, Grafana, Datadog, webhooks)</td><td>incident summaries</td><td>the service you configured</td><td>remove the destination</td></tr><tr><td>Data sources you connect (Prometheus, Datadog, PostHog, …)</td><td>queries for your metrics</td><td>the service you connected</td><td>remove the connector</td></tr><tr><td>Wikipedia lookup in Kepler AI (on by default)</td><td>the words of a general-knowledge question</td><td>en.wikipedia.org</td><td><code>kepler learn --web off</code> or <code>KEPLER_WEB=off</code></td></tr><tr><td>Dataset downloads (<code>kepler learn wikipedia</code> / <code>wordnet</code>)</td><td>a download request</td><td>Wikimedia, GitHub</td><td>don't run the command</td></tr><tr><td>Paid plans, if offered</td><td>checkout details you type into Razorpay's window</td><td>Razorpay</td><td>don't buy a plan</td></tr></tbody></table>
+<p>Kepler has no telemetry: it doesn't report usage to us.</p>
+<h2>2. Data we handle ourselves</h2>
+<ul><li><strong>When you contact us</strong> (email, support): your name, email address and what you write, to answer you.</li><li><strong>When you buy a paid plan</strong> (if offered): your name, email, billing address, plan and payment status, to provide the plan, issue invoices and meet tax and accounting obligations. Razorpay processes the payment; we receive a payment reference and status, never your full card number or bank details. See Razorpay's privacy policy.</li><li><strong>Our website</strong>: standard server logs (IP address, browser, pages requested) kept for up to 30 days for security. We don't use advertising or tracking cookies.</li></ul>
+<h2>3. Legal bases (where the GDPR or similar laws apply)</h2>
+<p>Contract (to provide a plan you bought), legal obligation (tax and accounting records), and legitimate interests (security of our website, answering your messages).</p>
+<h2>4. Sharing</h2>
+<p>We share personal data only with service providers that help us run the business (payment processing by Razorpay, email and hosting providers), under contracts that protect it, or when the law requires. We don't sell personal data.</p>
+<h2>5. Retention</h2>
+<p>Support messages: up to 2 years. Billing records: as long as tax law requires (often 8 years). Website logs: 30 days.</p>
+<h2>6. Your rights</h2>
+<p>Depending on where you live, you may have rights to access, correct, delete, restrict or port your personal data, to object to processing, and to complain to a data-protection authority. Write to {{EMAIL}}; we'll answer within 30 days.</p>
+<h2>7. Children</h2>
+<p>Kepler is a business product and is not directed at children.</p>
+<h2>8. Changes</h2>
+<p>We'll post updates here with a new effective date, and notify customers of material changes by email.</p>
+</main>
+<footer><div class="wrap"><nav><a href="eula.html">Licence</a> <a href="terms.html">Terms</a> <a href="privacy.html">Privacy</a> <a href="refund.html">Refund</a> <a href="shipping.html">Shipping</a> <a href="contact.html">Contact</a></nav></div></footer>
+</body>
+</html>

@@ -1,0 +1,65 @@
+{
+  "orbit": {
+    "recall": 0.625,
+    "caught": 5,
+    "real": 8,
+    "noise_per_week": 3,
+    "root_cause_accuracy": 1.0,
+    "hard_cases_caught": 1,
+    "hard_cases": 3,
+    "hard_caught": [
+      "gradual decline: sign-ups -40% over 4 h"
+    ],
+    "median_detect_min": 0.0,
+    "series_per_metric": 1.0,
+    "eval_ms_per_metric": 31.4,
+    "cpu_seconds_per_metric_month": 271.0,
+    "train_seconds": 0.02,
+    "reasoning_ms_per_incident": null,
+    "incidents_with_impact": 0,
+    "measured_at": "2026-10-19"
+  },
+  "area": {
+    "recall": 1.0,
+    "caught": 8,
+    "real": 8,
+    "noise_per_week": 0,
+    "root_cause_accuracy": 1.0,
+    "hard_cases_caught": 2,
+    "hard_cases": 3,
+    "hard_caught": [
+      "slow burn: EU latency +60% over 3 h",
+      "gradual decline: sign-ups -40% over 4 h"
+    ],
+    "median_detect_min": 0.0,
+    "series_per_metric": 6.6,
+    "eval_ms_per_metric": 332.8,
+    "cpu_seconds_per_metric_month": 2875.3,
+    "train_seconds": 3.51,
+    "reasoning_ms_per_incident": null,
+    "incidents_with_impact": 0,
+    "measured_at": "2026-10-19"
+  },
+  "time": {
+    "recall": 1.0,
+    "caught": 8,
+    "real": 8,
+    "noise_per_week": 0,
+    "root_cause_accuracy": 1.0,
+    "hard_cases_caught": 3,
+    "hard_cases": 3,
+    "hard_caught": [
+      "slow burn: EU latency +60% over 3 h",
+      "gradual decline: sign-ups -40% over 4 h",
+      "combination only: iOS \u00d7 EU errors 5x"
+    ],
+    "median_detect_min": 0.0,
+    "series_per_metric": 13.0,
+    "eval_ms_per_metric": 714.1,
+    "cpu_seconds_per_metric_month": 6169.9,
+    "train_seconds": 6.8,
+    "reasoning_ms_per_incident": 0.05,
+    "incidents_with_impact": 11,
+    "measured_at": "2026-10-19"
+  }
+}

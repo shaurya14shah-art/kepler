@@ -1,0 +1,64 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - name: Install
+        run: |
+          uv venv --python 3.12 .venv
+          uv pip install --python .venv/bin/python -e ".[dev]" ruff
+      - name: Lint (syntax errors, undefined names, unused imports/variables; same as make lint)
+        run: .venv/bin/ruff check kepler tests stress --select E9,F821,F401,F841
+      - name: Tests
+        run: .venv/bin/python -m pytest -q tests
+
+  dashboard:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci
+      - name: Type-check and build
+        run: npm run build
+
+  package:
+    runs-on: ubuntu-latest
+    needs: [backend, dashboard]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: astral-sh/setup-uv@v6
+      - name: Build the wheel and source archive (dashboard, LICENSE and notices bundled)
+        run: |
+          (cd frontend && npm ci && npm run build)
+          rm -rf backend/kepler/web && cp -R frontend/dist backend/kepler/web
+          cp LICENSE backend/LICENSE
+          (cd backend && uv build --out-dir ../dist)
+      - name: Check package metadata
+        run: uvx twine check dist/*
+      - name: Smoke test the installed wheel (access gate on, billing disabled)
+        run: scripts/smoke_test.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: kepler-dist
+          path: dist/*

@@ -1,0 +1,22 @@
+# docker compose up   →   http://localhost:8000
+# The dashboard asks for the workspace access key: it's printed in the logs on start (`docker compose logs kepler`),
+# or run `docker compose exec kepler kepler key`.
+services:
+  kepler:
+    build: .
+    image: kepler:latest
+    ports:
+      - "127.0.0.1:8000:8000"   # this machine only; put HTTPS in front before exposing it (see docs/deploy.md)
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      KEPLER_DEMO: "1"          # simulated startup on first start; set "0" for real data only
+      KEPLER_AUTH: "on"         # every /api route and the dashboard need the access key
+      KEPLER_BILLING: "off"     # Kepler is free: billing (Razorpay) is disabled; see docs/billing.md
+    volumes:
+      - kepler-data:/data
+    restart: unless-stopped
+
+volumes:
+  kepler-data:

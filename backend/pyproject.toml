@@ -1,0 +1,51 @@
+[project]
+name = "kepler-watchdog"
+dynamic = ["version"]
+description = "Kepler: a self-hosted metric watchdog. It learns what normal looks like, tells you what broke, how sure it is and where."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "LicenseRef-Proprietary"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
+authors = [{ name = "Shaurya Shah" }]
+keywords = ["monitoring", "anomaly detection", "metrics", "observability", "alerting", "root cause", "self-hosted"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "Environment :: Web Environment",
+  "Framework :: FastAPI",
+  "Intended Audience :: Developers",
+  "Intended Audience :: System Administrators",
+  "Operating System :: MacOS",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: System :: Monitoring",
+  "Private :: Do Not Upload",
+]
+dependencies = [
+  "fastapi>=0.115", "uvicorn[standard]>=0.30", "numpy>=2.0", "pandas>=2.2", "scipy>=1.13", "scikit-learn>=1.5",
+  "httpx>=0.27", "python-multipart>=0.0.9", "psycopg[binary]>=3.2", "boto3>=1.34",
+  "rich>=13", "textual>=1.0", "textual-plotext>=1.0", "plotext>=5.2", "sympy>=1.13",
+]
+
+[project.optional-dependencies]
+pdf = ["pypdf>=4"]           # `kepler learn` on PDF files
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[project.scripts]
+kepler = "kepler.cli:main"
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["kepler*"]
+
+[tool.setuptools.package-data]
+# the built dashboard (copied in by `make build`), the measured model benchmark and the bot's training corpus
+kepler = ["web/**/*", "engine/tier_benchmark.json", "bot/corpus/*.json"]
+
+[tool.setuptools.dynamic]
+version = {attr = "kepler.__version__"}

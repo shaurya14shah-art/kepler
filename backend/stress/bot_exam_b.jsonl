@@ -1,0 +1,507 @@
+{"text": "hey kepler, morning", "expect": "greet", "answer": "", "source": "opsB-1"}
+{"text": "thx, that trial number saved me in the forecast call", "expect": "thanks", "answer": "", "source": "opsB-1"}
+{"text": "ok I'm not technical, what can I even ask you? give me the menu", "expect": "help", "answer": "", "source": "opsB-1"}
+{"text": "give me the one-liner on the business, anything red on the dashboard right now?", "expect": "status", "answer": "", "source": "opsB-1"}
+{"text": "how many incidents are still open? list em for me", "expect": "list_incidents", "answer": "", "source": "opsB-1"}
+{"text": "need the story on incident 4127, what actually tripped it and when", "expect": "explain_incident", "answer": "", "source": "opsB-1"}
+{"text": "why is checkout_conv sagging since monday, is it the new pricing page or something else", "expect": "why_metric", "answer": "", "source": "opsB-1"}
+{"text": "draw p95 latency for the checkout API over the last 3 days, I want to see the shape", "expect": "metric_detail", "answer": "", "source": "opsB-1"}
+{"text": "is payments_failed normal today or should I start panicking", "expect": "decide", "answer": "", "source": "opsB-1"}
+{"text": "split trial_starts by region, I need to see which geo is dragging", "expect": "breakdown", "answer": "", "source": "opsB-1"}
+{"text": "4127 was real, customers were actually stuck at checkout. mark it real", "expect": "label_real", "answer": "", "source": "opsB-1"}
+{"text": "tag incident 4131 as a false alarm, it was just the Friday reconciliation batch", "expect": "label_false", "answer": "", "source": "opsB-1"}
+{"text": "retrain the models on all the labels we've added this month", "expect": "train", "answer": "", "source": "opsB-1"}
+{"text": "fake a checkout outage so I can show the board what an alert looks like", "expect": "demo_inject", "answer": "", "source": "opsB-1"}
+{"text": "which data sources can you plug into? we're on posthog and a bunch of other stuff", "expect": "integrations", "answer": "", "source": "opsB-1"}
+{"text": "hook up datadog so you start pulling our api_errors, how do I do that", "expect": "connect_tool", "answer": "", "source": "opsB-1"}
+{"text": "dial the alert sensitivity to 85 pct, I'm getting pinged at 2am for nothing", "expect": "set_sensitivity", "answer": "", "source": "opsB-1"}
+{"text": "what's our current config, sensitivity and which channels are live", "expect": "settings", "answer": "", "source": "opsB-1"}
+{"text": "how accurate are the models right now, and what have they actually learned", "expect": "models", "answer": "", "source": "opsB-1"}
+{"text": "compare orbit vs area vs time for me, which one costs us more per metric", "expect": "tiers", "answer": "", "source": "opsB-1"}
+{"text": "switch refunds over to the area model, orbit is too jumpy on that one", "expect": "set_tier", "answer": "", "source": "opsB-1"}
+{"text": "what did kepler post to slack this week? I want the full list", "expect": "alerts_log", "answer": "", "source": "opsB-1"}
+{"text": "open the dashboard in my browser, I need the charts up for the exec review", "expect": "open_dashboard", "answer": "", "source": "opsB-1"}
+{"text": "put incident 4127's summary on my clipboard so I can paste it into the deck", "expect": "copy", "answer": "", "source": "opsB-1"}
+{"text": "why did trial_starts drop 30 pct vs last month? is it the new onboarding flow?", "expect": "why_metric", "answer": "", "source": "opsB-1"}
+{"text": "honest answer: is the checkout p95 fine or do I need to escalate?", "expect": "decide", "answer": "", "source": "opsB-1"}
+{"text": "graph signups weekly since july, I need it for the QBR slide", "expect": "metric_detail", "answer": "", "source": "opsB-1"}
+{"text": "any open incidents touching revenue in prod right now?", "expect": "list_incidents", "answer": "", "source": "opsB-1"}
+{"text": "api_errors by endpoint, which route is hurting us most", "expect": "breakdown", "answer": "", "source": "opsB-1"}
+{"text": "how are things looking after the 3pm deploy, all clear?", "expect": "status", "answer": "", "source": "opsB-1"}
+{"text": "we had 2,480 trials last month and 17.5 pct went paid at $149 a month, what's the MRR from that cohort", "expect": "math", "answer": "$64,666 MRR", "source": "opsB-1"}
+{"text": "if checkout conv holds at 3.2 pct on 18,750 sessions a day and aov is $86, what's daily revenue", "expect": "math", "answer": "$51,600 per day", "source": "opsB-1"}
+{"text": "what's the difference between gross churn and net revenue retention, I keep mixing them up before the board", "expect": "define", "answer": "gross churn, net revenue retention", "source": "opsB-1"}
+{"text": "define CAC payback period, and how's it different from LTV to CAC", "expect": "define", "answer": "CAC payback period, LTV:CAC ratio", "source": "opsB-1"}
+{"text": "hey there, just joined the team this week, nice to meet you", "expect": "greet", "answer": "", "source": "opsB-2"}
+{"text": "ok that explanation helped a lot, thanks a bunch", "expect": "thanks", "answer": "", "source": "opsB-2"}
+{"text": "im kinda lost, where do i even start with this thing? what are you good for", "expect": "help", "answer": "", "source": "opsB-2"}
+{"text": "how's the whole system looking right now, anything on fire?", "expect": "status", "answer": "", "source": "opsB-2"}
+{"text": "any incidents still unresolved from last night? i saw a couple in slack", "expect": "list_incidents", "answer": "", "source": "opsB-2"}
+{"text": "can you walk me through incident 214, i dont get what it's saying", "expect": "explain_incident", "answer": "", "source": "opsB-2"}
+{"text": "idk why payments_failed went through the roof around 3am last night, any clue?", "expect": "why_metric", "answer": "", "source": "opsB-2"}
+{"text": "I'd like to see trial_starts charted over the last two weeks", "expect": "metric_detail", "answer": "", "source": "opsB-2"}
+{"text": "refunds look weird to me right now, are they behaving or not?", "expect": "decide", "answer": "", "source": "opsB-2"}
+{"text": "can you split signups by country, i think one region is the problem", "expect": "breakdown", "answer": "", "source": "opsB-2"}
+{"text": "yeah 207 was a genuine problem, please record that it's a true incident", "expect": "label_real", "answer": "", "source": "opsB-2"}
+{"text": "the alert on 219 was just the nightly export job spiking, not a real problem. can you mark it as a bad alert", "expect": "label_false", "answer": "", "source": "opsB-2"}
+{"text": "can you re-run training on the stuff we've labelled so far", "expect": "train", "answer": "", "source": "opsB-2"}
+{"text": "can you make a fake outage so I can see what an incident looks like", "expect": "demo_inject", "answer": "", "source": "opsB-2"}
+{"text": "which monitoring tools does kepler plug into?", "expect": "integrations", "answer": "", "source": "opsB-2"}
+{"text": "my lead said to hook up datadog, where do I start", "expect": "connect_tool", "answer": "", "source": "opsB-2"}
+{"text": "too many pings at night, lower the alert threshold to around 60 percent please", "expect": "set_sensitivity", "answer": "", "source": "opsB-2"}
+{"text": "what config are you currently running with? I forgot what I set", "expect": "settings", "answer": "", "source": "opsB-2"}
+{"text": "how accurate are the detection models at this point, roughly", "expect": "models", "answer": "", "source": "opsB-2"}
+{"text": "orbit, area and time, what do those three actually differ in", "expect": "tiers", "answer": "", "source": "opsB-2"}
+{"text": "move checkout_conversion onto the area model pls", "expect": "set_tier", "answer": "", "source": "opsB-2"}
+{"text": "list the pings you sent out since friday", "expect": "alerts_log", "answer": "", "source": "opsB-2"}
+{"text": "can you bring up the web page with all the charts on it", "expect": "open_dashboard", "answer": "", "source": "opsB-2"}
+{"text": "copy the json for the last decision, need to paste it in a ticket", "expect": "copy", "answer": "", "source": "opsB-2"}
+{"text": "I saw #188 in slack, what was that about exactly?", "expect": "explain_incident", "answer": "", "source": "opsB-2"}
+{"text": "why are our p95 latency numbers so high since yesterday's deploy", "expect": "why_metric", "answer": "", "source": "opsB-2"}
+{"text": "is trial_starts healthy compared to last week or nah", "expect": "decide", "answer": "", "source": "opsB-2"}
+{"text": "212 was an actual outage, you were right to page us", "expect": "label_real", "answer": "", "source": "opsB-2"}
+{"text": "can u list the 5 most recent blips you caught, want to look for patterns", "expect": "list_incidents", "answer": "", "source": "opsB-2"}
+{"text": "I need to eyeball signups from the sale weekend, maybe a 3 day window?", "expect": "metric_detail", "answer": "", "source": "opsB-2"}
+{"text": "we had 1840 checkout sessions yesterday and 1196 finished the purchase, what % is that conversion? im bad at percentages", "expect": "math", "answer": "65%", "source": "opsB-2"}
+{"text": "p95 latency was 320 ms last week, now it's 488 ms, by what percent did it rise?", "expect": "math", "answer": "52.5%", "source": "opsB-2"}
+{"text": "whats the difference between p95 and the average, I keep mixing them up", "expect": "define", "answer": "p95 latency, average latency", "source": "opsB-2"}
+{"text": "what does cohort mean? the signups dashboard keeps saying it", "expect": "define", "answer": "cohort", "source": "opsB-2"}
+{"text": "we went from 1,240 signups last week to 1,486 this week, what's the percentage change?", "expect": "math", "answer": "19.84%", "source": "opsB-3"}
+{"text": "hey there, just getting in, you up?", "expect": "greet", "answer": "", "source": "opsB-3"}
+{"text": "#3981 was legit, the gateway really did go down, customers confirmed it", "expect": "label_real", "answer": "", "source": "opsB-3"}
+{"text": "something's up with trial_starts, they tanked this morning and sales is asking me why", "expect": "why_metric", "answer": "", "source": "opsB-3"}
+{"text": "can you give me a line chart of payments_failed for the last 72 hours? ops call in 10 min", "expect": "metric_detail", "answer": "", "source": "opsB-3"}
+{"text": "what's the actual difference between p95 and p99 latency, in plain words?", "expect": "define", "answer": "p95 latency, p99 latency", "source": "opsB-3"}
+{"text": "ok thanks, that refund heads-up yesterday saved me an awkward call with finance", "expect": "thanks", "answer": "", "source": "opsB-3"}
+{"text": "do you read from PostHog and Datadog, or only a short list of things?", "expect": "integrations", "answer": "", "source": "opsB-3"}
+{"text": "walk me through #4127, the 2am one that woke up our on-call engineer", "expect": "explain_incident", "answer": "", "source": "opsB-3"}
+{"text": "retrain your filter on this week's labels, it keeps flagging normal evening traffic", "expect": "train", "answer": "", "source": "opsB-3"}
+{"text": "checkout had 3,840 sessions and 312 of them hit payments_failed, what percent is that?", "expect": "math", "answer": "8.125%", "source": "opsB-3"}
+{"text": "what can I even ask you? I'm the new support lead and nobody showed me how this works", "expect": "help", "answer": "", "source": "opsB-3"}
+{"text": "break signups down by acquisition channel, I think paid social is the culprit", "expect": "breakdown", "answer": "", "source": "opsB-3"}
+{"text": "turns out #4002 was nothing, the nightly report job rebuilt the table. please flag it as a bogus alert", "expect": "label_false", "answer": "", "source": "opsB-3"}
+{"text": "overall, is our whole stack behaving today? already three angry emails before 9am", "expect": "status", "answer": "", "source": "opsB-3"}
+{"text": "fire off a fake checkout outage so I can show my team what the alert looks like", "expect": "demo_inject", "answer": "", "source": "opsB-3"}
+{"text": "we want Sentry errors feeding into your metrics, what's the setup", "expect": "connect_tool", "answer": "", "source": "opsB-3"}
+{"text": "only ping me when you're at least 92% sure something's actually broken", "expect": "set_sensitivity", "answer": "", "source": "opsB-3"}
+{"text": "pull up the incidents from the past week, I need to see which ones customers actually noticed", "expect": "list_incidents", "answer": "", "source": "opsB-3"}
+{"text": "p95 latency on checkout, is that normal right now or should I be worried?", "expect": "decide", "answer": "", "source": "opsB-3"}
+{"text": "remind me what thresholds and sensitivity we configured last month, I've forgotten", "expect": "settings", "answer": "", "source": "opsB-3"}
+{"text": "how accurate are your models at catching real problems? my lead wants a number", "expect": "models", "answer": "", "source": "opsB-3"}
+{"text": "how do the Orbit, Area and Time models differ in running cost?", "expect": "tiers", "answer": "", "source": "opsB-3"}
+{"text": "move payments_failed onto the Area model, Orbit keeps waking me up over nothing", "expect": "set_tier", "answer": "", "source": "opsB-3"}
+{"text": "did you post anything to #ops-alerts overnight? the CEO says she got a ping at 4am", "expect": "alerts_log", "answer": "", "source": "opsB-3"}
+{"text": "could you bring up the dashboard page in a browser tab, I need it for a postmortem screenshot", "expect": "open_dashboard", "answer": "", "source": "opsB-3"}
+{"text": "put the decision text from #4127 on my clipboard, I want to paste it into Notion", "expect": "copy", "answer": "", "source": "opsB-3"}
+{"text": "three tickets mention a redis failover around #4150, can you explain that incident to me", "expect": "explain_incident", "answer": "", "source": "opsB-3"}
+{"text": "any incidents still open or did everything close out overnight?", "expect": "list_incidents", "answer": "", "source": "opsB-3"}
+{"text": "the payments_failed alert #4088 was our staging webhook hitting prod, nothing real, file it as a false one", "expect": "label_false", "answer": "", "source": "opsB-3"}
+{"text": "which region is the slow checkout coming from? p95 is only bad for some users", "expect": "breakdown", "answer": "", "source": "opsB-3"}
+{"text": "is api_errors within normal range? it feels off to me but I might be panicking", "expect": "decide", "answer": "", "source": "opsB-3"}
+{"text": "refunds look roughly doubled since Tuesday, what's driving that?", "expect": "why_metric", "answer": "", "source": "opsB-3"}
+{"text": "explain false positive versus false negative for alerting", "expect": "define", "answer": "false positive, false negative", "source": "opsB-3"}
+{"text": "quick rundown of how every tracked metric looks right now, I'm presenting at standup in 10", "expect": "status", "answer": "", "source": "opsB-4"}
+{"text": "payments_failed went from 340 to 1190 per hour after the 2pm deploy, what's the percent increase?", "expect": "math", "answer": "250%", "source": "opsB-4"}
+{"text": "what made payments_failed jump at 03:10 utc? I think the stripe retries went wild", "expect": "why_metric", "answer": "", "source": "opsB-4"}
+{"text": "pull up every incident that fired on the warehouse jobs since monday, I need them for the retro", "expect": "list_incidents", "answer": "", "source": "opsB-4"}
+{"text": "walk me through incident 2217, the trial_starts drop that hit the dbt_daily job", "expect": "explain_incident", "answer": "", "source": "opsB-4"}
+{"text": "2217 is a real one, the warehouse really did stall at 2am", "expect": "label_real", "answer": "", "source": "opsB-4"}
+{"text": "appreciate it, that breakdown saved me a long dig through the logs", "expect": "thanks", "answer": "", "source": "opsB-4"}
+{"text": "ok so what kinds of questions actually work with you? I'm new to this", "expect": "help", "answer": "", "source": "opsB-4"}
+{"text": "is refunds running hot right now or is that just normal weekend noise?", "expect": "decide", "answer": "", "source": "opsB-4"}
+{"text": "which service is driving the api_errors bump, cut it by service and by region", "expect": "breakdown", "answer": "", "source": "opsB-4"}
+{"text": "2209 is noise, the nightly backfill hammered the replica. mark it false", "expect": "label_false", "answer": "", "source": "opsB-4"}
+{"text": "can you draw me the signups curve for the past three days, hourly buckets please", "expect": "metric_detail", "answer": "", "source": "opsB-4"}
+{"text": "I've labeled about 40 incidents this week, can you refit the detector on them", "expect": "train", "answer": "", "source": "opsB-4"}
+{"text": "fire a fake checkout outage so I can check the slack routing works", "expect": "demo_inject", "answer": "", "source": "opsB-4"}
+{"text": "what data sources can you pull from? does posthog or sentry work?", "expect": "integrations", "answer": "", "source": "opsB-4"}
+{"text": "how do I hook up grafana cloud to kepler, I've got the service account ready", "expect": "connect_tool", "answer": "", "source": "opsB-4"}
+{"text": "too many pings at night, dial the alerting way down", "expect": "set_sensitivity", "answer": "", "source": "opsB-4"}
+{"text": "what thresholds and notification channels do I have set right now?", "expect": "settings", "answer": "", "source": "opsB-4"}
+{"text": "how well is the detector actually performing on my last month of incidents?", "expect": "models", "answer": "", "source": "opsB-4"}
+{"text": "what's the difference between the orbit tier and the time tier, cost and speed wise?", "expect": "tiers", "answer": "", "source": "opsB-4"}
+{"text": "move trial_starts over to the area model, time is too laggy for that one", "expect": "set_tier", "answer": "", "source": "opsB-4"}
+{"text": "show me everything you sent to #data-oncall since yesterday", "expect": "alerts_log", "answer": "", "source": "opsB-4"}
+{"text": "pop open the web dashboard, I want it on the big screen in the war room", "expect": "open_dashboard", "answer": "", "source": "opsB-4"}
+{"text": "grab the json for incident 2231 and put it on my clipboard", "expect": "copy", "answer": "", "source": "opsB-4"}
+{"text": "any incidents tied to the stripe_webhook job in the last week?", "expect": "list_incidents", "answer": "", "source": "opsB-4"}
+{"text": "checkout_conversion has been sliding since the 14th, did a deploy break something?", "expect": "why_metric", "answer": "", "source": "opsB-4"}
+{"text": "is the p99 latency on the ingest api normal or should I page someone?", "expect": "decide", "answer": "", "source": "opsB-4"}
+{"text": "yep 2231 is a real one, the reconciliation table really was empty", "expect": "label_real", "answer": "", "source": "opsB-4"}
+{"text": "our airflow job does 9,600 rows a minute, how long does 2.4 million rows take in hours and minutes?", "expect": "math", "answer": "250 minutes (4 hours 10 minutes)", "source": "opsB-4"}
+{"text": "what is a z-score and why does the anomaly detector care about it", "expect": "define", "answer": "z-score", "source": "opsB-4"}
+{"text": "refunds_daily should run on the time tier, orbit keeps missing the weekly cycle", "expect": "set_tier", "answer": "", "source": "opsB-4"}
+{"text": "list the alerts you sent out this week from the sentry source", "expect": "alerts_log", "answer": "", "source": "opsB-4"}
+{"text": "what's the actual difference between precision and recall, the team keeps mixing them up in the alerts review", "expect": "define", "answer": "precision vs recall", "source": "opsB-4"}
+{"text": "Hi Kepler, just came online for the day, hope everything is fine with you.", "expect": "greet", "answer": "", "source": "opsB-5"}
+{"text": "Thank you so much for the quick help yesterday, it really saved my evening.", "expect": "thanks", "answer": "", "source": "opsB-5"}
+{"text": "I am new to this tool only, kindly tell me all the things I am able to ask you.", "expect": "help", "answer": "", "source": "opsB-5"}
+{"text": "Kindly share the overall status of all the metrics we are watching, boss wants a quick update before 6 pm.", "expect": "status", "answer": "", "source": "opsB-5"}
+{"text": "Please revert with the list of incidents which are still unresolved since Monday morning.", "expect": "list_incidents", "answer": "", "source": "opsB-5"}
+{"text": "Can you walk me through what happened in incident 4471, especially the root cause part? I am not understanding the technical side.", "expect": "explain_incident", "answer": "", "source": "opsB-5"}
+{"text": "Why signups is dropping like anything since last evening? Kindly find out the reason.", "expect": "why_metric", "answer": "", "source": "opsB-5"}
+{"text": "Could you put up the p95 latency curve for the past six hours on the screen? I want to see the pattern.", "expect": "metric_detail", "answer": "", "source": "opsB-5"}
+{"text": "I am having a doubt about refunds today, the number looks a bit high only. Is it within normal range or not?", "expect": "decide", "answer": "", "source": "opsB-5"}
+{"text": "Can you divide the checkout conversion numbers by country and by device type, so I can see which part is causing the trouble?", "expect": "breakdown", "answer": "", "source": "opsB-5"}
+{"text": "The payment gateway outage on Tuesday was an actual problem, not a glitch. Kindly note incident 4502 as genuine.", "expect": "label_real", "answer": "", "source": "opsB-5"}
+{"text": "The alert for trial_starts at 3am was just our scheduled export job, nothing wrong. Please record incident 4488 as a wrong alarm.", "expect": "label_false", "answer": "", "source": "opsB-5"}
+{"text": "Pls do the needful and refresh the models with this week's feedback.", "expect": "train", "answer": "", "source": "opsB-5"}
+{"text": "Can you fake a payments_failed spike for the demo to the client at 4 pm? Just for showing how alerts look.", "expect": "demo_inject", "answer": "", "source": "opsB-5"}
+{"text": "Which all tools are we able to hook up to you? Kindly give the complete list.", "expect": "integrations", "answer": "", "source": "opsB-5"}
+{"text": "How do I hook up our Sentry account so you can read the error rates from it?", "expect": "connect_tool", "answer": "", "source": "opsB-5"}
+{"text": "Too many false pings are coming in, bring sensitivity down to around 80 pct pls.", "expect": "set_sensitivity", "answer": "", "source": "opsB-5"}
+{"text": "Kindly show me the present settings, I forgot what threshold we kept last time.", "expect": "settings", "answer": "", "source": "opsB-5"}
+{"text": "Give me a report card on the models, how well are they performing on our data? Revert back with numbers.", "expect": "models", "answer": "", "source": "opsB-5"}
+{"text": "Can you explain the difference between the Orbit, Area and Time models? Which one is cheaper to run?", "expect": "tiers", "answer": "", "source": "opsB-5"}
+{"text": "Please move the checkout_conversion metric over to the Area model, Orbit is giving too many alarms.", "expect": "set_tier", "answer": "", "source": "opsB-5"}
+{"text": "Can you dump the alert history for the last two days so I can check who got pinged in slack?", "expect": "alerts_log", "answer": "", "source": "opsB-5"}
+{"text": "Can you launch the web page where I can see the graphs? My manager wants to look at them during the meeting.", "expect": "open_dashboard", "answer": "", "source": "opsB-5"}
+{"text": "Kindly copy the JSON of incident 4495 to the clipboard, I will paste it in the email to the client.", "expect": "copy", "answer": "", "source": "opsB-5"}
+{"text": "How many alarms are still unresolved from the weekend? Please list them with their severity.", "expect": "list_incidents", "answer": "", "source": "opsB-5"}
+{"text": "Why is p95 latency so much higher since the deployment at 2 pm? Is it the new release?", "expect": "why_metric", "answer": "", "source": "opsB-5"}
+{"text": "The support team says incident 4519 is what caused the login errors, can you give me the backstory?", "expect": "explain_incident", "answer": "", "source": "opsB-5"}
+{"text": "Kindly put the refunds metric on the Time model, since it is a slow moving number.", "expect": "set_tier", "answer": "", "source": "opsB-5"}
+{"text": "Is trial_starts healthy right now or it is just a weekend dip only?", "expect": "decide", "answer": "", "source": "opsB-5"}
+{"text": "Tuesday's checkout latency alert turned out to be a real bug in the cart service, so please count it as genuine.", "expect": "label_real", "answer": "", "source": "opsB-5"}
+{"text": "Kindly calculate the percentage growth in signups. Last week it was 1840 and this week it is 2116, what is the growth in percent?", "expect": "math", "answer": "15%", "source": "opsB-5"}
+{"text": "Out of 4800 sessions yesterday only 396 placed an order. What is the conversion rate in percent?", "expect": "math", "answer": "8.25%", "source": "opsB-5"}
+{"text": "Kindly explain what is meant by a rolling baseline in anomaly detection, I keep hearing this word in the team.", "expect": "define", "answer": "rolling baseline", "source": "opsB-5"}
+{"text": "What is the difference between p95 latency and average latency? Please explain simply for a non-technical manager.", "expect": "define", "answer": "p95 latency vs average latency", "source": "opsB-5"}
+{"text": "ty, that's exactly what I needed", "expect": "thanks", "answer": "", "source": "opsB-6"}
+{"text": "what features do you have", "expect": "help", "answer": "", "source": "opsB-6"}
+{"text": "all metrics green right now?", "expect": "status", "answer": "", "source": "opsB-6"}
+{"text": "pull up the 7 newest incidents", "expect": "list_incidents", "answer": "", "source": "opsB-6"}
+{"text": "walk me through #214", "expect": "explain_incident", "answer": "", "source": "opsB-6"}
+{"text": "trial_starts cratered since monday, why", "expect": "why_metric", "answer": "", "source": "opsB-6"}
+{"text": "chart p95 latency, last 6h", "expect": "metric_detail", "answer": "", "source": "opsB-6"}
+{"text": "refunds behaving or not right now", "expect": "decide", "answer": "", "source": "opsB-6"}
+{"text": "signups by country, which one's off", "expect": "breakdown", "answer": "", "source": "opsB-6"}
+{"text": "#214 was a genuine outage, keep it", "expect": "label_real", "answer": "", "source": "opsB-6"}
+{"text": "208 was the nightly batch, bogus", "expect": "label_false", "answer": "", "source": "opsB-6"}
+{"text": "kick off a retrain now", "expect": "train", "answer": "", "source": "opsB-6"}
+{"text": "fake a checkout latency spike for the demo", "expect": "demo_inject", "answer": "", "source": "opsB-6"}
+{"text": "what plugs into you", "expect": "integrations", "answer": "", "source": "opsB-6"}
+{"text": "wire grafana in please", "expect": "connect_tool", "answer": "", "source": "opsB-6"}
+{"text": "dial sensitivity down to 60%", "expect": "set_sensitivity", "answer": "", "source": "opsB-6"}
+{"text": "dump my current settings", "expect": "settings", "answer": "", "source": "opsB-6"}
+{"text": "how accurate is the filter lately", "expect": "models", "answer": "", "source": "opsB-6"}
+{"text": "orbit, area, time: which one for latency", "expect": "tiers", "answer": "", "source": "opsB-6"}
+{"text": "move trial_starts to the Area model", "expect": "set_tier", "answer": "", "source": "opsB-6"}
+{"text": "list alerts fired today, all channels", "expect": "alerts_log", "answer": "", "source": "opsB-6"}
+{"text": "bring the dashboard up in my browser", "expect": "open_dashboard", "answer": "", "source": "opsB-6"}
+{"text": "clipboard the #214 summary", "expect": "copy", "answer": "", "source": "opsB-6"}
+{"text": "why is p95 latency so high tonight", "expect": "why_metric", "answer": "", "source": "opsB-6"}
+{"text": "anything still open from today?", "expect": "list_incidents", "answer": "", "source": "opsB-6"}
+{"text": "api_errors look bad to you?", "expect": "decide", "answer": "", "source": "opsB-6"}
+{"text": "plot checkout_conversion for 3 days", "expect": "metric_detail", "answer": "", "source": "opsB-6"}
+{"text": "what set off 219", "expect": "explain_incident", "answer": "", "source": "opsB-6"}
+{"text": "need sentry connected too", "expect": "connect_tool", "answer": "", "source": "opsB-6"}
+{"text": "signups went 4280 to 5137 week over week, what percent up", "expect": "math", "answer": "20.02%", "source": "opsB-6"}
+{"text": "payments_failed is 1.8% of 96,400 payments, how many failed?", "expect": "math", "answer": "1,735.2 payments", "source": "opsB-6"}
+{"text": "what's a z-score, quick", "expect": "define", "answer": "z-score", "source": "opsB-6"}
+{"text": "precision vs recall, what's the diff", "expect": "define", "answer": "precision vs recall", "source": "opsB-6"}
+{"text": "morning kepler, hope you slept well. just sitting down at my desk now.", "expect": "greet", "answer": "", "source": "opsB-7"}
+{"text": "thanks for catching that signups dip on Friday, the paid team would've missed it entirely", "expect": "thanks", "answer": "", "source": "opsB-7"}
+{"text": "what all can you actually do? I'm the only marketing person here and I'm not sure what to even ask you", "expect": "help", "answer": "", "source": "opsB-7"}
+{"text": "quick read on the whole board before my 10am. is anything off or are we clear?", "expect": "status", "answer": "", "source": "opsB-7"}
+{"text": "any incidents still unresolved from the Summer Sale weekend? pull up whatever is open", "expect": "list_incidents", "answer": "", "source": "opsB-7"}
+{"text": "walk me through incident 437, the sales team swears the email blast broke something and I need the story", "expect": "explain_incident", "answer": "", "source": "opsB-7"}
+{"text": "why did refunds jump 40% this week? finance is asking and I have no idea what happened", "expect": "why_metric", "answer": "", "source": "opsB-7"}
+{"text": "chart checkout_conversion for the last 14 days, I want to see where it fell off after the 12th", "expect": "metric_detail", "answer": "", "source": "opsB-7"}
+{"text": "does the trial_starts number look healthy for a Tuesday in October, or is it off?", "expect": "decide", "answer": "", "source": "opsB-7"}
+{"text": "cut cart_abandons by device and country, I bet mobile in Germany is the problem", "expect": "breakdown", "answer": "", "source": "opsB-7"}
+{"text": "incident 412 was legit, the promo landing page really did go down for mobile visitors", "expect": "label_real", "answer": "", "source": "opsB-7"}
+{"text": "419 was just QA hammering staging, so it's a bogus alert. log it as one", "expect": "label_false", "answer": "", "source": "opsB-7"}
+{"text": "run a fresh training pass using all the October labels, the old models keep missing our Shopify spikes", "expect": "train", "answer": "", "source": "opsB-7"}
+{"text": "fake a payments_failed spike for the demo at 2pm so I can show my director what an alert looks like", "expect": "demo_inject", "answer": "", "source": "opsB-7"}
+{"text": "what data sources can you pull from? we use a pile of marketing tools and I want to know which ones work", "expect": "integrations", "answer": "", "source": "opsB-7"}
+{"text": "how do I hook up posthog so our funnel events show up in your charts?", "expect": "connect_tool", "answer": "", "source": "opsB-7"}
+{"text": "the pings are too much, bump the threshold so only the big moves reach slack, maybe 92%", "expect": "set_sensitivity", "answer": "", "source": "opsB-7"}
+{"text": "remind me what my notification threshold and alert channel are set to right now", "expect": "settings", "answer": "", "source": "opsB-7"}
+{"text": "how well are the detection models performing lately? I need to know how much to trust them for the Q4 push", "expect": "models", "answer": "", "source": "opsB-7"}
+{"text": "what's the difference between the Orbit, Area and Time models, and which one costs the most to run?", "expect": "tiers", "answer": "", "source": "opsB-7"}
+{"text": "switch the detector for payments_failed over to Area, Orbit keeps flagging harmless retries", "expect": "set_tier", "answer": "", "source": "opsB-7"}
+{"text": "what got posted to our slack channel over the weekend? I was offline and missed everything", "expect": "alerts_log", "answer": "", "source": "opsB-7"}
+{"text": "can you bring up the conversions board in my browser? I want it on my second monitor", "expect": "open_dashboard", "answer": "", "source": "opsB-7"}
+{"text": "copy the trial_starts breakdown table so I can paste it into the weekly deck", "expect": "copy", "answer": "", "source": "opsB-7"}
+{"text": "why is p95 latency on the landing page double what it was before the new hero video went live Thursday?", "expect": "why_metric", "answer": "", "source": "opsB-7"}
+{"text": "is email_ctr normal this week or is the drop just a Tuesday thing?", "expect": "decide", "answer": "", "source": "opsB-7"}
+{"text": "payments_failed by card type please, I think Amex is the problem", "expect": "breakdown", "answer": "", "source": "opsB-7"}
+{"text": "show me refunds against signups as a line for the last month", "expect": "metric_detail", "answer": "", "source": "opsB-7"}
+{"text": "can you give me the rundown on 441? ops mentioned it at standup and nobody could say what happened", "expect": "explain_incident", "answer": "", "source": "opsB-7"}
+{"text": "421 is real, our paid ad pointed at a dead URL for two hours", "expect": "label_real", "answer": "", "source": "opsB-7"}
+{"text": "signups went from 1,840 last month to 2,296 this month. what's the percent change, two decimals", "expect": "math", "answer": "24.78%", "source": "opsB-7"}
+{"text": "we spent $2,375 on paid social and got 95 paying customers. what did each one cost us?", "expect": "math", "answer": "$25 per customer", "source": "opsB-7"}
+{"text": "what does statistical significance actually mean? my A/B test p-value came back 0.04 and people keep saying that doesn't prove anything", "expect": "define", "answer": "statistical significance", "source": "opsB-7"}
+{"text": "what's the difference between churn and retention? I keep mixing them up in the board deck", "expect": "define", "answer": "churn vs retention", "source": "opsB-7"}
+{"text": "oi kepler, morning. you about?", "expect": "greet", "answer": "", "source": "opsB-8"}
+{"text": "anything kicking off across the board or has it all been quiet since the 06:00 deploy?", "expect": "status", "answer": "", "source": "opsB-8"}
+{"text": "why has trial_starts fallen off a cliff since lunchtime? nothing went out from our side", "expect": "why_metric", "answer": "", "source": "opsB-8"}
+{"text": "ta, that's exactly what I needed, much appreciated", "expect": "thanks", "answer": "", "source": "opsB-8"}
+{"text": "signups went from 1240 last week to 1512 this week, what's the percentage change?", "expect": "math", "answer": "21.94%", "source": "opsB-8"}
+{"text": "walk me through incident 2217, I was asleep when it paged and I've no idea what actually happened", "expect": "explain_incident", "answer": "", "source": "opsB-8"}
+{"text": "which monitoring tools can you actually plug into? we're mostly on datadog and sentry", "expect": "integrations", "answer": "", "source": "opsB-8"}
+{"text": "2213 was just the nightly export job spiking, bin it as a false alarm", "expect": "label_false", "answer": "", "source": "opsB-8"}
+{"text": "I've only just got you running, what's even worth asking you?", "expect": "help", "answer": "", "source": "opsB-8"}
+{"text": "split payments_failed by card provider, I reckon it's just the one acquirer playing up", "expect": "breakdown", "answer": "", "source": "opsB-8"}
+{"text": "switch trial_starts over to the area model, orbit is far too jumpy for it", "expect": "set_tier", "answer": "", "source": "opsB-8"}
+{"text": "is refunds sitting where it should be right now or is that a problem?", "expect": "decide", "answer": "", "source": "opsB-8"}
+{"text": "what did you actually post to slack overnight? I want to see every single message", "expect": "alerts_log", "answer": "", "source": "opsB-8"}
+{"text": "right, go on then, retrain the models now the labels are in", "expect": "train", "answer": "", "source": "opsB-8"}
+{"text": "can I see a plot of checkout_errors for the past 90 minutes? want to eyeball the shape", "expect": "metric_detail", "answer": "", "source": "opsB-8"}
+{"text": "what's the difference between p95 latency and p99 latency, the two keep getting mixed up in standup", "expect": "define", "answer": "p95 latency and p99 latency", "source": "opsB-8"}
+{"text": "can you pull up whatever incidents are still open? bit of a mare this morning", "expect": "list_incidents", "answer": "", "source": "opsB-8"}
+{"text": "how do I get grafana feeding metrics into you? it's on a box inside our VPC and it's a bit of a faff", "expect": "connect_tool", "answer": "", "source": "opsB-8"}
+{"text": "2209 was a genuine one, the payments team confirmed the timeout on their end", "expect": "label_real", "answer": "", "source": "opsB-8"}
+{"text": "can you fake a checkout outage so I can see how the slack alert looks before we go live?", "expect": "demo_inject", "answer": "", "source": "opsB-8"}
+{"text": "what's my current config? can't remember what threshold I set back in August", "expect": "settings", "answer": "", "source": "opsB-8"}
+{"text": "it's been waking me up at 3am for nothing, can you drop the sensitivity to 70%?", "expect": "set_sensitivity", "answer": "", "source": "opsB-8"}
+{"text": "how accurate have the models actually been since we started labelling incidents?", "expect": "models", "answer": "", "source": "opsB-8"}
+{"text": "checkout sessions were 24600 yesterday and 1870 of them completed, what's the conversion rate as a percentage?", "expect": "math", "answer": "7.60%", "source": "opsB-8"}
+{"text": "I'm done with the terminal, can you bring the dashboard up on my screen", "expect": "open_dashboard", "answer": "", "source": "opsB-8"}
+{"text": "what actually separates orbit from area from time? the docs are vague", "expect": "tiers", "answer": "", "source": "opsB-8"}
+{"text": "stick incident 2217 on my clipboard, I need to paste it into the postmortem doc", "expect": "copy", "answer": "", "source": "opsB-8"}
+{"text": "why's api_errors so spiky on the eu-west boxes today?", "expect": "why_metric", "answer": "", "source": "opsB-8"}
+{"text": "p95 latency on the search endpoint has crept up since the 14:00 release, is that normal or not?", "expect": "decide", "answer": "", "source": "opsB-8"}
+{"text": "how many incidents did we get last week? just the count and their ids please", "expect": "list_incidents", "answer": "", "source": "opsB-8"}
+{"text": "2198 was legit, the cache node really did fall over, mark it real", "expect": "label_real", "answer": "", "source": "opsB-8"}
+{"text": "signups by platform for the last 24 hours, is android dragging the total down?", "expect": "breakdown", "answer": "", "source": "opsB-8"}
+{"text": "remind me what threshold you're using for refunds, I've forgotten", "expect": "settings", "answer": "", "source": "opsB-8"}
+{"text": "explain what a z-score is in plain terms, our alert threshold is built on one", "expect": "define", "answer": "z-score", "source": "opsB-8"}
+{"text": "morning! hope your week's off to a calm start", "expect": "greet", "answer": "", "source": "subjB-1"}
+{"text": "oi kepler, you around?", "expect": "greet", "answer": "", "source": "subjB-1"}
+{"text": "hiya, just popping in to say hello before my standup", "expect": "greet", "answer": "", "source": "subjB-1"}
+{"text": "Good evening, bot. Quiet night on my end.", "expect": "greet", "answer": "", "source": "subjB-1"}
+{"text": "hey there, nice to meet you", "expect": "greet", "answer": "", "source": "subjB-1"}
+{"text": "ta, that was really useful", "expect": "thanks", "answer": "", "source": "subjB-1"}
+{"text": "appreciate you sorting that out for me, really", "expect": "thanks", "answer": "", "source": "subjB-1"}
+{"text": "much obliged for the quick reply, that's exactly what I needed", "expect": "thanks", "answer": "", "source": "subjB-1"}
+{"text": "you're a lifesaver honestly", "expect": "thanks", "answer": "", "source": "subjB-1"}
+{"text": "thx a ton for walking me through it step by step", "expect": "thanks", "answer": "", "source": "subjB-1"}
+{"text": "how's your day going so far?", "expect": "chat", "answer": "", "source": "subjB-1"}
+{"text": "who built you anyway, some startup?", "expect": "chat", "answer": "", "source": "subjB-1"}
+{"text": "are you an actual human typing these replies or a bot?", "expect": "chat", "answer": "", "source": "subjB-1"}
+{"text": "got any good jokes for a Monday?", "expect": "chat", "answer": "", "source": "subjB-1"}
+{"text": "ok logging off for the night, catch you later", "expect": "chat", "answer": "", "source": "subjB-1"}
+{"text": "later kepler, speak tomorrow", "expect": "chat", "answer": "", "source": "subjB-1"}
+{"text": "you're pretty sharp for a bot, not gonna lie", "expect": "chat", "answer": "", "source": "subjB-1"}
+{"text": "I'm new to this tool, where should I begin?", "expect": "help", "answer": "", "source": "subjB-1"}
+{"text": "what kinds of questions does this thing answer?", "expect": "help", "answer": "", "source": "subjB-1"}
+{"text": "walk me through the features you have, I'm onboarding onto the growth team today", "expect": "help", "answer": "", "source": "subjB-1"}
+{"text": "is there a quick tour of what you're able to do for a metrics team?", "expect": "help", "answer": "", "source": "subjB-1"}
+{"text": "what are you actually good at, in plain terms?", "expect": "help", "answer": "", "source": "subjB-1"}
+{"text": "which monitoring services can you read data from?", "expect": "integrations", "answer": "", "source": "subjB-1"}
+{"text": "does kepler work with posthog and sentry, or only datadog?", "expect": "integrations", "answer": "", "source": "subjB-1"}
+{"text": "what sources of metrics do you accept besides my own database?", "expect": "integrations", "answer": "", "source": "subjB-1"}
+{"text": "give me the full rundown of every tool you plug into", "expect": "integrations", "answer": "", "source": "subjB-1"}
+{"text": "I want to hook up grafana to you, where do I start?", "expect": "connect_tool", "answer": "", "source": "subjB-1"}
+{"text": "how would I get my sentry errors flowing into kepler", "expect": "connect_tool", "answer": "", "source": "subjB-1"}
+{"text": "pipe our trial_starts numbers from posthog into you, how do I do that?", "expect": "connect_tool", "answer": "", "source": "subjB-1"}
+{"text": "can you walk me through linking slack so alerts land in our #ops-alerts channel", "expect": "connect_tool", "answer": "", "source": "subjB-1"}
+{"text": "wait what is an eigenvalue lol, my linear algebra prof keeps saying it", "expect": "define", "answer": "eigenvalue", "source": "subjB-2"}
+{"text": "can someone explain the difference between permutations and combinations, i always mix them up", "expect": "define", "answer": "permutation vs combination", "source": "subjB-2"}
+{"text": "What does a derivative actually tell you? In plain english please.", "expect": "define", "answer": "derivative", "source": "subjB-2"}
+{"text": "explain the chain rule like im five", "expect": "define", "answer": "chain rule", "source": "subjB-2"}
+{"text": "big O vs big Theta, which one is the tight bound? my algorithms notes contradict each other", "expect": "define", "answer": "Big O vs Big Theta", "source": "subjB-2"}
+{"text": "our signups test came back with p = 0.03, what does that p-value even mean", "expect": "define", "answer": "p-value", "source": "subjB-2"}
+{"text": "should i report standard deviation or variance for the spread of p95 latency across the week", "expect": "define", "answer": "standard deviation vs variance", "source": "subjB-2"}
+{"text": "my grafana panel shows a 95% band on refunds, what is a confidence interval again", "expect": "define", "answer": "confidence interval", "source": "subjB-2"}
+{"text": "type I vs type II error, i keep flipping them in my head", "expect": "define", "answer": "Type I error vs Type II error", "source": "subjB-2"}
+{"text": "what is a z-score", "expect": "define", "answer": "z-score", "source": "subjB-2"}
+{"text": "trial_starts is super skewed, should i care more about the mean or the median", "expect": "define", "answer": "mean vs median", "source": "subjB-2"}
+{"text": "someone in slack said our refunds bounce back because of regression to the mean, what's that", "expect": "define", "answer": "regression to the mean", "source": "subjB-2"}
+{"text": "what's an SLO and how is it different from an SLA", "expect": "define", "answer": "SLO vs SLA", "source": "subjB-2"}
+{"text": "our payments service keeps hammering a dead downstream, a coworker said we need a circuit breaker. what is that exactly", "expect": "define", "answer": "circuit breaker", "source": "subjB-2"}
+{"text": "what is an error budget and who decides how big it is", "expect": "define", "answer": "error budget", "source": "subjB-2"}
+{"text": "what even is p99 latency, the grafana panel shows it right next to the average", "expect": "define", "answer": "p99 latency", "source": "subjB-2"}
+{"text": "MTBF vs MTTR, our on-call wiki uses both and I'm lost", "expect": "define", "answer": "MTBF vs MTTR", "source": "subjB-2"}
+{"text": "in thermodynamics what is entropy, not the info theory version", "expect": "define", "answer": "entropy", "source": "subjB-2"}
+{"text": "momentum vs kinetic energy, are they the same thing?", "expect": "define", "answer": "momentum vs kinetic energy", "source": "subjB-2"}
+{"text": "explain the photoelectric effect for my physics homework, the textbook is useless", "expect": "define", "answer": "photoelectric effect", "source": "subjB-2"}
+{"text": "ion vs isotope, my chem notes are confusing me", "expect": "define", "answer": "ion vs isotope", "source": "subjB-2"}
+{"text": "is molarity the same as molality", "expect": "define", "answer": "molarity vs molality", "source": "subjB-2"}
+{"text": "what does exothermic mean", "expect": "define", "answer": "exothermic reaction", "source": "subjB-2"}
+{"text": "EBITDA vs free cash flow, which one tells you more about actual cash", "expect": "define", "answer": "EBITDA vs free cash flow", "source": "subjB-2"}
+{"text": "compound interest vs simple interest, how much does it actually matter over 10 years", "expect": "define", "answer": "compound interest vs simple interest", "source": "subjB-2"}
+{"text": "what's the sharpe ratio, finance twitter keeps quoting it", "expect": "define", "answer": "Sharpe ratio", "source": "subjB-2"}
+{"text": "hash table vs binary search tree for lookups, which is faster in practice", "expect": "define", "answer": "hash table vs binary search tree", "source": "subjB-2"}
+{"text": "sentry flagged a race condition on payments_failed, what does that term mean", "expect": "define", "answer": "race condition", "source": "subjB-2"}
+{"text": "idempotent, the sentry docs keep saying it, what does it mean for retries", "expect": "define", "answer": "idempotency", "source": "subjB-2"}
+{"text": "TCP vs UDP for a realtime video call, why does everyone say udp", "expect": "define", "answer": "TCP vs UDP", "source": "subjB-2"}
+{"text": "what's 17% of 2350", "expect": "math", "answer": "399.5", "source": "subjB-3"}
+{"text": "signups went from 480 to 612 this week, whats the percent change", "expect": "math", "answer": "27.5%", "source": "subjB-3"}
+{"text": "solve 3x + 7 = 2x - 11 for x", "expect": "math", "answer": "x = -18", "source": "subjB-3"}
+{"text": "simplify 3/4 + 5/6", "expect": "math", "answer": "19/12", "source": "subjB-3"}
+{"text": "convert 72 km/h to m/s pls", "expect": "math", "answer": "20 m/s", "source": "subjB-3"}
+{"text": "38 refunds out of 1,250 orders. what percent is that", "expect": "math", "answer": "3.04%", "source": "subjB-3"}
+{"text": "factor x^2 - 5x - 14", "expect": "math", "answer": "(x - 7)(x + 2)", "source": "subjB-3"}
+{"text": "solve the system x + y = 10 and 2x - y = 5", "expect": "math", "answer": "x = 5, y = 5", "source": "subjB-3"}
+{"text": "evaluate 2^5 - 3*4 + 18/3", "expect": "math", "answer": "26", "source": "subjB-3"}
+{"text": "simplify the ratio 45:60", "expect": "math", "answer": "3:4", "source": "subjB-3"}
+{"text": "p95 latency went from 840ms to 630ms, what's the percent drop", "expect": "math", "answer": "25%", "source": "subjB-3"}
+{"text": "write 0.45 as a fraction in lowest terms", "expect": "math", "answer": "9/20", "source": "subjB-3"}
+{"text": "2(x - 4) = 3x + 1, find x", "expect": "math", "answer": "x = -9", "source": "subjB-3"}
+{"text": "solve 5x - 3 > 2x + 9", "expect": "math", "answer": "x > 4", "source": "subjB-3"}
+{"text": "how many cm is 6 feet", "expect": "math", "answer": "182.88 cm", "source": "subjB-3"}
+{"text": "what's a 15% tip on an $86.40 bill", "expect": "math", "answer": "$12.96", "source": "subjB-3"}
+{"text": "ratio of engineers to designers is 3 to 2, 30 people total, how many designers", "expect": "math", "answer": "12 designers", "source": "subjB-3"}
+{"text": "solve x^2 + 6x + 9 = 0", "expect": "math", "answer": "x = -3", "source": "subjB-3"}
+{"text": "what is (3^2 + 4^2)^(1/2)", "expect": "math", "answer": "5", "source": "subjB-3"}
+{"text": "7/8 divided by 3/4 = ?", "expect": "math", "answer": "7/6", "source": "subjB-3"}
+{"text": "240 minus 35% = ?", "expect": "math", "answer": "156", "source": "subjB-3"}
+{"text": "trial_starts went from 1,840 to 2,300. percent increase?", "expect": "math", "answer": "25%", "source": "subjB-3"}
+{"text": "how many seconds in 2 hours 15 minutes", "expect": "math", "answer": "8100 seconds", "source": "subjB-3"}
+{"text": "4x/3 - 2 = 6, solve for x", "expect": "math", "answer": "x = 6", "source": "subjB-3"}
+{"text": "expand (2a - 3b)^2", "expect": "math", "answer": "4a^2 - 12ab + 9b^2", "source": "subjB-3"}
+{"text": "payments_failed rate is 0.8% on 12,500 attempts, how many failed", "expect": "math", "answer": "100", "source": "subjB-3"}
+{"text": "convert 98.6 F to celsius", "expect": "math", "answer": "37 °C", "source": "subjB-3"}
+{"text": "1 2/3 times 2 1/4", "expect": "math", "answer": "15/4 (3.75)", "source": "subjB-3"}
+{"text": "5 apples cost $3.75, how much do 12 apples cost at the same price", "expect": "math", "answer": "$9.00", "source": "subjB-3"}
+{"text": "sum of the first 20 positive integers", "expect": "math", "answer": "210", "source": "subjB-3"}
+{"text": "whats the derivative of 3x^4 - 2x^2 + 7x - 5, then plug in x = 2", "expect": "math", "answer": "95", "source": "subjB-4"}
+{"text": "integrate 2x + 1 from 0 to 3 pls", "expect": "math", "answer": "12", "source": "subjB-4"}
+{"text": "limit as x approaches 0 of sin(5x)/x", "expect": "math", "answer": "5", "source": "subjB-4"}
+{"text": "Can you find the equation of the tangent line to y = x^2 at the point where x = 3?", "expect": "math", "answer": "y = 6x - 9", "source": "subjB-4"}
+{"text": "I've got a rectangle with a perimeter of 40 m. What side lengths make the area biggest, and how big is it?", "expect": "math", "answer": "100 m² (10 m by 10 m)", "source": "subjB-4"}
+{"text": "d/dx of ln(x^2 + 1) at x = 1", "expect": "math", "answer": "1", "source": "subjB-4"}
+{"text": "exact value of the integral of x*e^x from 0 to 1", "expect": "math", "answer": "1", "source": "subjB-4"}
+{"text": "what's the local maximum value of f(x) = x^3 - 6x^2 + 9x + 1", "expect": "math", "answer": "5 (at x = 1)", "source": "subjB-4"}
+{"text": "second derivative of 5x^3 - x^2 evaluated at x = -1??", "expect": "math", "answer": "-32", "source": "subjB-4"}
+{"text": "A balloon's radius is growing at 2 cm/s. How fast is its volume growing when the radius hits 5 cm? exact please", "expect": "math", "answer": "200π cm³/s (≈ 628.32 cm³/s)", "source": "subjB-4"}
+{"text": "sample standard deviation of 4, 8, 6, 5, 3, 7", "expect": "math", "answer": "√3.5 ≈ 1.8708", "source": "subjB-4"}
+{"text": "median of 12, 15, 14, 10, 90?", "expect": "math", "answer": "14", "source": "subjB-4"}
+{"text": "two fair dice, what are the odds the total comes up 7", "expect": "math", "answer": "1/6 ≈ 0.1667", "source": "subjB-4"}
+{"text": "If I flip a fair coin 5 times, what's the probability of getting exactly 3 heads", "expect": "math", "answer": "5/16 = 0.3125", "source": "subjB-4"}
+{"text": "drawing two cards from a standard 52-card deck without replacement, chance both are aces", "expect": "math", "answer": "1/221 ≈ 0.00452", "source": "subjB-4"}
+{"text": "how many different 4-person committees can I form from 10 people", "expect": "math", "answer": "210", "source": "subjB-4"}
+{"text": "how many distinct ways can you rearrange the letters in BANANA", "expect": "math", "answer": "60", "source": "subjB-4"}
+{"text": "IQ-style scores are normal with mean 100 and sd 15. what share of people score under 115?", "expect": "math", "answer": "≈ 0.8413 (84.13%)", "source": "subjB-4"}
+{"text": "standard normal: P(-1.96 < Z < 1.96)", "expect": "math", "answer": "≈ 0.9500", "source": "subjB-4"}
+{"text": "game: I roll a fair d6. Even pays me the face value in dollars, odd costs me $2. Average gain per roll?", "expect": "math", "answer": "$1.00", "source": "subjB-4"}
+{"text": "A disease hits 1 in 100 people. The test catches 90% of the sick and has a 5% false positive rate. If I test positive, what's the chance I'm sick? Give it as an exact fraction.", "expect": "math", "answer": "2/13 ≈ 0.1538", "source": "subjB-4"}
+{"text": "binomial: exactly 2 successes in 4 trials with p = 0.3", "expect": "math", "answer": "0.2646", "source": "subjB-4"}
+{"text": "each call closes a sale with prob 0.2. chance my first sale lands on the 4th call?", "expect": "math", "answer": "0.1024", "source": "subjB-4"}
+{"text": "poisson, lambda = 3, P(X = 0)", "expect": "math", "answer": "e^(-3) ≈ 0.0498", "source": "subjB-4"}
+{"text": "area between y = x and y = x^2 on the interval [0, 1]", "expect": "math", "answer": "1/6 ≈ 0.1667 square units", "source": "subjB-4"}
+{"text": "variance of a single roll of a fair six sided die", "expect": "math", "answer": "35/12 ≈ 2.9167", "source": "subjB-4"}
+{"text": "range of 18, 42, 7, 25, 31", "expect": "math", "answer": "35", "source": "subjB-4"}
+{"text": "derivative of sqrt(3x + 1) at x = 5", "expect": "math", "answer": "3/8 = 0.375", "source": "subjB-4"}
+{"text": "limit as x goes to infinity of (3x^2 + 1)/(5x^2 - x)", "expect": "math", "answer": "3/5", "source": "subjB-4"}
+{"text": "probability of getting at least one six in three rolls of a fair die, exact fraction please", "expect": "math", "answer": "91/216 ≈ 0.4213", "source": "subjB-4"}
+{"text": "a go kart goes from standstill to 27 m/s in 9 seconds what's its average acceleration", "expect": "math", "answer": "3 m/s²", "source": "subjB-5"}
+{"text": "I threw a ball straight up at 14.7 m/s. How many seconds until it reaches the top? (g = 9.8 m/s²)", "expect": "math", "answer": "1.5 s", "source": "subjB-5"}
+{"text": "road trip check: we did 180 km in exactly 2.5 hours. what's that in m/s", "expect": "math", "answer": "20 m/s", "source": "subjB-5"}
+{"text": "dropped a wrench off an 80 m tower, ignore air resistance, g=9.8. how long till it lands", "expect": "math", "answer": "≈ 4.04 s", "source": "subjB-5"}
+{"text": "A cyclist goes from 4 m/s to 12 m/s over 200 m, constant acceleration. Find a in m/s².", "expect": "math", "answer": "0.32 m/s²", "source": "subjB-5"}
+{"text": "need to accelerate a 15 kg box at 2.5 m/s^2. what net force do I need?", "expect": "math", "answer": "37.5 N", "source": "subjB-5"}
+{"text": "how much does a 72 kg person weigh in newtons? use g = 9.8", "expect": "math", "answer": "705.6 N", "source": "subjB-5"}
+{"text": "crate is 25 kg, I push with 120 N and friction is 45 N. what's the acceleration", "expect": "math", "answer": "3 m/s²", "source": "subjB-5"}
+{"text": "kinetic energy of a 0.8 kg ball doing 15 m/s??", "expect": "math", "answer": "90 J", "source": "subjB-5"}
+{"text": "lifting a 12 kg bag 6.5 m up. gravitational PE gained in joules? g=9.8", "expect": "math", "answer": "764.4 J", "source": "subjB-5"}
+{"text": "pulling a sled with a 300 N rope at 30° above horizontal, moved 12 m. work done in joules", "expect": "math", "answer": "≈ 3117.7 J", "source": "subjB-5"}
+{"text": "motor does 18000 J of work in 45 seconds, what's the power", "expect": "math", "answer": "400 W", "source": "subjB-5"}
+{"text": "my kettle is rated 2.2 kW and I ran it for 4 min. how many kWh is that", "expect": "math", "answer": "≈ 0.147 kWh", "source": "subjB-5"}
+{"text": "bowling ball 6 kg rolling at 4.5 m/s - momentum?", "expect": "math", "answer": "27 kg·m/s", "source": "subjB-5"}
+{"text": "a 1200 kg car brakes from 20 m/s to a stop in 4 seconds. average braking force", "expect": "math", "answer": "6000 N", "source": "subjB-5"}
+{"text": "cart A (4 kg) rolls at 5 m/s and hits cart B (2 kg) which is sitting still. they stick together. final speed?", "expect": "math", "answer": "3.33 m/s", "source": "subjB-5"}
+{"text": "block weighs 540 g and measures 200 cm³. density in kg/m³?", "expect": "math", "answer": "2700 kg/m³", "source": "subjB-5"}
+{"text": "pushing down with 600 N on a 0.04 m² area. pressure in pascals?", "expect": "math", "answer": "15000 Pa", "source": "subjB-5"}
+{"text": "what's the gauge pressure 12 m underwater in fresh water (rho 1000, g 9.8)", "expect": "math", "answer": "117600 Pa", "source": "subjB-5"}
+{"text": "I = 0.3 A flows through a 47 Ω resistor. What's the voltage across it?", "expect": "math", "answer": "14.1 V", "source": "subjB-5"}
+{"text": "sound at 440 Hz, speed 343 m/s in air. wavelength?", "expect": "math", "answer": "≈ 0.78 m", "source": "subjB-5"}
+{"text": "wave moves at 12 m/s with wavelength 3.5 m - frequency in Hz", "expect": "math", "answer": "≈ 3.43 Hz", "source": "subjB-5"}
+{"text": "clapped and heard the echo 1.2 s later. speed of sound 343 m/s. how far away is the wall?", "expect": "math", "answer": "205.8 m", "source": "subjB-5"}
+{"text": "9V battery across a 450 ohm resistor. current in mA pls", "expect": "math", "answer": "20 mA", "source": "subjB-5"}
+{"text": "homework: a 12 Ω resistor carries 0.5 A. Find the power dissipated.", "expect": "math", "answer": "3 W", "source": "subjB-5"}
+{"text": "three resistors in series: 220 ohm, 330 ohm, 470 ohm. total resistance", "expect": "math", "answer": "1020 Ω", "source": "subjB-5"}
+{"text": "100 ohm and 300 ohm wired in parallel, equivalent R?", "expect": "math", "answer": "75 Ω", "source": "subjB-5"}
+{"text": "resistors 6 Ω, 12 Ω, 4 Ω in parallel. what's the combined resistance", "expect": "math", "answer": "2 Ω", "source": "subjB-5"}
+{"text": "space heater 1.5 kW runs 6 hours a day, power costs $0.28 per kWh. daily cost?", "expect": "math", "answer": "$2.52", "source": "subjB-5"}
+{"text": "40 W LED bulb, 8 hours a day for 30 days, electricity 0.15 per kWh. what's the total cost?", "expect": "math", "answer": "$1.44", "source": "subjB-5"}
+{"text": "molar mass of glucose, C6H12O6? need it for my lab write up", "expect": "math", "answer": "180.16 g/mol", "source": "subjB-6"}
+{"text": "how many moles are in 36.0 g of water", "expect": "math", "answer": "2.00 mol", "source": "subjB-6"}
+{"text": "weighing out 0.5 mol of Ca(OH)2 for a prep. what's the mass in grams", "expect": "math", "answer": "37.05 g", "source": "subjB-6"}
+{"text": "I dissolved 0.25 mol NaCl into 500 mL of water. molarity?", "expect": "math", "answer": "0.50 M", "source": "subjB-6"}
+{"text": "dissolved 10.0 g of NaOH in enough water to make 2.0 L of solution, what's the molarity? (NaOH molar mass 40.00 g/mol)", "expect": "math", "answer": "0.125 M", "source": "subjB-6"}
+{"text": "I have a 6.0 M HCl stock. How many mL do I need to make 250 mL of 1.5 M HCl?", "expect": "math", "answer": "62.5 mL", "source": "subjB-6"}
+{"text": "if i take 100 mL of 2.0 M KCl and add water until it's 0.5 M, how much water did i add", "expect": "math", "answer": "300 mL", "source": "subjB-6"}
+{"text": "[H+] = 3.2e-4 M, what's the pH", "expect": "math", "answer": "3.49", "source": "subjB-6"}
+{"text": "pH of a 0.001 M NaOH solution??", "expect": "math", "answer": "11.00", "source": "subjB-6"}
+{"text": "A 10.0 L tank holds 2.0 mol of ideal gas at 298 K. With R = 0.08206 L·atm/(mol·K), what pressure in atm?", "expect": "math", "answer": "4.89 atm", "source": "subjB-6"}
+{"text": "gas in a flask is at 2.5 atm, volume 4.0 L. I push it down to 1.0 L at constant temperature. new pressure?", "expect": "math", "answer": "10.0 atm", "source": "subjB-6"}
+{"text": "3.0 L of gas at 300 K gets heated to 450 K at constant pressure. What's the new volume", "expect": "math", "answer": "4.5 L", "source": "subjB-6"}
+{"text": "mass percent of oxygen in CO2", "expect": "math", "answer": "72.71%", "source": "subjB-6"}
+{"text": "my notes say 22.4 L/mol at STP. so how many moles is 5.6 L of gas at STP", "expect": "math", "answer": "0.25 mol", "source": "subjB-6"}
+{"text": "Theoretical yield was 25.0 g and I actually got 19.4 g. Percent yield?", "expect": "math", "answer": "77.6%", "source": "subjB-6"}
+{"text": "$5,000 at 4% simple interest for 3 years, how much interest total", "expect": "math", "answer": "$600.00", "source": "subjB-6"}
+{"text": "If I put $10,000 in a savings account paying 5% a year, compounded yearly, what will it be after 10 years", "expect": "math", "answer": "$16,288.95", "source": "subjB-6"}
+{"text": "mortgage: $250,000 borrowed at 6% APR over 30 years. what's the monthly principal and interest payment, compounded monthly", "expect": "math", "answer": "$1,498.88", "source": "subjB-6"}
+{"text": "jacket is $80 with 35% off. what do i pay", "expect": "math", "answer": "$52.00", "source": "subjB-6"}
+{"text": "bill came to $68.40 and I want to leave 18%. how much is the tip", "expect": "math", "answer": "$12.31", "source": "subjB-6"}
+{"text": "I buy a widget for $42 and sell it for $70. gross margin %?", "expect": "math", "answer": "40%", "source": "subjB-6"}
+{"text": "revenue went from $1.2M to $1.8M over two years. what's the compound annual growth rate", "expect": "math", "answer": "22.47%", "source": "subjB-6"}
+{"text": "saving $200 a month into an account at 6% annual rate compounded monthly, for 5 years. balance at the end?", "expect": "math", "answer": "$13,954.01", "source": "subjB-6"}
+{"text": "receipt: subtotal $134.50, sales tax 7.25%. how much tax", "expect": "math", "answer": "$9.75", "source": "subjB-6"}
+{"text": "rent went from $1,450 to $1,595 a month. percent increase", "expect": "math", "answer": "10%", "source": "subjB-6"}
+{"text": "car loan simple interest: $12,000 at 7.5% for 2 years, total interest", "expect": "math", "answer": "$1,800.00", "source": "subjB-6"}
+{"text": "how many years to double $1 at 6% compounded annually, exact number pls", "expect": "math", "answer": "11.90 years", "source": "subjB-6"}
+{"text": "A stock falls 20% on Monday and rises 25% on Tuesday. I started with $100. where do I end up?", "expect": "math", "answer": "$100.00", "source": "subjB-6"}
+{"text": "4 of us split a $183.20 dinner bill plus 15% tip evenly. each person pays?", "expect": "math", "answer": "$52.67", "source": "subjB-6"}
+{"text": "if prices go up 3% a year, what will something that costs $100 today cost in 5 years", "expect": "math", "answer": "$115.93", "source": "subjB-6"}
+{"text": "triangle base 14cm height 9cm whats the area", "expect": "math", "answer": "63 cm²", "source": "subjB-7"}
+{"text": "hey quick one, a right triangle has legs of 9cm and 12cm. how long is the hypotenuse?", "expect": "math", "answer": "15 cm", "source": "subjB-7"}
+{"text": "area of a circle with radius 7 cm? use pi ~3.14159", "expect": "math", "answer": "153.94 cm²", "source": "subjB-7"}
+{"text": "need the volume of a cylinder, radius 3 m and height 10 m (round to 2 dp)", "expect": "math", "answer": "282.74 m³", "source": "subjB-7"}
+{"text": "sphere radius 6 cm, what's its volume? leave it as a decimal please", "expect": "math", "answer": "904.78 cm³", "source": "subjB-7"}
+{"text": "exact value of tan 60 degrees??", "expect": "math", "answer": "√3 ≈ 1.732", "source": "subjB-7"}
+{"text": "what angle has opposite side 3 and adjacent side 4, in degrees", "expect": "math", "answer": "36.87°", "source": "subjB-7"}
+{"text": "my ladder is 10 m long and the foot is 3 m from the wall. how high up the wall does it reach", "expect": "math", "answer": "9.54 m", "source": "subjB-7"}
+{"text": "ladder 6 m long, base 2 m away from the wall. what angle does it make with the ground? (degrees to 2dp)", "expect": "math", "answer": "70.53°", "source": "subjB-7"}
+{"text": "isoceles triangle with two sides of 13 cm and a base of 10 cm, area?", "expect": "math", "answer": "60 cm²", "source": "subjB-7"}
+{"text": "cone: r = 4 cm, h = 9 cm, find volume", "expect": "math", "answer": "150.80 cm³", "source": "subjB-7"}
+{"text": "box is 3cm x 4cm x 12cm, length of the space diagonal?", "expect": "math", "answer": "13 cm", "source": "subjB-7"}
+{"text": "circumference of a circle w diameter 2.5 m", "expect": "math", "answer": "7.85 m", "source": "subjB-7"}
+{"text": "sector of a circle radius 10 cm, central angle 72 degrees, area of that slice", "expect": "math", "answer": "62.83 cm²", "source": "subjB-7"}
+{"text": "each interior angle of a regular octagon?", "expect": "math", "answer": "135°", "source": "subjB-7"}
+{"text": "two sides 7 and 10 with 60° between them, find the third side, 2dp", "expect": "math", "answer": "8.89 units", "source": "subjB-7"}
+{"text": "triangle: A = 40°, B = 75°, side a = 8 opposite A, find side b with the sine rule, 2dp", "expect": "math", "answer": "12.02 units", "source": "subjB-7"}
+{"text": "Anna is 3 times older than her son. In 12 years she'll be exactly twice his age. how old is the son", "expect": "math", "answer": "12 years old", "source": "subjB-7"}
+{"text": "two numbers, ages sum 50 and diff 14, what is the older one?", "expect": "math", "answer": "32 years old", "source": "subjB-7"}
+{"text": "how many litres of 20% acid do i need to mix with 30 L of 50% acid to make a 40% solution", "expect": "math", "answer": "15 L", "source": "subjB-7"}
+{"text": "Pipe A fills a tank in 4 hrs, pipe B in 6 hrs. both open, how long to fill?", "expect": "math", "answer": "2.4 hours", "source": "subjB-7"}
+{"text": "I've got 45 coins, nickels and dimes, worth $3.15 total. how many of each", "expect": "math", "answer": "27 nickels and 18 dimes", "source": "subjB-7"}
+{"text": "Train A leaves the station at 60 km/h. 1 hour later train B leaves the same station in the same direction at 90 km/h. how many hours after B leaves until B catches A", "expect": "math", "answer": "2 hours", "source": "subjB-7"}
+{"text": "party of 12 people, everyone shakes hands with everyone else once. total handshakes?", "expect": "math", "answer": "66 handshakes", "source": "subjB-7"}
+{"text": "two trains 300 km apart coming at each other, 80 km/h and 70 km/h. time till they meet?", "expect": "math", "answer": "2 hours", "source": "subjB-7"}
+{"text": "3 painters paint a house in 6 days. how many days would 5 painters take, same rate each", "expect": "math", "answer": "3.6 days", "source": "subjB-7"}
+{"text": "A finishes a job in 10 days, B in 15 days. they work together 3 days then A quits. how many more days does B need alone?", "expect": "math", "answer": "7.5 days", "source": "subjB-7"}
+{"text": "my dad is 4 times my age. in 20 years he'll be twice my age. how old am i", "expect": "math", "answer": "10 years old", "source": "subjB-7"}
+{"text": "I have 8 L of 60% alcohol solution, how much water do I add to get 45%", "expect": "math", "answer": "2.67 L", "source": "subjB-7"}
+{"text": "30 coins all quarters and nickels, total is $4.50. how many quarters?", "expect": "math", "answer": "15 quarters", "source": "subjB-7"}
+{"text": "who built the great wall of china, was it one emperor or lots of dynasties", "expect": "lookup", "answer": "", "source": "subjB-8"}
+{"text": "random one: what's the capital of australia? everyone keeps saying sydney", "expect": "lookup", "answer": "", "source": "subjB-8"}
+{"text": "while I have you, how many bones does an adult human body have", "expect": "lookup", "answer": "", "source": "subjB-8"}
+{"text": "who painted the ceiling of the sistine chapel", "expect": "lookup", "answer": "", "source": "subjB-8"}
+{"text": "is the amazon or the nile the longer river", "expect": "lookup", "answer": "", "source": "subjB-8"}
+{"text": "why is the sky blue", "expect": "lookup", "answer": "", "source": "subjB-8"}
+{"text": "quick one, did edison invent the lightbulb or just make it practical", "expect": "lookup", "answer": "", "source": "subjB-8"}
+{"text": "whats the smallest country in the world by area", "expect": "lookup", "answer": "", "source": "subjB-8"}
+{"text": "marie curie won 2 nobel prizes right, in what fields", "expect": "lookup", "answer": "", "source": "subjB-8"}
+{"text": "which chemical element has the symbol W", "expect": "lookup", "answer": "", "source": "subjB-8"}
+{"text": "how long did the hundred years war actually last lol", "expect": "lookup", "answer": "", "source": "subjB-8"}
+{"text": "btw what language do they speak in brazil", "expect": "lookup", "answer": "", "source": "subjB-8"}
+{"text": "did vikings actually wear horned helmets in battle", "expect": "lookup", "answer": "", "source": "subjB-8"}
+{"text": "deepest point in the ocean? what's it called", "expect": "lookup", "answer": "", "source": "subjB-8"}
+{"text": "who discovered penicillin and when", "expect": "lookup", "answer": "", "source": "subjB-8"}
+{"text": "I'm reading about gutenberg. who was he and what did he invent", "expect": "lookup", "answer": "", "source": "subjB-8"}
+{"text": "which planet is the hottest in the solar system", "expect": "lookup", "answer": "", "source": "subjB-8"}
+{"text": "while I have you: who wrote pride and prejudice", "expect": "lookup", "answer": "", "source": "subjB-8"}
+{"text": "dna stands for what again", "expect": "lookup", "answer": "", "source": "subjB-8"}
+{"text": "was cleopatra actually egyptian or greek", "expect": "lookup", "answer": "", "source": "subjB-8"}
+{"text": "what's the tallest mountain on earth if you measure from the base", "expect": "lookup", "answer": "", "source": "subjB-8"}
+{"text": "when did the western roman empire fall", "expect": "lookup", "answer": "", "source": "subjB-8"}
+{"text": "who gets credit for inventing the telephone, bell or meucci", "expect": "lookup", "answer": "", "source": "subjB-8"}
+{"text": "capital of canada? I always forget it isnt toronto", "expect": "lookup", "answer": "", "source": "subjB-8"}
+{"text": "is a tomato technically a fruit", "expect": "lookup", "answer": "", "source": "subjB-8"}
+{"text": "how many continents are there, I've heard 5, 6 and 7", "expect": "lookup", "answer": "", "source": "subjB-8"}
+{"text": "who was nikola tesla, my friend keeps going on about him", "expect": "lookup", "answer": "", "source": "subjB-8"}

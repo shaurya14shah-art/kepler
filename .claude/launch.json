@@ -1,0 +1,39 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "kepler",
+      "runtimeExecutable": "./run.sh",
+      "runtimeArgs": [],
+      "port": 8000
+    },
+    {
+      "name": "kepler-gated",
+      "runtimeExecutable": "backend/.venv/bin/kepler",
+      "runtimeArgs": [
+        "serve",
+        "--port",
+        "8771",
+        "--db",
+        "backend/data/gated/kepler.db",
+        "--log-level",
+        "warning"
+      ],
+      "port": 8771
+    },
+    {
+      "name": "site",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8790",
+        "--bind",
+        "127.0.0.1",
+        "--directory",
+        "site"
+      ],
+      "port": 8790
+    }
+  ]
+}

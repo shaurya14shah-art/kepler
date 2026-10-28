@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kepler · Metric watchdog</title>
+  <meta name="description" content="Kepler watches your product and engineering metrics, learns what normal looks like, and tells you what broke, how sure it is and where. Self-hosted. Free during early access.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='6' fill='%236b5ce7'/%3E%3Cellipse cx='16' cy='16' rx='14' ry='6' fill='none' stroke='%236b5ce7' stroke-width='2' transform='rotate(-25 16 16)'/%3E%3Ccircle cx='28' cy='10.5' r='2' fill='%23d64545'/%3E%3C/svg%3E">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#">
+      <svg width="26" height="26" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="6" fill="var(--accent)"/><ellipse cx="16" cy="16" rx="14" ry="6" fill="none" stroke="var(--accent)" stroke-width="2" transform="rotate(-25 16 16)"/><circle cx="28" cy="10.5" r="2" fill="var(--critical)"/></svg>
+      Kepler
+    </a>
+    <nav class="links">
+      <a href="#how">How it works</a><a href="#ai">Kepler AI</a><a href="#install">Install</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn primary" href="#install">Get Kepler free</a>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="hero">
+    <div>
+      <span class="badge">Free during early access</span>
+      <h1>Know what broke, how sure, and where.</h1>
+      <p class="lede">Kepler watches your signups, errors, latency and job failures, learns what normal looks like for
+        <em>your</em> data, and alerts you with a clear decision when something breaks. Self-hosted, explainable, and no
+        language model guessing.</p>
+      <div class="cta">
+        <a class="btn primary" href="#install">Install in two commands</a>
+        <a class="btn" href="#how">See how it decides</a>
+      </div>
+    </div>
+    <div class="terminal" role="img" aria-label="An example Kepler alert">
+      <div><span class="dim">$</span> kepler status</div>
+      <div>signups            <span class="ok">NORMAL</span>   p 0.00</div>
+      <div>api_errors         <span class="bad">ANOMALY</span>  p 0.96</div>
+      <div class="dim">──────────────────────────────────</div>
+      <div><span class="acc">◆ api_errors ▲ +940%</span></div>
+      <div>  where      platform=ios</div>
+      <div>  expected   14 / 5m   observed 146 / 5m</div>
+      <div>  model      Area · trained on 21 days</div>
+      <div>  alerted    #alerts on Slack</div>
+    </div>
+  </div>
+
+  <section id="how">
+    <h2>How Kepler decides</h2>
+    <p class="sub">Every alert is a typed decision from purpose-trained statistical models, so it's cheap to run, gives
+      the same answer every time, and shows its reasoning.</p>
+    <div class="grid three steps">
+      <div class="card"><h3>Learns normal</h3><p>Weekly and time-of-day baselines per metric and per slice (platform, region, …), trained on your history.</p></div>
+      <div class="card"><h3>Weighs the evidence</h3><p>Exact statistical tests and pooled evidence windows, plus a filter that learns from your 👍 / 👎 labels.</p></div>
+      <div class="card"><h3>Explains where</h3><p>Root-cause drilldown tells you which segment broke, with a confidence you can trust and act on.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Fits the tools you already use</h2>
+    <p class="sub">Pull metrics from Prometheus, Datadog, New Relic, CloudWatch, PostHog, Mixpanel, Amplitude, Sentry
+      or Postgres; receive data from OpenTelemetry, Segment or a simple push API; send incidents to Slack, PagerDuty,
+      email, Grafana, Datadog or a signed webhook.</p>
+    <div class="grid three">
+      <div class="card"><h3>Web dashboard</h3><p>Overview, metric charts with expected ranges, incidents, models, integrations and settings.</p></div>
+      <div class="card"><h3>Terminal app</h3><p>The same features full-screen in your terminal, plus a CLI for every action and shell completion.</p></div>
+      <div class="card"><h3>Three detection models</h3><p>Orbit (fast, shared), Area (trained per metric and slice) and Time (catches slow burns), all included.</p></div>
+    </div>
+  </section>
+
+  <section id="ai">
+    <h2>Kepler AI, built in</h2>
+    <p class="sub">An assistant that runs on your machine: ask about your metrics in plain English, and it can also do
+      maths and formal proofs, answer general questions from a local knowledge library with sources, and write it all
+      up as a typeset PDF.</p>
+    <div class="grid two">
+      <div class="terminal">
+        <div><span class="dim">you ›</span> why did api errors spike?</div>
+        <div><span class="acc">◆ why_metric</span>  p=0.99  metric=api_errors</div>
+        <div>  +940% on platform=ios since 14:05</div>
+        <div><span class="dim">you ›</span> prove x + 1/x ≥ 2 for positive x</div>
+        <div><span class="acc">◆ math</span>  p=0.97  kind=proof</div>
+        <div>  D = (x − 1)²/x ≥ 0  <span class="ok">true: proved ∎</span></div>
+      </div>
+      <div class="card">
+        <h3>Deterministic and private</h3>
+        <p>Trained intent models, exact computer algebra and retrieval from datasets you choose. No hosted language
+          model, nothing sent to us. Optional Wikipedia lookups send only the words of a question, and can be turned off.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="install">
+    <h2>Install</h2>
+    <p class="sub">Kepler runs on your own server or laptop (macOS or Linux, Python 3.11+), or anywhere Docker runs.</p>
+    <div class="grid two">
+      <div class="card">
+        <h3>Python package</h3>
+        <pre>pip install kepler_watchdog-1.0.0-py3-none-any.whl
+kepler serve</pre>
+        <p style="margin-top:10px">Opens on http://127.0.0.1:8000 and prints your dashboard sign-in key.</p>
+      </div>
+      <div class="card">
+        <h3>Docker</h3>
+        <pre>docker compose up -d
+docker compose logs kepler   # sign-in key</pre>
+        <p style="margin-top:10px">Data lives in a volume; the container runs as a non-root user.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <h2>Pricing</h2>
+    <p class="sub">Kepler is free during early access, with every feature included. You won't be asked for payment details.</p>
+    <div class="grid three">
+      <div class="card plan featured">
+        <h3>Free</h3>
+        <div class="price">No charge <small>during early access</small></div>
+        <ul>
+          <li>All three detection models</li>
+          <li>Unlimited metrics and integrations</li>
+          <li>Slack, PagerDuty, email, Grafana, Datadog and webhook alerts</li>
+          <li>Kepler AI and PDF write-ups</li>
+          <li>Self-hosted: your data stays with you</li>
+        </ul>
+        <a class="btn primary" href="#install">Get started</a>
+      </div>
+      <div class="card plan">
+        <h3>Pro</h3>
+        <div class="price"><small>Coming later</small></div>
+        <ul><li>Everything in Free</li><li>Priority email support</li><li>Help connecting your data sources</li></ul>
+      </div>
+      <div class="card plan">
+        <h3>Business</h3>
+        <div class="price"><small>Coming later</small></div>
+        <ul><li>Everything in Pro</li><li>Onboarding and a named contact</li><li>Invoice billing</li></ul>
+      </div>
+    </div>
+    <p class="note">When paid plans launch, prices will be shown here first, payments will be handled by Razorpay, and
+      the <a href="legal/refund.html">refund policy</a> will apply. Early-access users will be told well in advance.</p>
+  </section>
+
+  <section id="faq">
+    <h2>Questions</h2>
+    <details><summary>Does Kepler send my data anywhere?</summary>
+      <p>No. Kepler runs on your servers and has no telemetry. It only contacts the tools you connect it to (for example
+        Slack for alerts), and Wikipedia for general-knowledge questions if you leave that on. See the <a href="legal/privacy.html">privacy policy</a>.</p></details>
+    <details><summary>Is it really free?</summary>
+      <p>Yes, during early access every feature is free, and Kepler has no way to charge you: billing is switched off.</p></details>
+    <details><summary>Is Kepler AI a chatbot like ChatGPT?</summary>
+      <p>No. It's built from trained classifiers, rules and exact computer algebra, plus a local search over datasets you
+        choose. It's predictable and private, and it tells you when it doesn't know.</p></details>
+    <details><summary>What do I need to run it?</summary>
+      <p>macOS or Linux with Python 3.11 or newer, or Docker. A small server is enough for most teams.</p></details>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>© 2026 {{COMPANY}} · Kepler is proprietary software (<a href="legal/eula.html">licence</a>).</div>
+    <nav>
+      <a href="legal/terms.html">Terms</a><a href="legal/privacy.html">Privacy</a><a href="legal/refund.html">Refunds &amp; cancellation</a>
+      <a href="legal/shipping.html">Delivery</a><a href="legal/contact.html">Contact</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>

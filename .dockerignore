@@ -1,0 +1,14 @@
+**/node_modules
+**/.venv
+**/__pycache__
+**/.pytest_cache
+backend/data
+backend/build
+backend/*.egg-info
+backend/kepler/web
+frontend/dist
+dist
+lab
+docs/screenshots
+.git
+.env

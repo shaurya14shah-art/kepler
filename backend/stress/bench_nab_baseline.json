@@ -1,0 +1,3895 @@
+{
+ "orbit": {
+  "summary": {
+   "caught": 93,
+   "near": 67,
+   "windows": 98,
+   "open_near": 80,
+   "false_alarms": 3023,
+   "data_outages": 26,
+   "weeks": 255.5,
+   "fa_per_week": 11.83,
+   "median_lag_min": -373
+  },
+  "series": [
+   {
+    "file": "Twitter_volume_AAPL.csv",
+    "tier": "orbit",
+    "agg": "sum",
+    "windows": 3,
+    "caught": 3,
+    "near": 3,
+    "false_alarms": 139,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1425922373,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1426474673,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1427772473,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.7,
+    "lag_min": [
+     -952.8833333333333,
+     -862.8833333333333,
+     -572.8833333333333
+    ]
+   },
+   {
+    "file": "Twitter_volume_AMZN.csv",
+    "tier": "orbit",
+    "agg": "sum",
+    "windows": 3,
+    "caught": 3,
+    "near": 3,
+    "false_alarms": 117,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1426107473,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1427925473,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1428468773,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.67,
+    "lag_min": [
+     -487.8833333333333,
+     -522.8833333333333,
+     -407.8833333333333
+    ]
+   },
+   {
+    "file": "Twitter_volume_GOOG.csv",
+    "tier": "orbit",
+    "agg": "sum",
+    "windows": 3,
+    "caught": 3,
+    "near": 2,
+    "false_alarms": 141,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1426314323,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1427064773,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1427866073,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.68,
+    "lag_min": [
+     -755.3833333333333,
+     -692.8833333333333,
+     -767.8833333333333
+    ]
+   },
+   {
+    "file": "Twitter_volume_FB.csv",
+    "tier": "orbit",
+    "agg": "sum",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 135,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1426489673,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1428083273,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.68,
+    "lag_min": [
+     -1687.8833333333334,
+     -1957.8833333333334
+    ]
+   },
+   {
+    "file": "Twitter_volume_IBM.csv",
+    "tier": "orbit",
+    "agg": "sum",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 109,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1427149673,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1429560473,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.7,
+    "lag_min": [
+     -387.8833333333333,
+     -1957.8833333333334
+    ]
+   },
+   {
+    "file": "Twitter_volume_KO.csv",
+    "tier": "orbit",
+    "agg": "sum",
+    "windows": 3,
+    "caught": 3,
+    "near": 2,
+    "false_alarms": 172,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1426857173,
+      "near_start": false,
+      "open_near": true
+     },
+     {
+      "at": 1428536573,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1429023173,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.68,
+    "lag_min": [
+     -1197.8833333333334,
+     -712.8833333333333,
+     -7.883333333333334
+    ]
+   },
+   {
+    "file": "Twitter_volume_PFE.csv",
+    "tier": "orbit",
+    "agg": "sum",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 62,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1426276673,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1428450173,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.69,
+    "lag_min": [
+     -427.8833333333333,
+     -467.8833333333333
+    ]
+   },
+   {
+    "file": "Twitter_volume_UPS.csv",
+    "tier": "orbit",
+    "agg": "sum",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 112,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1427221073,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1427646473,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.69,
+    "lag_min": [
+     -47.88333333333333,
+     -372.8833333333333
+    ]
+   },
+   {
+    "file": "Twitter_volume_CVS.csv",
+    "tier": "orbit",
+    "agg": "sum",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 23,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1427378873,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1429051073,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.68,
+    "lag_min": [
+     -72.88333333333334,
+     -107.88333333333334
+    ]
+   },
+   {
+    "file": "Twitter_volume_CRM.csv",
+    "tier": "orbit",
+    "agg": "sum",
+    "windows": 3,
+    "caught": 3,
+    "near": 2,
+    "false_alarms": 67,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1425928073,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1426806473,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1427396873,
+      "near_start": false,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.7,
+    "lag_min": [
+     -1102.8833333333334,
+     -432.8833333333333,
+     -1127.8833333333334
+    ]
+   },
+   {
+    "file": "elb_request_count_8c0756.csv",
+    "tier": "orbit",
+    "agg": "sum",
+    "windows": 2,
+    "caught": 2,
+    "near": 1,
+    "false_alarms": 33,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1397323440,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1398195240,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     456.0,
+     -164.0
+    ]
+   },
+   {
+    "file": "nyc_taxi.csv",
+    "tier": "orbit",
+    "agg": "sum",
+    "windows": 5,
+    "caught": 5,
+    "near": 2,
+    "false_alarms": 219,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1414868400,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1417102200,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1419519600,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1420074000,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1422316800,
+      "near_start": false,
+      "open_near": true
+     }
+    ],
+    "weeks": 26.11,
+    "lag_min": [
+     -2580.0,
+     -1980.0,
+     -1740.0,
+     -1200.0,
+     -2970.0
+    ]
+   },
+   {
+    "file": "TravelTime_387.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 3,
+    "caught": 3,
+    "near": 1,
+    "false_alarms": 62,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1438180110,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1439923950,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1441074300,
+      "near_start": false,
+      "open_near": false
+     }
+    ],
+    "weeks": 8.39,
+    "lag_min": [
+     1316.5,
+     -1607.5,
+     -540.0
+    ]
+   },
+   {
+    "file": "TravelTime_451.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 82,
+    "data_outages": 1,
+    "labels": [
+     {
+      "at": 1439276340,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.22,
+    "lag_min": [
+     -2054.0
+    ]
+   },
+   {
+    "file": "ambient_temperature_system_failure.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 1,
+    "near": 0,
+    "false_alarms": 0,
+    "data_outages": 6,
+    "labels": [
+     {
+      "at": 1387742400,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1397068200,
+      "near_start": false,
+      "open_near": true
+     }
+    ],
+    "weeks": 39.91,
+    "lag_min": [
+     -9150.0
+    ]
+   },
+   {
+    "file": "cpu_utilization_asg_misconfiguration.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 0,
+    "false_alarms": 836,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1405220040,
+      "near_start": false,
+      "open_near": true
+     }
+    ],
+    "weeks": 7.61,
+    "lag_min": [
+     -3529.0
+    ]
+   },
+   {
+    "file": "ec2_cpu_utilization_24ae8d.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 2,
+    "near": 1,
+    "false_alarms": 6,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1393452300,
+      "near_start": false,
+      "open_near": true
+     },
+     {
+      "at": 1393521300,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     -475.0,
+     70.0
+    ]
+   },
+   {
+    "file": "ec2_cpu_utilization_53ea38.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 2,
+    "near": 0,
+    "false_alarms": 10,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1392837000,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1393185900,
+      "near_start": false,
+      "open_near": false
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     480.0,
+     455.0
+    ]
+   },
+   {
+    "file": "ec2_cpu_utilization_5f5533.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 1,
+    "near": 0,
+    "false_alarms": 0,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1392769320,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1393267020,
+      "near_start": false,
+      "open_near": false
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     198.0
+    ]
+   },
+   {
+    "file": "ec2_cpu_utilization_77c1ca.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 35,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1397038500,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     -770.0
+    ]
+   },
+   {
+    "file": "ec2_cpu_utilization_825cc2.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 0,
+    "false_alarms": 0,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1397597940,
+      "near_start": false,
+      "open_near": false
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     -359.0
+    ]
+   },
+   {
+    "file": "ec2_cpu_utilization_ac20cd.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 4,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1397522490,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     -61.5
+    ]
+   },
+   {
+    "file": "ec2_cpu_utilization_c6585a.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 0,
+    "caught": 0,
+    "near": 0,
+    "false_alarms": 43,
+    "data_outages": 0,
+    "labels": [],
+    "weeks": 1.57,
+    "lag_min": []
+   },
+   {
+    "file": "ec2_cpu_utilization_fe7f93.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 56,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1393027320,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1393168620,
+      "near_start": false,
+      "open_near": false
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     -82.0
+    ]
+   },
+   {
+    "file": "ec2_disk_write_bytes_1ef3de.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 68,
+    "data_outages": 1,
+    "labels": [
+     {
+      "at": 1394485740,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.92,
+    "lag_min": [
+     -794.0
+    ]
+   },
+   {
+    "file": "ec2_disk_write_bytes_c0d644.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 3,
+    "caught": 3,
+    "near": 0,
+    "false_alarms": 58,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1397007000,
+      "near_start": false,
+      "open_near": true
+     },
+     {
+      "at": 1397140500,
+      "near_start": false,
+      "open_near": true
+     },
+     {
+      "at": 1397358000,
+      "near_start": false,
+      "open_near": false
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     -245.0,
+     -240.0,
+     -300.0
+    ]
+   },
+   {
+    "file": "ec2_network_in_257a54.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 32,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1397580240,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     -794.0
+    ]
+   },
+   {
+    "file": "ec2_network_in_5abac7.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 2,
+    "near": 1,
+    "false_alarms": 55,
+    "data_outages": 1,
+    "labels": [
+     {
+      "at": 1394477760,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1394658060,
+      "near_start": false,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.92,
+    "lag_min": [
+     -366.0,
+     -236.0
+    ]
+   },
+   {
+    "file": "ec2_request_latency_system_failure.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 3,
+    "caught": 3,
+    "near": 3,
+    "false_alarms": 0,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1394787960,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1395182460,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1395362010,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     -1.0,
+     -6.0,
+     -68.5
+    ]
+   },
+   {
+    "file": "exchange-2_cpc_results.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 13,
+    "data_outages": 1,
+    "labels": [
+     {
+      "at": 1310648401,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 8.34,
+    "lag_min": [
+     -1140.0166666666667
+    ]
+   },
+   {
+    "file": "exchange-2_cpm_results.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 37,
+    "data_outages": 1,
+    "labels": [
+     {
+      "at": 1311660001,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1312993801,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 8.34,
+    "lag_min": [
+     -840.0166666666667,
+     -1770.0166666666667
+    ]
+   },
+   {
+    "file": "exchange-3_cpc_results.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 3,
+    "caught": 3,
+    "near": 3,
+    "false_alarms": 33,
+    "data_outages": 4,
+    "labels": [
+     {
+      "at": 1310638501,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1311156901,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1313230501,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 8.33,
+    "lag_min": [
+     -0.016666666666666666,
+     -1260.0166666666667,
+     -1560.0166666666667
+    ]
+   },
+   {
+    "file": "exchange-3_cpm_results.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 28,
+    "data_outages": 4,
+    "labels": [
+     {
+      "at": 1313774101,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 8.33,
+    "lag_min": [
+     -4560.016666666666
+    ]
+   },
+   {
+    "file": "exchange-4_cpc_results.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 3,
+    "caught": 3,
+    "near": 3,
+    "false_alarms": 44,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1310807701,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1312283701,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1314087301,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 8.33,
+    "lag_min": [
+     -0.016666666666666666,
+     -180.01666666666668,
+     -0.016666666666666666
+    ]
+   },
+   {
+    "file": "exchange-4_cpm_results.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 4,
+    "caught": 4,
+    "near": 3,
+    "false_alarms": 36,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1310807701,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1312186501,
+      "near_start": false,
+      "open_near": true
+     },
+     {
+      "at": 1314087301,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1314537301,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 8.33,
+    "lag_min": [
+     -0.016666666666666666,
+     -360.01666666666665,
+     -0.016666666666666666,
+     -0.016666666666666666
+    ]
+   },
+   {
+    "file": "grok_asg_anomaly.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 3,
+    "caught": 3,
+    "near": 2,
+    "false_alarms": 10,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1390206600,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1390301100,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1390956300,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.86,
+    "lag_min": [
+     -270.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "file": "iio_us-east-1_i-a2eb1cd9_NetworkIn.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 0,
+    "caught": 0,
+    "near": 0,
+    "false_alarms": 11,
+    "data_outages": 0,
+    "labels": [],
+    "weeks": 0.19,
+    "lag_min": []
+   },
+   {
+    "file": "machine_temperature_system_failure.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 3,
+    "caught": 3,
+    "near": 1,
+    "false_alarms": 44,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1387214700,
+      "near_start": false,
+      "open_near": true
+     },
+     {
+      "at": 1390917300,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1391869800,
+      "near_start": false,
+      "open_near": true
+     }
+    ],
+    "weeks": 9.56,
+    "lag_min": [
+     -1225.0,
+     -1205.0,
+     -1415.0
+    ]
+   },
+   {
+    "file": "occupancy_6005.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 9,
+    "data_outages": 1,
+    "labels": [
+     {
+      "at": 1442295270,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.87,
+    "lag_min": [
+     80.5
+    ]
+   },
+   {
+    "file": "occupancy_t4013.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 9,
+    "data_outages": 2,
+    "labels": [
+     {
+      "at": 1442387340,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1442472300,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.89,
+    "lag_min": [
+     46.0,
+     70.0
+    ]
+   },
+   {
+    "file": "rds_cpu_utilization_cc0c53.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 11,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1393312350,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1393462200,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     2.5,
+     0.0
+    ]
+   },
+   {
+    "file": "rds_cpu_utilization_e47b3b.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 4,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1397371920,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1397863620,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     -2.0,
+     -2.0
+    ]
+   },
+   {
+    "file": "rogue_agent_key_hold.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 21,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1405414800,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1405621050,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 2.22,
+    "lag_min": [
+     -587.5
+    ]
+   },
+   {
+    "file": "rogue_agent_key_updown.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 2,
+    "near": 0,
+    "false_alarms": 30,
+    "data_outages": 1,
+    "labels": [
+     {
+      "at": 1405396800,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1405587000,
+      "near_start": false,
+      "open_near": false
+     }
+    ],
+    "weeks": 2.22,
+    "lag_min": [
+     -460.0,
+     -655.0
+    ]
+   },
+   {
+    "file": "speed_6005.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 1,
+    "data_outages": 1,
+    "labels": [
+     {
+      "at": 1442467920,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.99,
+    "lag_min": [
+     88.0
+    ]
+   },
+   {
+    "file": "speed_7578.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 4,
+    "caught": 3,
+    "near": 3,
+    "false_alarms": 4,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1441989840,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1442328000,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1442412720,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1442423400,
+      "near_start": false,
+      "open_near": true
+     }
+    ],
+    "weeks": 0.87,
+    "lag_min": [
+     1.0,
+     -45.0,
+     -27.0
+    ]
+   },
+   {
+    "file": "speed_t4013.csv",
+    "tier": "orbit",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 2,
+    "data_outages": 2,
+    "labels": [
+     {
+      "at": 1442386740,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1442473200,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.89,
+    "lag_min": [
+     -344.0,
+     -170.0
+    ]
+   }
+  ]
+ },
+ "area": {
+  "summary": {
+   "caught": 91,
+   "near": 71,
+   "windows": 98,
+   "open_near": 81,
+   "false_alarms": 2110,
+   "data_outages": 26,
+   "weeks": 255.5,
+   "fa_per_week": 8.26,
+   "median_lag_min": -245
+  },
+  "series": [
+   {
+    "file": "Twitter_volume_AAPL.csv",
+    "tier": "area",
+    "agg": "sum",
+    "windows": 3,
+    "caught": 3,
+    "near": 2,
+    "false_alarms": 75,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1425922373,
+      "near_start": false,
+      "open_near": true
+     },
+     {
+      "at": 1426474673,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1427772473,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.7,
+    "lag_min": [
+     -952.8833333333333,
+     -877.8833333333333,
+     -557.8833333333333
+    ]
+   },
+   {
+    "file": "Twitter_volume_AMZN.csv",
+    "tier": "area",
+    "agg": "sum",
+    "windows": 3,
+    "caught": 3,
+    "near": 3,
+    "false_alarms": 78,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1426107473,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1427925473,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1428468773,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.67,
+    "lag_min": [
+     -512.8833333333333,
+     -2.8833333333333333,
+     -302.8833333333333
+    ]
+   },
+   {
+    "file": "Twitter_volume_GOOG.csv",
+    "tier": "area",
+    "agg": "sum",
+    "windows": 3,
+    "caught": 3,
+    "near": 2,
+    "false_alarms": 48,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1426314323,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1427064773,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1427866073,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.68,
+    "lag_min": [
+     -950.3833333333333,
+     -692.8833333333333,
+     -257.8833333333333
+    ]
+   },
+   {
+    "file": "Twitter_volume_FB.csv",
+    "tier": "area",
+    "agg": "sum",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 64,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1426489673,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1428083273,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.68,
+    "lag_min": [
+     -1687.8833333333334,
+     -7.883333333333334
+    ]
+   },
+   {
+    "file": "Twitter_volume_IBM.csv",
+    "tier": "area",
+    "agg": "sum",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 82,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1427149673,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1429560473,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.7,
+    "lag_min": [
+     -2.8833333333333333,
+     -537.8833333333333
+    ]
+   },
+   {
+    "file": "Twitter_volume_KO.csv",
+    "tier": "area",
+    "agg": "sum",
+    "windows": 3,
+    "caught": 3,
+    "near": 3,
+    "false_alarms": 66,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1426857173,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1428536573,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1429023173,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.68,
+    "lag_min": [
+     -1187.8833333333334,
+     -712.8833333333333,
+     -2.8833333333333333
+    ]
+   },
+   {
+    "file": "Twitter_volume_PFE.csv",
+    "tier": "area",
+    "agg": "sum",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 49,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1426276673,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1428450173,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.69,
+    "lag_min": [
+     -427.8833333333333,
+     -2.8833333333333333
+    ]
+   },
+   {
+    "file": "Twitter_volume_UPS.csv",
+    "tier": "area",
+    "agg": "sum",
+    "windows": 2,
+    "caught": 2,
+    "near": 1,
+    "false_alarms": 63,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1427221073,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1427646473,
+      "near_start": false,
+      "open_near": false
+     }
+    ],
+    "weeks": 6.69,
+    "lag_min": [
+     -27.883333333333333,
+     -372.8833333333333
+    ]
+   },
+   {
+    "file": "Twitter_volume_CVS.csv",
+    "tier": "area",
+    "agg": "sum",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 19,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1427378873,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1429051073,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.68,
+    "lag_min": [
+     -72.88333333333334,
+     -107.88333333333334
+    ]
+   },
+   {
+    "file": "Twitter_volume_CRM.csv",
+    "tier": "area",
+    "agg": "sum",
+    "windows": 3,
+    "caught": 3,
+    "near": 3,
+    "false_alarms": 42,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1425928073,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1426806473,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1427396873,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.7,
+    "lag_min": [
+     -1257.8833333333334,
+     -567.8833333333333,
+     -587.8833333333333
+    ]
+   },
+   {
+    "file": "elb_request_count_8c0756.csv",
+    "tier": "area",
+    "agg": "sum",
+    "windows": 2,
+    "caught": 2,
+    "near": 1,
+    "false_alarms": 43,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1397323440,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1398195240,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     456.0,
+     -429.0
+    ]
+   },
+   {
+    "file": "nyc_taxi.csv",
+    "tier": "area",
+    "agg": "sum",
+    "windows": 5,
+    "caught": 5,
+    "near": 1,
+    "false_alarms": 209,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1414868400,
+      "near_start": false,
+      "open_near": true
+     },
+     {
+      "at": 1417102200,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1419519600,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1420074000,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1422316800,
+      "near_start": false,
+      "open_near": true
+     }
+    ],
+    "weeks": 26.11,
+    "lag_min": [
+     -905.0,
+     -2280.0,
+     -2250.0,
+     -2850.0,
+     -2610.0
+    ]
+   },
+   {
+    "file": "TravelTime_387.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 3,
+    "caught": 3,
+    "near": 1,
+    "false_alarms": 99,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1438180110,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1439923950,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1441074300,
+      "near_start": false,
+      "open_near": false
+     }
+    ],
+    "weeks": 8.39,
+    "lag_min": [
+     -2998.5,
+     -1607.5,
+     -285.0
+    ]
+   },
+   {
+    "file": "TravelTime_451.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 116,
+    "data_outages": 1,
+    "labels": [
+     {
+      "at": 1439276340,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.22,
+    "lag_min": [
+     -1969.0
+    ]
+   },
+   {
+    "file": "ambient_temperature_system_failure.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 1,
+    "near": 0,
+    "false_alarms": 0,
+    "data_outages": 6,
+    "labels": [
+     {
+      "at": 1387742400,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1397068200,
+      "near_start": false,
+      "open_near": true
+     }
+    ],
+    "weeks": 39.91,
+    "lag_min": [
+     -9150.0
+    ]
+   },
+   {
+    "file": "cpu_utilization_asg_misconfiguration.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 243,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1405220040,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 7.61,
+    "lag_min": [
+     -3709.0
+    ]
+   },
+   {
+    "file": "ec2_cpu_utilization_24ae8d.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 6,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1393452300,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1393521300,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "file": "ec2_cpu_utilization_53ea38.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 2,
+    "near": 1,
+    "false_alarms": 7,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1392837000,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1393185900,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     480.0,
+     25.0
+    ]
+   },
+   {
+    "file": "ec2_cpu_utilization_5f5533.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 0,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1392769320,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1393267020,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     38.0
+    ]
+   },
+   {
+    "file": "ec2_cpu_utilization_77c1ca.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 51,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1397038500,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     -770.0
+    ]
+   },
+   {
+    "file": "ec2_cpu_utilization_825cc2.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 0,
+    "false_alarms": 0,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1397597940,
+      "near_start": false,
+      "open_near": false
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     -359.0
+    ]
+   },
+   {
+    "file": "ec2_cpu_utilization_ac20cd.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 6,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1397522490,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     -61.5
+    ]
+   },
+   {
+    "file": "ec2_cpu_utilization_c6585a.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 0,
+    "caught": 0,
+    "near": 0,
+    "false_alarms": 20,
+    "data_outages": 0,
+    "labels": [],
+    "weeks": 1.57,
+    "lag_min": []
+   },
+   {
+    "file": "ec2_cpu_utilization_fe7f93.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 56,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1393027320,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1393168620,
+      "near_start": false,
+      "open_near": false
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     -82.0
+    ]
+   },
+   {
+    "file": "ec2_disk_write_bytes_1ef3de.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 62,
+    "data_outages": 1,
+    "labels": [
+     {
+      "at": 1394485740,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.92,
+    "lag_min": [
+     -794.0
+    ]
+   },
+   {
+    "file": "ec2_disk_write_bytes_c0d644.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 3,
+    "caught": 2,
+    "near": 0,
+    "false_alarms": 59,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1397007000,
+      "near_start": false,
+      "open_near": true
+     },
+     {
+      "at": 1397140500,
+      "near_start": false,
+      "open_near": true
+     },
+     {
+      "at": 1397358000,
+      "near_start": false,
+      "open_near": false
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     -245.0,
+     -240.0
+    ]
+   },
+   {
+    "file": "ec2_network_in_257a54.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 15,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1397580240,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     -794.0
+    ]
+   },
+   {
+    "file": "ec2_network_in_5abac7.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 57,
+    "data_outages": 1,
+    "labels": [
+     {
+      "at": 1394477760,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1394658060,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.92,
+    "lag_min": [
+     -366.0,
+     -236.0
+    ]
+   },
+   {
+    "file": "ec2_request_latency_system_failure.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 3,
+    "caught": 3,
+    "near": 3,
+    "false_alarms": 0,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1394787960,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1395182460,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1395362010,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     -1.0,
+     -6.0,
+     146.5
+    ]
+   },
+   {
+    "file": "exchange-2_cpc_results.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 23,
+    "data_outages": 1,
+    "labels": [
+     {
+      "at": 1310648401,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 8.34,
+    "lag_min": [
+     9.983333333333333
+    ]
+   },
+   {
+    "file": "exchange-2_cpm_results.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 67,
+    "data_outages": 1,
+    "labels": [
+     {
+      "at": 1311660001,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1312993801,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 8.34,
+    "lag_min": [
+     -840.0166666666667,
+     -1530.0166666666667
+    ]
+   },
+   {
+    "file": "exchange-3_cpc_results.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 3,
+    "caught": 3,
+    "near": 3,
+    "false_alarms": 21,
+    "data_outages": 4,
+    "labels": [
+     {
+      "at": 1310638501,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1311156901,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1313230501,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 8.33,
+    "lag_min": [
+     -0.016666666666666666,
+     -0.016666666666666666,
+     -60.016666666666666
+    ]
+   },
+   {
+    "file": "exchange-3_cpm_results.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 30,
+    "data_outages": 4,
+    "labels": [
+     {
+      "at": 1313774101,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 8.33,
+    "lag_min": [
+     -270.01666666666665
+    ]
+   },
+   {
+    "file": "exchange-4_cpc_results.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 3,
+    "caught": 3,
+    "near": 3,
+    "false_alarms": 46,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1310807701,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1312283701,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1314087301,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 8.33,
+    "lag_min": [
+     -0.016666666666666666,
+     -1260.0166666666667,
+     -0.016666666666666666
+    ]
+   },
+   {
+    "file": "exchange-4_cpm_results.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 4,
+    "caught": 4,
+    "near": 3,
+    "false_alarms": 59,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1310807701,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1312186501,
+      "near_start": false,
+      "open_near": true
+     },
+     {
+      "at": 1314087301,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1314537301,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 8.33,
+    "lag_min": [
+     -0.016666666666666666,
+     -300.01666666666665,
+     -0.016666666666666666,
+     -0.016666666666666666
+    ]
+   },
+   {
+    "file": "grok_asg_anomaly.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 3,
+    "caught": 3,
+    "near": 2,
+    "false_alarms": 10,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1390206600,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1390301100,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1390956300,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.86,
+    "lag_min": [
+     -270.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "file": "iio_us-east-1_i-a2eb1cd9_NetworkIn.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 0,
+    "caught": 0,
+    "near": 0,
+    "false_alarms": 7,
+    "data_outages": 0,
+    "labels": [],
+    "weeks": 0.19,
+    "lag_min": []
+   },
+   {
+    "file": "machine_temperature_system_failure.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 3,
+    "caught": 2,
+    "near": 1,
+    "false_alarms": 108,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1387214700,
+      "near_start": false,
+      "open_near": true
+     },
+     {
+      "at": 1390917300,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1391869800,
+      "near_start": false,
+      "open_near": true
+     }
+    ],
+    "weeks": 9.56,
+    "lag_min": [
+     -1185.0,
+     -1130.0
+    ]
+   },
+   {
+    "file": "occupancy_6005.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 11,
+    "data_outages": 1,
+    "labels": [
+     {
+      "at": 1442295270,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.87,
+    "lag_min": [
+     55.5
+    ]
+   },
+   {
+    "file": "occupancy_t4013.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 5,
+    "data_outages": 2,
+    "labels": [
+     {
+      "at": 1442387340,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1442472300,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.89,
+    "lag_min": [
+     46.0,
+     70.0
+    ]
+   },
+   {
+    "file": "rds_cpu_utilization_cc0c53.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 13,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1393312350,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1393462200,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     2.5,
+     0.0
+    ]
+   },
+   {
+    "file": "rds_cpu_utilization_e47b3b.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 3,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1397371920,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1397863620,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     -2.0,
+     -2.0
+    ]
+   },
+   {
+    "file": "rogue_agent_key_hold.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 32,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1405414800,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1405621050,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 2.22,
+    "lag_min": [
+     -587.5
+    ]
+   },
+   {
+    "file": "rogue_agent_key_updown.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 2,
+    "near": 0,
+    "false_alarms": 32,
+    "data_outages": 1,
+    "labels": [
+     {
+      "at": 1405396800,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1405587000,
+      "near_start": false,
+      "open_near": false
+     }
+    ],
+    "weeks": 2.22,
+    "lag_min": [
+     -460.0,
+     220.0
+    ]
+   },
+   {
+    "file": "speed_6005.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 2,
+    "data_outages": 1,
+    "labels": [
+     {
+      "at": 1442467920,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.99,
+    "lag_min": [
+     -152.0
+    ]
+   },
+   {
+    "file": "speed_7578.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 4,
+    "caught": 3,
+    "near": 3,
+    "false_alarms": 4,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1441989840,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1442328000,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1442412720,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1442423400,
+      "near_start": false,
+      "open_near": true
+     }
+    ],
+    "weeks": 0.87,
+    "lag_min": [
+     1.0,
+     -45.0,
+     -32.0
+    ]
+   },
+   {
+    "file": "speed_t4013.csv",
+    "tier": "area",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 2,
+    "data_outages": 2,
+    "labels": [
+     {
+      "at": 1442386740,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1442473200,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.89,
+    "lag_min": [
+     -344.0,
+     -170.0
+    ]
+   }
+  ]
+ },
+ "time": {
+  "summary": {
+   "caught": 91,
+   "near": 72,
+   "windows": 98,
+   "open_near": 82,
+   "false_alarms": 2324,
+   "data_outages": 26,
+   "weeks": 255.5,
+   "fa_per_week": 9.1,
+   "median_lag_min": -285
+  },
+  "series": [
+   {
+    "file": "Twitter_volume_AAPL.csv",
+    "tier": "time",
+    "agg": "sum",
+    "windows": 3,
+    "caught": 3,
+    "near": 2,
+    "false_alarms": 72,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1425922373,
+      "near_start": false,
+      "open_near": true
+     },
+     {
+      "at": 1426474673,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1427772473,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.7,
+    "lag_min": [
+     -952.8833333333333,
+     -877.8833333333333,
+     -557.8833333333333
+    ]
+   },
+   {
+    "file": "Twitter_volume_AMZN.csv",
+    "tier": "time",
+    "agg": "sum",
+    "windows": 3,
+    "caught": 3,
+    "near": 3,
+    "false_alarms": 75,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1426107473,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1427925473,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1428468773,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.67,
+    "lag_min": [
+     -512.8833333333333,
+     -202.88333333333333,
+     -302.8833333333333
+    ]
+   },
+   {
+    "file": "Twitter_volume_GOOG.csv",
+    "tier": "time",
+    "agg": "sum",
+    "windows": 3,
+    "caught": 3,
+    "near": 2,
+    "false_alarms": 50,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1426314323,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1427064773,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1427866073,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.68,
+    "lag_min": [
+     -950.3833333333333,
+     -692.8833333333333,
+     -257.8833333333333
+    ]
+   },
+   {
+    "file": "Twitter_volume_FB.csv",
+    "tier": "time",
+    "agg": "sum",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 65,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1426489673,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1428083273,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.68,
+    "lag_min": [
+     -1687.8833333333334,
+     -7.883333333333334
+    ]
+   },
+   {
+    "file": "Twitter_volume_IBM.csv",
+    "tier": "time",
+    "agg": "sum",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 84,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1427149673,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1429560473,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.7,
+    "lag_min": [
+     -2.8833333333333333,
+     -537.8833333333333
+    ]
+   },
+   {
+    "file": "Twitter_volume_KO.csv",
+    "tier": "time",
+    "agg": "sum",
+    "windows": 3,
+    "caught": 3,
+    "near": 3,
+    "false_alarms": 65,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1426857173,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1428536573,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1429023173,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.68,
+    "lag_min": [
+     -1187.8833333333334,
+     -712.8833333333333,
+     -2.8833333333333333
+    ]
+   },
+   {
+    "file": "Twitter_volume_PFE.csv",
+    "tier": "time",
+    "agg": "sum",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 52,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1426276673,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1428450173,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.69,
+    "lag_min": [
+     -427.8833333333333,
+     -2.8833333333333333
+    ]
+   },
+   {
+    "file": "Twitter_volume_UPS.csv",
+    "tier": "time",
+    "agg": "sum",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 63,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1427221073,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1427646473,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.69,
+    "lag_min": [
+     -27.883333333333333,
+     -372.8833333333333
+    ]
+   },
+   {
+    "file": "Twitter_volume_CVS.csv",
+    "tier": "time",
+    "agg": "sum",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 19,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1427378873,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1429051073,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.68,
+    "lag_min": [
+     -72.88333333333334,
+     -107.88333333333334
+    ]
+   },
+   {
+    "file": "Twitter_volume_CRM.csv",
+    "tier": "time",
+    "agg": "sum",
+    "windows": 3,
+    "caught": 3,
+    "near": 3,
+    "false_alarms": 48,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1425928073,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1426806473,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1427396873,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.7,
+    "lag_min": [
+     -1257.8833333333334,
+     -567.8833333333333,
+     -587.8833333333333
+    ]
+   },
+   {
+    "file": "elb_request_count_8c0756.csv",
+    "tier": "time",
+    "agg": "sum",
+    "windows": 2,
+    "caught": 2,
+    "near": 1,
+    "false_alarms": 43,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1397323440,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1398195240,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     456.0,
+     -429.0
+    ]
+   },
+   {
+    "file": "nyc_taxi.csv",
+    "tier": "time",
+    "agg": "sum",
+    "windows": 5,
+    "caught": 5,
+    "near": 1,
+    "false_alarms": 217,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1414868400,
+      "near_start": false,
+      "open_near": true
+     },
+     {
+      "at": 1417102200,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1419519600,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1420074000,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1422316800,
+      "near_start": false,
+      "open_near": true
+     }
+    ],
+    "weeks": 26.11,
+    "lag_min": [
+     -630.0,
+     -2280.0,
+     -2250.0,
+     -2850.0,
+     -2610.0
+    ]
+   },
+   {
+    "file": "TravelTime_387.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 3,
+    "caught": 3,
+    "near": 1,
+    "false_alarms": 93,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1438180110,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1439923950,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1441074300,
+      "near_start": false,
+      "open_near": false
+     }
+    ],
+    "weeks": 8.39,
+    "lag_min": [
+     -2998.5,
+     -1607.5,
+     -285.0
+    ]
+   },
+   {
+    "file": "TravelTime_451.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 113,
+    "data_outages": 1,
+    "labels": [
+     {
+      "at": 1439276340,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 6.22,
+    "lag_min": [
+     -1969.0
+    ]
+   },
+   {
+    "file": "ambient_temperature_system_failure.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 1,
+    "near": 0,
+    "false_alarms": 0,
+    "data_outages": 6,
+    "labels": [
+     {
+      "at": 1387742400,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1397068200,
+      "near_start": false,
+      "open_near": true
+     }
+    ],
+    "weeks": 39.91,
+    "lag_min": [
+     -9150.0
+    ]
+   },
+   {
+    "file": "cpu_utilization_asg_misconfiguration.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 221,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1405220040,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 7.61,
+    "lag_min": [
+     -3709.0
+    ]
+   },
+   {
+    "file": "ec2_cpu_utilization_24ae8d.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 6,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1393452300,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1393521300,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "file": "ec2_cpu_utilization_53ea38.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 2,
+    "near": 1,
+    "false_alarms": 7,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1392837000,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1393185900,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     480.0,
+     25.0
+    ]
+   },
+   {
+    "file": "ec2_cpu_utilization_5f5533.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 0,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1392769320,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1393267020,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     38.0
+    ]
+   },
+   {
+    "file": "ec2_cpu_utilization_77c1ca.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 51,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1397038500,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     -770.0
+    ]
+   },
+   {
+    "file": "ec2_cpu_utilization_825cc2.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 0,
+    "false_alarms": 0,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1397597940,
+      "near_start": false,
+      "open_near": false
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     -359.0
+    ]
+   },
+   {
+    "file": "ec2_cpu_utilization_ac20cd.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 6,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1397522490,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     -61.5
+    ]
+   },
+   {
+    "file": "ec2_cpu_utilization_c6585a.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 0,
+    "caught": 0,
+    "near": 0,
+    "false_alarms": 20,
+    "data_outages": 0,
+    "labels": [],
+    "weeks": 1.57,
+    "lag_min": []
+   },
+   {
+    "file": "ec2_cpu_utilization_fe7f93.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 61,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1393027320,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1393168620,
+      "near_start": false,
+      "open_near": false
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     -82.0
+    ]
+   },
+   {
+    "file": "ec2_disk_write_bytes_1ef3de.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 62,
+    "data_outages": 1,
+    "labels": [
+     {
+      "at": 1394485740,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.92,
+    "lag_min": [
+     -794.0
+    ]
+   },
+   {
+    "file": "ec2_disk_write_bytes_c0d644.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 3,
+    "caught": 2,
+    "near": 0,
+    "false_alarms": 59,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1397007000,
+      "near_start": false,
+      "open_near": true
+     },
+     {
+      "at": 1397140500,
+      "near_start": false,
+      "open_near": true
+     },
+     {
+      "at": 1397358000,
+      "near_start": false,
+      "open_near": false
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     -245.0,
+     -240.0
+    ]
+   },
+   {
+    "file": "ec2_network_in_257a54.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 15,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1397580240,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     -794.0
+    ]
+   },
+   {
+    "file": "ec2_network_in_5abac7.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 61,
+    "data_outages": 1,
+    "labels": [
+     {
+      "at": 1394477760,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1394658060,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.92,
+    "lag_min": [
+     -366.0,
+     -236.0
+    ]
+   },
+   {
+    "file": "ec2_request_latency_system_failure.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 3,
+    "caught": 3,
+    "near": 3,
+    "false_alarms": 0,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1394787960,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1395182460,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1395362010,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     -1.0,
+     -6.0,
+     146.5
+    ]
+   },
+   {
+    "file": "exchange-2_cpc_results.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 61,
+    "data_outages": 1,
+    "labels": [
+     {
+      "at": 1310648401,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 8.34,
+    "lag_min": [
+     -2290.016666666667
+    ]
+   },
+   {
+    "file": "exchange-2_cpm_results.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 122,
+    "data_outages": 1,
+    "labels": [
+     {
+      "at": 1311660001,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1312993801,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 8.34,
+    "lag_min": [
+     -840.0166666666667,
+     -1530.0166666666667
+    ]
+   },
+   {
+    "file": "exchange-3_cpc_results.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 3,
+    "caught": 3,
+    "near": 3,
+    "false_alarms": 33,
+    "data_outages": 4,
+    "labels": [
+     {
+      "at": 1310638501,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1311156901,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1313230501,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 8.33,
+    "lag_min": [
+     -0.016666666666666666,
+     -0.016666666666666666,
+     -60.016666666666666
+    ]
+   },
+   {
+    "file": "exchange-3_cpm_results.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 69,
+    "data_outages": 4,
+    "labels": [
+     {
+      "at": 1313774101,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 8.33,
+    "lag_min": [
+     -285.01666666666665
+    ]
+   },
+   {
+    "file": "exchange-4_cpc_results.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 3,
+    "caught": 3,
+    "near": 3,
+    "false_alarms": 83,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1310807701,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1312283701,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1314087301,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 8.33,
+    "lag_min": [
+     -1595.0166666666667,
+     -1260.0166666666667,
+     -0.016666666666666666
+    ]
+   },
+   {
+    "file": "exchange-4_cpm_results.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 4,
+    "caught": 4,
+    "near": 3,
+    "false_alarms": 101,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1310807701,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1312186501,
+      "near_start": false,
+      "open_near": true
+     },
+     {
+      "at": 1314087301,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1314537301,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 8.33,
+    "lag_min": [
+     -0.016666666666666666,
+     -300.01666666666665,
+     -0.016666666666666666,
+     -755.0166666666667
+    ]
+   },
+   {
+    "file": "grok_asg_anomaly.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 3,
+    "caught": 3,
+    "near": 2,
+    "false_alarms": 10,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1390206600,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1390301100,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1390956300,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.86,
+    "lag_min": [
+     -270.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "file": "iio_us-east-1_i-a2eb1cd9_NetworkIn.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 0,
+    "caught": 0,
+    "near": 0,
+    "false_alarms": 7,
+    "data_outages": 0,
+    "labels": [],
+    "weeks": 0.19,
+    "lag_min": []
+   },
+   {
+    "file": "machine_temperature_system_failure.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 3,
+    "caught": 2,
+    "near": 1,
+    "false_alarms": 107,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1387214700,
+      "near_start": false,
+      "open_near": true
+     },
+     {
+      "at": 1390917300,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1391869800,
+      "near_start": false,
+      "open_near": true
+     }
+    ],
+    "weeks": 9.56,
+    "lag_min": [
+     -1185.0,
+     -970.0
+    ]
+   },
+   {
+    "file": "occupancy_6005.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 11,
+    "data_outages": 1,
+    "labels": [
+     {
+      "at": 1442295270,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.87,
+    "lag_min": [
+     55.5
+    ]
+   },
+   {
+    "file": "occupancy_t4013.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 5,
+    "data_outages": 2,
+    "labels": [
+     {
+      "at": 1442387340,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1442472300,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.89,
+    "lag_min": [
+     46.0,
+     70.0
+    ]
+   },
+   {
+    "file": "rds_cpu_utilization_cc0c53.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 12,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1393312350,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1393462200,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     2.5,
+     0.0
+    ]
+   },
+   {
+    "file": "rds_cpu_utilization_e47b3b.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 3,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1397371920,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1397863620,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.57,
+    "lag_min": [
+     -2.0,
+     -2.0
+    ]
+   },
+   {
+    "file": "rogue_agent_key_hold.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 32,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1405414800,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1405621050,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 2.22,
+    "lag_min": [
+     -587.5
+    ]
+   },
+   {
+    "file": "rogue_agent_key_updown.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 2,
+    "near": 0,
+    "false_alarms": 32,
+    "data_outages": 1,
+    "labels": [
+     {
+      "at": 1405396800,
+      "near_start": false,
+      "open_near": false
+     },
+     {
+      "at": 1405587000,
+      "near_start": false,
+      "open_near": false
+     }
+    ],
+    "weeks": 2.22,
+    "lag_min": [
+     -460.0,
+     220.0
+    ]
+   },
+   {
+    "file": "speed_6005.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 1,
+    "caught": 1,
+    "near": 1,
+    "false_alarms": 2,
+    "data_outages": 1,
+    "labels": [
+     {
+      "at": 1442467920,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.99,
+    "lag_min": [
+     -152.0
+    ]
+   },
+   {
+    "file": "speed_7578.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 4,
+    "caught": 3,
+    "near": 3,
+    "false_alarms": 4,
+    "data_outages": 0,
+    "labels": [
+     {
+      "at": 1441989840,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1442328000,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1442412720,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1442423400,
+      "near_start": false,
+      "open_near": true
+     }
+    ],
+    "weeks": 0.87,
+    "lag_min": [
+     1.0,
+     -45.0,
+     -32.0
+    ]
+   },
+   {
+    "file": "speed_t4013.csv",
+    "tier": "time",
+    "agg": "mean",
+    "windows": 2,
+    "caught": 2,
+    "near": 2,
+    "false_alarms": 2,
+    "data_outages": 2,
+    "labels": [
+     {
+      "at": 1442386740,
+      "near_start": true,
+      "open_near": true
+     },
+     {
+      "at": 1442473200,
+      "near_start": true,
+      "open_near": true
+     }
+    ],
+    "weeks": 1.89,
+    "lag_min": [
+     -344.0,
+     -170.0
+    ]
+   }
+  ]
+ }
+}

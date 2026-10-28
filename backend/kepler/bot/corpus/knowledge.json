@@ -1,0 +1,3997 @@
+{
+ "entries": [
+  {
+   "terms": [
+    "perimeter",
+    "boundary length",
+    "distance around"
+   ],
+   "text": "The perimeter is the total length of the boundary around a 2D shape, found by adding up the lengths of all its sides. It is measured in ordinary length units such as cm or m.",
+   "example": "A rectangle 5 cm by 3 cm has perimeter 5 + 3 + 5 + 3 = 16 cm, or 2 × (5 + 3) = 16 cm.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "circumference",
+    "circle perimeter"
+   ],
+   "text": "The circumference is the perimeter of a circle: the distance once all the way around its edge. Formula: C = 2πr = πd, where r is the radius and d is the diameter.",
+   "example": "A circle with radius 3 cm has circumference 2 × π × 3 ≈ 18.85 cm.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "radius",
+    "radii"
+   ],
+   "text": "The radius is the distance from the center of a circle or sphere out to any point on its edge or surface. It is half the diameter, so r = d ÷ 2.",
+   "example": "A circle with diameter 10 cm has radius 10 ÷ 2 = 5 cm.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "diameter",
+    "diam"
+   ],
+   "text": "The diameter is the straight distance across a circle that passes through its center. It is twice the radius, so d = 2r.",
+   "example": "A circle with radius 4 m has diameter 2 × 4 = 8 m.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "area",
+    "square measure"
+   ],
+   "text": "Area is how much flat space a 2D shape covers, measured in square units such as cm² or m². Formulas: rectangle A = l × w, triangle A = ½ × b × h, circle A = πr².",
+   "example": "A triangle with base 6 m and height 4 m has area ½ × 6 × 4 = 12 m².",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "volume",
+    "capacity",
+    "cubic measure"
+   ],
+   "text": "Volume is how much 3D space a solid or container fills, measured in cubic units such as cm³ or m³. Formulas: box V = l × w × h, cylinder V = πr²h, sphere V = (4/3)πr³.",
+   "example": "A box measuring 4 cm × 3 cm × 2 cm has volume 4 × 3 × 2 = 24 cm³.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "surface area",
+    "total surface area"
+   ],
+   "text": "Surface area is the total area of the outer surface of a 3D solid, measured in square units such as cm². For a box it is the sum of its six face areas: SA = 2(lw + lh + wh).",
+   "example": "A cube with side 2 cm has surface area 6 × 2² = 24 cm².",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "radian",
+    "radians",
+    "rad"
+   ],
+   "text": "A radian is an angle unit based on the circle itself: one radian is the angle that cuts off an arc exactly as long as the radius. A full turn is 2π radians, so π radians = 180°.",
+   "example": "To convert 90° to radians: 90 × π ÷ 180 = π/2 ≈ 1.571 rad.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "degree",
+    "degrees",
+    "deg",
+    "°"
+   ],
+   "text": "A degree (°) is the usual unit for measuring angles, with a full turn equal to 360°. A right angle is 90° and a straight angle is 180°.",
+   "example": "The three angles of a triangle add to 180°, so if two are 60° and 70°, the third is 180 − 60 − 70 = 50°.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "angle",
+    "angle measure"
+   ],
+   "text": "An angle is the amount of turn between two lines or rays that meet at a point called the vertex. It is measured in degrees (°) or radians.",
+   "example": "A square corner is a 90° angle, and half a turn is a 180° angle.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "similar triangles",
+    "similarity",
+    "similar"
+   ],
+   "text": "Similar triangles have the same shape but possibly different sizes: their matching angles are equal, and every matching side is multiplied by the same scale factor.",
+   "example": "A 3-4-5 triangle and a 6-8-10 triangle are similar, since each side of the second is 2 times the matching side of the first.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "pythagorean theorem",
+    "pythagoras theorem",
+    "pythagoras",
+    "pythagorean"
+   ],
+   "text": "In any right triangle, the square of the hypotenuse equals the sum of the squares of the other two sides: a² + b² = c², where c is the hypotenuse. Use it to find a missing side when the other two are known.",
+   "example": "If the legs are 3 cm and 4 cm, then c² = 9 + 16 = 25, so c = √25 = 5 cm.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "arc length",
+    "arc"
+   ],
+   "text": "Arc length is the distance along a curved piece of a circle's edge. It equals (θ ÷ 360) × 2πr when θ is in degrees, or s = rθ when θ is in radians.",
+   "example": "A 90° arc on a circle with radius 4 cm has length (90 ÷ 360) × 2π × 4 = 2π ≈ 6.28 cm.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "principal",
+    "principal amount",
+    "loan principal"
+   ],
+   "text": "The original amount of money borrowed or invested, before any interest is added. The first period's interest is calculated from this starting amount.",
+   "example": "Borrow $2,000 at 5% a year: the principal is $2,000, and the first year's interest is $100.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "interest rate",
+    "rate of interest",
+    "annual interest rate"
+   ],
+   "text": "The percentage of the principal charged on a loan or earned on savings over one period, usually a year. Interest for one period = principal × rate, so 5% means 0.05 × the principal.",
+   "example": "$2,000 at 5% a year: interest = $2,000 × 0.05 = $100 per year.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "annuity",
+    "annuities",
+    "annuity payment"
+   ],
+   "text": "A fixed sum paid or received at equal intervals (for example every month) for a set number of periods, such as a loan repayment or a pension. The payment size is PMT = PV × r ÷ (1 − (1 + r)⁻ⁿ), where PV is the amount borrowed or the value today, r is the rate per period and n is the number of periods.",
+   "example": "A $10,000 loan at 1% a month over 12 months needs payments of about $888 a month.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "amortisation",
+    "amortization",
+    "amortise",
+    "amortize"
+   ],
+   "text": "Paying off a debt in regular instalments, where each payment first covers the interest and the rest cuts the balance, so it reaches zero at the end. Early payments are mostly interest, and later payments are mostly principal.",
+   "example": "On a $1,000 balance at 1% a month, a $100 payment covers $10 of interest and reduces the balance to $910.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "dividend",
+    "dividends",
+    "cash dividend",
+    "dividend payment"
+   ],
+   "text": "A share of a company's profit paid to its shareholders, usually as cash for each share they own, often every quarter or year. Total dividend = dividend per share × number of shares owned.",
+   "example": "A company pays $0.50 per share; if you own 200 shares, you receive $0.50 × 200 = $100.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "equity",
+    "shareholder equity",
+    "stockholder equity",
+    "owners equity"
+   ],
+   "text": "The owners' stake in a business: what the business owns (its assets) minus what it owes (its liabilities), so Equity = assets − liabilities. In markets, people also use 'equity' to mean a company's shares of stock.",
+   "example": "A business with $50,000 of assets and $20,000 of debts has $30,000 of equity.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "bond",
+    "bonds",
+    "corporate bond",
+    "government bond"
+   ],
+   "text": "A loan you give to a company or government, which pays you regular interest (the coupon) and repays the face value on a set end date called maturity.",
+   "example": "A $1,000 bond with a 4% coupon pays $40 a year and returns the $1,000 at maturity.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "net present value",
+    "npv"
+   ],
+   "text": "The total of all future cash flows, each shrunk to today's money at a chosen rate r, minus the upfront cost. NPV = Σ CFₜ ÷ (1 + r)ᵗ − cost (summed over t = 1 to n), and a positive NPV means the project returns more than the rate r.",
+   "example": "Pay $1,000 now to get $1,100 in one year at r = 10%: NPV = 1,100 ÷ 1.10 − 1,000 = $0.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "return on investment",
+    "roi"
+   ],
+   "text": "The gain from an investment compared with what it cost, shown as a percentage. ROI = (money returned − cost) ÷ cost × 100%.",
+   "example": "Spend $500 and get back $650: ROI = (650 − 500) ÷ 500 × 100% = 30%.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "gross margin",
+    "gross profit margin",
+    "gross margin percentage"
+   ],
+   "text": "The share of sales revenue left after paying the direct cost of making or buying what was sold (cost of goods sold), shown as a percentage. Gross margin = (revenue − COGS) ÷ revenue × 100%.",
+   "example": "Sell an item for $40 that cost $25: gross margin = (40 − 25) ÷ 40 × 100% = 37.5%.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "recession",
+    "recessions",
+    "economic recession",
+    "economic downturn"
+   ],
+   "text": "A broad economic slowdown in which a country's output (GDP) shrinks for two or more quarters (three-month periods) in a row, a common rule of thumb. Spending, jobs and incomes usually fall during one.",
+   "example": "If GDP falls in both Q1 and Q2, the two-quarter rule calls that a recession.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "gdp",
+    "gross domestic product"
+   ],
+   "text": "The total market value of all final goods and services made within a country in one period, usually a year or a quarter. GDP = C + I + G + (X − M), where C is consumer spending, I is investment, G is government spending, and X − M is net exports.",
+   "example": "Consumer spending $600bn + investment $200bn + government $150bn + net exports $50bn = GDP of $1,000bn.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "opportunity cost",
+    "opportunity costs"
+   ],
+   "text": "The value of the best alternative you give up when you make a choice, since you cannot have both. It counts what the money or time could have earned, not just what you paid.",
+   "example": "Spending $1,000 on a bike instead of leaving it in a savings account that earns $50 a year: the bike's opportunity cost includes that $50 of forgone interest.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "deflation",
+    "falling prices"
+   ],
+   "text": "A sustained fall in the general level of prices, so the same money buys more over time; it is the opposite of inflation. Falling prices can make people delay spending, which can slow the economy.",
+   "example": "A basket of goods costing $100 one year and $97 the next has seen 3% deflation.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "charge",
+    "electric charge",
+    "electrical charge",
+    "q"
+   ],
+   "text": "Electric charge is a basic property of particles that makes them push or pull on each other; protons carry positive charge and electrons carry negative charge. Like charges repel, opposite charges attract, and charge is measured in coulombs (C).",
+   "example": "One electron has a charge of about −1.6 × 10⁻¹⁹ C.",
+   "tries": [],
+   "topic": "electrical"
+  },
+  {
+   "terms": [
+    "coulomb",
+    "coulombs",
+    "unit of charge"
+   ],
+   "text": "A coulomb (C) is the SI unit of electric charge: the amount of charge that flows past a point in one second when the current is one ampere (1 C = 1 A·s). That is about 6.24 × 10¹⁸ elementary charges, so it is a very large amount of charge.",
+   "example": "A current of 2 A flowing for 3 s moves 2 × 3 = 6 C of charge.",
+   "tries": [],
+   "topic": "electrical"
+  },
+  {
+   "terms": [
+    "ampere",
+    "amperes",
+    "amp",
+    "amps"
+   ],
+   "text": "An ampere (A) is the SI unit of electric current, equal to one coulomb of charge passing a point every second (1 A = 1 C/s). It measures how fast charge flows, the way litres per second measure how fast water flows.",
+   "example": "A device drawing 0.5 A moves 0.5 coulombs of charge every second.",
+   "tries": [],
+   "topic": "electrical"
+  },
+  {
+   "terms": [
+    "watt",
+    "watts",
+    "w",
+    "unit of power"
+   ],
+   "text": "A watt (W) is the SI unit of power, meaning one joule of energy used or produced every second (1 W = 1 J/s). For electrical devices, power is voltage times current, P = V × I.",
+   "example": "A 60 W bulb on a 120 V supply draws 60 ÷ 120 = 0.5 A.",
+   "tries": [],
+   "topic": "electrical"
+  },
+  {
+   "terms": [
+    "kilowatt-hour",
+    "kilowatt hour",
+    "kilowatt-hours",
+    "kilowatt hours",
+    "kwh"
+   ],
+   "text": "A kilowatt-hour (kWh) is a unit of energy: the energy used by a 1-kilowatt device running for one hour. Electricity bills charge by the kWh, and one kWh equals 3.6 million joules (3.6 × 10⁶ J).",
+   "example": "A 100 W bulb left on for 10 hours uses 0.1 kW × 10 h = 1 kWh.",
+   "tries": [],
+   "topic": "electrical"
+  },
+  {
+   "terms": [
+    "series circuit",
+    "series connection",
+    "series wiring"
+   ],
+   "text": "A series circuit is a circuit where all components are connected end to end in one loop, so the same current flows through each one. The total resistance is the sum of the individual resistances, R = R₁ + R₂ + R₃, and if one component breaks the whole circuit stops.",
+   "example": "Three 10 Ω resistors in series give 10 + 10 + 10 = 30 Ω.",
+   "tries": [],
+   "topic": "electrical"
+  },
+  {
+   "terms": [
+    "parallel circuit",
+    "parallel connection",
+    "parallel wiring"
+   ],
+   "text": "A parallel circuit is a circuit where components are connected across the same two points, giving each branch its own path for the current. Every branch gets the full voltage, the branch currents add up to the total current, and if one branch breaks the others still work.",
+   "example": "Two 10 Ω resistors in parallel: 1/R = 1/10 + 1/10 = 2/10 = 1/5, so R = 5 Ω.",
+   "tries": [],
+   "topic": "electrical"
+  },
+  {
+   "terms": [
+    "capacitor",
+    "capacitors",
+    "condenser"
+   ],
+   "text": "A capacitor is a component that stores electric charge and energy between two conductive plates separated by an insulator. Its capacitance, measured in farads (F), is the charge stored divided by the voltage across it: capacitance = Q ÷ V.",
+   "example": "A 100 μF capacitor charged to 5 V stores 100 × 10⁻⁶ × 5 = 0.0005 C of charge.",
+   "tries": [],
+   "topic": "electrical"
+  },
+  {
+   "terms": [
+    "alternating current",
+    "ac",
+    "a.c.",
+    "ac current"
+   ],
+   "text": "Alternating current (AC) is current that periodically reverses direction, switching back and forth many times each second. Household mains power completes 50 or 60 full back-and-forth cycles per second (50 Hz or 60 Hz, depending on the country), and transformers can easily step its voltage up or down.",
+   "example": "At 50 Hz the current reverses direction 100 times every second.",
+   "tries": [],
+   "topic": "electrical"
+  },
+  {
+   "terms": [
+    "direct current",
+    "dc",
+    "d.c.",
+    "dc current"
+   ],
+   "text": "Direct current (DC) is electric current that flows in only one direction, like the output of a battery or a USB charger. Its voltage and current stay roughly constant over time instead of swinging back and forth.",
+   "example": "A 9 V battery across a 3 Ω resistor drives a steady current of 9 ÷ 3 = 3 A.",
+   "tries": [],
+   "topic": "electrical"
+  },
+  {
+   "terms": [
+    "short circuit",
+    "short-circuit",
+    "short"
+   ],
+   "text": "A short circuit is an unintended low-resistance connection that lets current skip past the normal load, such as when two bare wires touch. With almost no resistance to limit it, the current can become very large and overheat the wires, which is why fuses and circuit breakers are designed to cut the power fast.",
+   "example": "A 12 V supply across a 0.1 Ω short draws 12 ÷ 0.1 = 120 A, while a 12 Ω lamp draws only 1 A.",
+   "tries": [],
+   "topic": "electrical"
+  },
+  {
+   "terms": [
+    "magnetic field",
+    "magnetic fields",
+    "b field",
+    "b-field"
+   ],
+   "text": "A magnetic field is the invisible region around a magnet or a wire carrying current where magnetic forces act; outside a bar magnet it is drawn as field lines running from the north pole to the south pole. Its strength is measured in teslas (T).",
+   "example": "A compass needle lines up with Earth's magnetic field, which is about 50 μT (0.00005 T) at the surface.",
+   "tries": [],
+   "topic": "electrical"
+  },
+  {
+   "terms": [
+    "electric field",
+    "electric fields",
+    "electrical field"
+   ],
+   "text": "An electric field is the region around an electric charge where another charge would feel a push or pull. Its strength is the force per unit charge, E = F ÷ q, measured in newtons per coulomb (N/C).",
+   "example": "A 2 C charge that feels a 10 N force sits in a field of 10 ÷ 2 = 5 N/C.",
+   "tries": [],
+   "topic": "electrical"
+  },
+  {
+   "terms": [
+    "farad",
+    "farads",
+    "unit of capacitance"
+   ],
+   "text": "A farad (F) is the SI unit of capacitance: a capacitor has a capacitance of one farad if it stores one coulomb of charge when one volt is across it (1 F = 1 C/V). Real capacitors are usually rated in microfarads (μF) or picofarads (pF) because one farad is enormous.",
+   "example": "A 470 μF capacitor charged to 16 V stores 470 × 10⁻⁶ × 16 ≈ 0.0075 C.",
+   "tries": [],
+   "topic": "electrical"
+  },
+  {
+   "terms": [
+    "tesla",
+    "teslas",
+    "unit of magnetic field"
+   ],
+   "text": "A tesla (T) is the SI unit of magnetic field strength, equal to one newton per ampere per metre (1 T = 1 N/(A·m)). Because it is a large unit, magnetic fields are often given in millitesla (mT) or microtesla (μT).",
+   "example": "An MRI scanner's 1.5 T field is 1.5 ÷ 0.00005 = 30,000 times stronger than Earth's field of about 50 μT.",
+   "tries": [],
+   "topic": "electrical"
+  },
+  {
+   "terms": [
+    "atom",
+    "atoms"
+   ],
+   "text": "An atom is the smallest particle of an element that still has that element's identity. It has a dense nucleus of protons and usually neutrons, with electrons moving in the space around it.",
+   "example": "A carbon atom always has 6 protons, and that count is what makes it carbon.",
+   "tries": [],
+   "topic": "chemistry"
+  },
+  {
+   "terms": [
+    "molecule",
+    "molecules"
+   ],
+   "text": "A molecule is a group of atoms held together by chemical bonds that acts as one particle. Water is a molecule of two hydrogen atoms and one oxygen atom, written H₂O.",
+   "example": "One molecule of H₂O contains 3 atoms in total: 2 hydrogen and 1 oxygen.",
+   "tries": [],
+   "topic": "chemistry"
+  },
+  {
+   "terms": [
+    "element",
+    "chemical element"
+   ],
+   "text": "An element is a substance made of only one kind of atom, meaning atoms that all have the same number of protons. There are 118 known elements, each with a symbol such as O for oxygen or Fe for iron.",
+   "example": "A gold ring is made only of gold (Au) atoms, so gold is an element.",
+   "tries": [],
+   "topic": "chemistry"
+  },
+  {
+   "terms": [
+    "compound",
+    "chemical compound"
+   ],
+   "text": "A compound is a substance made of two or more different elements chemically bonded in a fixed ratio. Its properties are usually very different from those of its elements: sodium chloride (NaCl) is table salt, made from a soft metal and a poisonous gas.",
+   "example": "H₂O is a compound because every molecule has 2 hydrogen atoms for every 1 oxygen atom, while O₂ is an element.",
+   "tries": [],
+   "topic": "chemistry"
+  },
+  {
+   "terms": [
+    "ion",
+    "ions"
+   ],
+   "text": "An ion is an atom or group of atoms with an electric charge, caused by gaining or losing electrons. A positive ion has lost electrons, and a negative ion has gained them.",
+   "example": "Sodium loses one electron to form Na⁺, and chlorine gains one electron to form Cl⁻.",
+   "tries": [],
+   "topic": "chemistry"
+  },
+  {
+   "terms": [
+    "isotope",
+    "isotopes"
+   ],
+   "text": "Isotopes are atoms of the same element with different numbers of neutrons, so they have different mass numbers. They have the same number of protons, so they behave almost identically in chemical reactions.",
+   "example": "Carbon-14 has 6 protons and 8 neutrons, so its mass number is 6 + 8 = 14.",
+   "tries": [],
+   "topic": "chemistry"
+  },
+  {
+   "terms": [
+    "atomic number",
+    "proton number"
+   ],
+   "text": "The atomic number, written Z, is the number of protons in an atom's nucleus. It identifies the element: every atom with 8 protons is oxygen.",
+   "example": "Sodium has atomic number 11, so every sodium atom has 11 protons.",
+   "tries": [],
+   "topic": "chemistry"
+  },
+  {
+   "terms": [
+    "avogadro's number",
+    "avogadro number",
+    "avogadro's constant",
+    "avogadro constant",
+    "avogadro"
+   ],
+   "text": "Avogadro's number (Nₐ ≈ 6.022 × 10²³ per mole) is how many particles make up one mole of any substance. It links the tiny scale of atoms to amounts you can weigh in a lab.",
+   "example": "12 g of carbon-12 contains about 6.022 × 10²³ carbon atoms, because 12 g is exactly one mole of it.",
+   "tries": [],
+   "topic": "chemistry"
+  },
+  {
+   "terms": [
+    "molarity",
+    "molar concentration"
+   ],
+   "text": "Molarity is the number of moles of a dissolved substance (the solute) in each litre of solution, written M or mol/L. Formula: molarity = moles of solute ÷ litres of solution.",
+   "example": "Dissolving 0.5 mol of salt in enough water to make 2 L of solution gives 0.5 ÷ 2 = 0.25 M.",
+   "tries": [],
+   "topic": "chemistry"
+  },
+  {
+   "terms": [
+    "oxidation",
+    "oxidation state",
+    "oxidation number",
+    "oxidised",
+    "oxidized"
+   ],
+   "text": "Oxidation is the loss of electrons by an atom or ion during a reaction, and it always happens together with reduction, where another substance gains those electrons. The oxidation state (oxidation number) is a bookkeeping number that rises when an atom is oxidised.",
+   "example": "In 2Mg + O₂ → 2MgO, magnesium goes from oxidation state 0 to +2, so it is oxidised.",
+   "tries": [],
+   "topic": "chemistry"
+  },
+  {
+   "terms": [
+    "catalyst",
+    "catalysis"
+   ],
+   "text": "A catalyst is a substance that speeds up a chemical reaction by giving it an easier pathway with a lower activation energy. It is not used up, so it is still there at the end of the reaction.",
+   "example": "Adding manganese dioxide (MnO₂) makes hydrogen peroxide decompose much faster, and the MnO₂ is still there afterwards.",
+   "tries": [],
+   "topic": "chemistry"
+  },
+  {
+   "terms": [
+    "periodic table",
+    "periodic table of elements",
+    "periodic table of the elements"
+   ],
+   "text": "The periodic table is a chart of all known elements, arranged in order of increasing atomic number. Elements in the same column, called a group, tend to behave alike because they have the same number of outer electrons.",
+   "example": "Sodium (Na) and potassium (K) are both in Group 1, so both react vigorously with water.",
+   "tries": [],
+   "topic": "chemistry"
+  },
+  {
+   "terms": [
+    "covalent bond",
+    "covalent bonding",
+    "covalent"
+   ],
+   "text": "A covalent bond forms when two atoms share one or more pairs of electrons, holding both atoms together. It is the usual bond between non-metal atoms, as in H₂O and CH₄.",
+   "example": "In H₂, each hydrogen shares its one electron, forming one shared pair written H–H.",
+   "tries": [],
+   "topic": "chemistry"
+  },
+  {
+   "terms": [
+    "ionic bond",
+    "ionic bonding",
+    "ionic"
+   ],
+   "text": "An ionic bond is the electrical attraction between a positive ion and a negative ion, formed when one atom transfers electrons to another. It usually forms between a metal and a non-metal, such as sodium and chlorine in NaCl.",
+   "example": "Sodium gives one electron to chlorine: Na⁺ and Cl⁻ attract each other to form NaCl.",
+   "tries": [],
+   "topic": "chemistry"
+  },
+  {
+   "terms": [
+    "neutralisation",
+    "neutralization",
+    "neutralise",
+    "neutralize"
+   ],
+   "text": "Neutralisation is the reaction between an acid and a base, which produces a salt and water. The H⁺ ions from the acid and the OH⁻ ions from the base combine to form H₂O.",
+   "example": "HCl + NaOH → NaCl + H₂O: the H⁺ from HCl and the OH⁻ from NaOH combine into water, leaving the salt NaCl.",
+   "tries": [],
+   "topic": "chemistry"
+  },
+  {
+   "terms": [
+    "absolute value",
+    "abs",
+    "|x|"
+   ],
+   "text": "The absolute value of a number is its distance from zero on the number line, so it is never negative: |x| = x if x ≥ 0, and |x| = −x if x < 0.",
+   "example": "|−7| = 7 and |7| = 7, because both are 7 steps away from zero.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "reciprocal",
+    "multiplicative inverse"
+   ],
+   "text": "The reciprocal of a non-zero number x is 1 divided by x, written 1/x, and multiplying a number by its reciprocal always gives 1.",
+   "example": "The reciprocal of 4 is 1/4, because 4 × 1/4 = 1. Zero has no reciprocal since 1/0 is undefined.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "coefficient",
+    "numerical coefficient"
+   ],
+   "text": "A coefficient is the number multiplied by a variable in a term; in 5x² the coefficient is 5, and a bare x has coefficient 1.",
+   "example": "In 3x + 7y − 2, the coefficients of x and y are 3 and 7, and the −2 is a constant.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "inequality",
+    "inequalities"
+   ],
+   "text": "An inequality compares two expressions with one of the symbols < (less than), > (greater than), ≤ (less than or equal to), ≥ (greater than or equal to), or ≠ (not equal to), instead of saying they are equal.",
+   "example": "To solve 2x + 1 < 9: subtract 1 to get 2x < 8, then divide by 2 to get x < 4. Flip the sign if you multiply or divide by a negative number.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "matrix",
+    "matrices"
+   ],
+   "text": "A matrix is a rectangular grid of numbers arranged in rows and columns; one with m rows and n columns is called an m × n matrix.",
+   "example": "[[1, 2], [3, 4]] is a 2 × 2 matrix, and the entry in row 1, column 2 is 2.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "vector",
+    "vectors"
+   ],
+   "text": "A vector is a quantity with both a size and a direction, written as a list of components such as (3, 4) for an arrow from the origin to that point.",
+   "example": "The length of the vector (3, 4) is √(3² + 4²) = √25 = 5.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "set",
+    "sets"
+   ],
+   "text": "A set is a collection of distinct objects, written inside curly braces like A = {1, 2, 3}, where order does not matter and each item counts once.",
+   "example": "{1, 2, 2, 3} is the same set as {1, 2, 3}, because repeats are not counted twice.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "domain",
+    "function domain",
+    "domain of a function"
+   ],
+   "text": "The domain of a function is the set of all input values (x-values) you are allowed to plug in to get a valid output; for example, you cannot divide by zero, so 1/x has every real number except 0 in its domain.",
+   "example": "f(x) = 1/(x − 2) has domain all real numbers except 2, since the denominator would be zero there.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "exponential growth",
+    "exponential growth model"
+   ],
+   "text": "Exponential growth means a quantity is multiplied by the same factor b > 1 every equal time step, following y = a · bᵗ, where a is the starting amount and t is the number of steps.",
+   "example": "Starting with 100 users and doubling every hour gives y = 100 · 2ᵗ, so after 3 hours there are 100 · 2³ = 800 users.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "exponential decay",
+    "exponential decline"
+   ],
+   "text": "Exponential decay is the reverse: the quantity is multiplied by the same factor 0 < b < 1 every equal time step, following y = a · bᵗ.",
+   "example": "With a half-life of 5 years, after 10 years only (1/2)² = 1/4 of the original amount is left.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "geometric mean",
+    "geometric average",
+    "geo mean"
+   ],
+   "text": "The geometric mean of n positive numbers is the nth root of their product, ⁿ√(a₁ · a₂ · … · aₙ). It is the right average for growth factors, where values multiply rather than add.",
+   "example": "The geometric mean of 2 and 8 is √(2 · 8) = √16 = 4, while their arithmetic mean is 5.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "scalar",
+    "scalars"
+   ],
+   "text": "A scalar is a plain single number with a size but no direction, like a temperature of 20 °C or a mass of 5 kg. Multiplying a vector by a scalar stretches, shrinks, or (with a negative scalar) reverses it.",
+   "example": "Multiplying the vector (3, 4) by the scalar 2 gives (6, 8), which is twice as long and points the same way.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "constant",
+    "constants"
+   ],
+   "text": "A constant is a fixed value that never changes, such as the 7 in 3x + 7, or a fixed physical quantity like the speed of light c ≈ 3 × 10⁸ m/s.",
+   "example": "In y = 2x + 5, the 5 is a constant: it stays 5 no matter what x is.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "subset",
+    "subsets"
+   ],
+   "text": "Set A is a subset of set B, written A ⊆ B, when every element of A is also an element of B.",
+   "example": "{1, 2} ⊆ {1, 2, 3} is true, but {1, 4} ⊆ {1, 2, 3} is false because 4 is not in the second set.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "scientific notation",
+    "sci notation"
+   ],
+   "text": "Scientific notation writes a number as a × 10ⁿ, where 1 ≤ |a| < 10 and n is an integer, which makes very large or very small numbers easier to read.",
+   "example": "The speed of light, 300 000 000 m/s, becomes 3 × 10⁸ m/s.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "displacement",
+    "change in position",
+    "position change",
+    "vector displacement"
+   ],
+   "text": "Displacement is how far an object ends up from where it started, measured in a straight line and including direction. It is the final position minus the starting position, Δx = x_final − x_initial, and it is measured in metres (m).",
+   "example": "A walker goes 5 m east and then 2 m west, so the displacement is 5 − 2 = 3 m east.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "distance",
+    "path length",
+    "total distance",
+    "distance travelled"
+   ],
+   "text": "Distance is the total length of the path an object travels, whichever way it goes. It is a scalar, so it has a size but no direction, it is never negative, and it is measured in metres (m).",
+   "example": "The same walker travels 5 m + 2 m, so the distance is 7 m even though the displacement is only 3 m.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "work",
+    "work done",
+    "mechanical work"
+   ],
+   "text": "Work is the energy a force transfers to an object when the force moves the object along a distance. It is W = F·d·cos θ, where F is the force, d is the displacement and θ is the angle between them, and it is measured in joules (J), where 1 J = 1 N·m.",
+   "example": "Pushing a box with a 20 N force straight ahead for 3 m does W = 20 × 3 × cos 0° = 60 J.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "friction",
+    "frictional force",
+    "static friction",
+    "kinetic friction"
+   ],
+   "text": "Friction is a force that opposes sliding, or attempted sliding, between two surfaces that touch. For sliding objects its size is f = μ·N, where μ is the coefficient of kinetic (sliding) friction (a number with no unit) and N is the normal force pressing the surfaces together, measured in newtons (N).",
+   "example": "A 10 kg box on a floor with μ = 0.3 has N = 10 × 9.8 = 98 N, so sliding friction is 0.3 × 98 ≈ 29 N.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "gravity",
+    "gravitational force",
+    "gravitation",
+    "gravitational pull",
+    "gravitational attraction"
+   ],
+   "text": "Gravity is the attractive pull between any two objects that have mass: the heavier they are, the stronger the pull, and the farther apart they are, the weaker it gets. The law of gravitation is F = G·m₁·m₂ / r², where G ≈ 6.67 × 10⁻¹¹ N·m²/kg², and near Earth's surface it gives falling objects an acceleration of g ≈ 9.8 m/s².",
+   "example": "Two 1 kg masses 1 m apart pull on each other with F = 6.67 × 10⁻¹¹ N, which is far too small to notice.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "inertia",
+    "inertial",
+    "tendency to keep moving"
+   ],
+   "text": "Inertia is the tendency of an object to keep doing what it is already doing: a still object stays still, and a moving one keeps going in the same direction and at the same speed unless a net force changes it. The more mass an object has, the more inertia it has, so the harder it is to start, stop or turn.",
+   "example": "A bowling ball has much more inertia than a tennis ball, so it is much harder to start rolling or to stop once it is moving.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "newton's laws",
+    "newtons laws",
+    "newton's laws of motion",
+    "laws of motion",
+    "newton's first law",
+    "newton's second law",
+    "newton's third law"
+   ],
+   "text": "Newton's three laws of motion describe how forces change motion. The first law says an object keeps its velocity unless a net force acts on it, the second says net force equals mass times acceleration (F = m·a), and the third says every action force has an equal and opposite reaction force acting on another object; the second law is the one used in most calculations.",
+   "example": "A 2 kg cart pushed by a net force of 10 N has acceleration a = F / m = 10 / 2 = 5 m/s².",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "frequency",
+    "hertz",
+    "hz",
+    "cycles per second",
+    "wave frequency"
+   ],
+   "text": "Frequency is how many complete cycles (waves or oscillations) happen each second. It is measured in hertz (Hz), where 1 Hz = 1 cycle per second, and it is the inverse of the period, f = 1 / T.",
+   "example": "A guitar string that vibrates 440 times each second has f = 440 Hz, so each vibration lasts T = 1 / 440 ≈ 0.00227 s.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "wavelength",
+    "wave length",
+    "lambda",
+    "λ"
+   ],
+   "text": "Wavelength is the distance from one point on a wave to the next identical point, such as crest to crest or trough to trough. It is measured in metres (m) and is linked to speed and frequency by v = f × λ.",
+   "example": "A wave with speed v = 340 m/s and frequency f = 170 Hz has λ = v / f = 340 / 170 = 2 m.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "amplitude",
+    "wave amplitude",
+    "oscillation amplitude",
+    "peak displacement"
+   ],
+   "text": "Amplitude is the largest distance a wave or vibrating object moves away from its resting (middle) position. A bigger amplitude means a louder sound or a brighter light, and it has the same unit as displacement, such as metres (m).",
+   "example": "A string pulled 3 cm away from rest and then released has amplitude 3 cm, so its full swing from one side to the other is 6 cm.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "centripetal force",
+    "centripetal",
+    "centre-seeking force",
+    "center-seeking force"
+   ],
+   "text": "Centripetal force is the net inward force that keeps an object moving in a circle, always pointing toward the centre of that circle. It is not a new kind of force: it is whatever real force, such as string tension or gravity, points toward the centre, and its size is F = m·v² / r, where m is mass, v is speed and r is the radius, measured in newtons (N).",
+   "example": "A 0.5 kg ball on a 1 m string moving at 4 m/s needs F = 0.5 × 4² / 1 = 8 N toward the centre.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "torque",
+    "moment of force",
+    "turning force",
+    "rotational force",
+    "turning effect"
+   ],
+   "text": "Torque is the turning effect a force has on an object around a pivot, and it is bigger when the force is larger, applied farther from the pivot, or pushing at a right angle. It is τ = r·F·sin θ, where r is the distance from the pivot, F is the force and θ is the angle between r and F, measured in newton-metres (N·m).",
+   "example": "Pushing a door 0.8 m from its hinge with 50 N at a right angle gives τ = 0.8 × 50 × sin 90° = 40 N·m.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "efficiency",
+    "energy efficiency",
+    "percent efficiency",
+    "efficiency ratio"
+   ],
+   "text": "Efficiency is the share of the energy or work you put into a machine that comes out as useful output, with the rest usually lost as heat or sound. It is efficiency = (useful output ÷ total input) × 100%, so it is always between 0% and 100%.",
+   "example": "A motor that takes in 200 J and delivers 150 J of useful work has efficiency = 150 ÷ 200 × 100% = 75%.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "period",
+    "time period",
+    "wave period",
+    "oscillation period"
+   ],
+   "text": "The period is the time taken for one complete cycle of a wave or repeating motion, such as one full back-and-forth swing of a pendulum. It is measured in seconds (s) and is the inverse of frequency, T = 1 / f.",
+   "example": "A pendulum that completes 4 full back-and-forth cycles in 8 s has T = 8 / 4 = 2 s per cycle, so its frequency is f = 1 / 2 = 0.5 Hz.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "wave",
+    "waves",
+    "wave motion",
+    "travelling wave",
+    "traveling wave"
+   ],
+   "text": "A wave is a disturbance that carries energy from one place to another without carrying the material it moves through along with it. Waves are described by amplitude, wavelength, frequency and speed (linked by v = f × λ), and they are either transverse, where particles move at right angles to the direction of travel like ripples on a rope, or longitudinal, where particles move along the direction of travel like sound in air.",
+   "example": "A ripple spreading across a pond carries energy outward, but a leaf on the water only bobs up and down in place.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "algorithm",
+    "algo"
+   ],
+   "text": "An algorithm is a finite, step-by-step set of instructions that turns an input into a desired output. Sorting a list, finding the shortest route on a map, and a recipe for bread are all algorithms.",
+   "example": "To find the biggest number in a list, keep the largest value seen so far and compare each new item against it.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "byte",
+    "bytes"
+   ],
+   "text": "A byte is a unit of digital information made of 8 bits, so it can hold 256 different values (0 to 255). Storage is counted in bytes, with 1 KB = 1,000 bytes and 1 MB = 1,000,000 bytes in decimal units.",
+   "example": "In the common ASCII code the letter 'A' is stored as the byte 65, so the word 'CAT' takes 3 bytes.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "bit",
+    "bits"
+   ],
+   "text": "A bit (short for binary digit) is the smallest unit of digital information and holds just one value, 0 or 1. A group of n bits can represent 2ⁿ different values, so 8 bits give 2⁸ = 256 values.",
+   "example": "3 bits give 2³ = 8 patterns: 000, 001, 010, 011, 100, 101, 110 and 111.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "api",
+    "application programming interface"
+   ],
+   "text": "An API (application programming interface) is a defined set of rules that lets one program request data or actions from another in a predictable way. It works like a restaurant menu: you choose from the listed options and never need to see how the kitchen cooks.",
+   "example": "A weather app asks a weather service's API for the temperature in London right now and gets back a structured answer it can display.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "database",
+    "db"
+   ],
+   "text": "A database is an organized collection of data stored so it can be searched, added to, changed and kept reliable over time. Software that manages a database, such as PostgreSQL or MySQL, is called a database management system (DBMS).",
+   "example": "A shop's customers table has one row per customer, with columns for name, email and signup date.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "cache",
+    "caching"
+   ],
+   "text": "A cache is a small, fast store that keeps copies of data that are slow to fetch, so repeat requests can be answered quickly. A cache hit means the item was already stored, while a cache miss means it was not and the slow original source must be used.",
+   "example": "A product price cached for 60 seconds lets the first visitor trigger one database query, while the next 99 visitors in that minute get the saved copy.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "throughput",
+    "rps",
+    "requests per second"
+   ],
+   "text": "Throughput is how much work a system finishes per unit of time: throughput = completed items ÷ time taken, such as requests per second (RPS). Latency measures how long one request takes, while throughput measures how many requests finish overall.",
+   "example": "A server that completes 600 requests in 60 seconds has a throughput of 600 ÷ 60 = 10 requests per second.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "big o notation",
+    "big o",
+    "big-o"
+   ],
+   "text": "Big O notation describes how the number of steps an algorithm needs grows as its input size n grows, ignoring constant factors and small details. O(n) means the work grows in step with n, while O(n²) means doubling the input roughly quadruples the work.",
+   "example": "Checking every name in a list of 1,000 takes about 1,000 steps, O(n), while binary search on a sorted list takes about 10 steps, O(log n), since 2¹⁰ = 1,024.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "recursion",
+    "recursive",
+    "recurse"
+   ],
+   "text": "Recursion is when a function solves a problem by calling itself on a smaller version of the same problem. Every recursive function needs a base case, a simple version it can answer directly, so the calls eventually stop.",
+   "example": "Using n! = n × (n−1)! with base case 1! = 1, the function computes 4! as 4 × 3 × 2 × 1 = 24 by calling itself on smaller numbers each time.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "hash",
+    "hash function",
+    "hashing"
+   ],
+   "text": "A hash function turns any input, like a password or a file, into a fixed-length code called a hash, and the same input always gives the same hash. Cryptographic hash functions are designed to be one-way, so the original input is practically impossible to recover from the hash, and even a tiny change to the input gives a completely different hash.",
+   "example": "The SHA-256 hash of anything, from one letter to a whole movie, is always 256 bits, written as 64 hex characters.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "encryption",
+    "encrypt"
+   ],
+   "text": "Encryption scrambles data with a mathematical method and a secret key, so only someone holding the right key can turn it back into readable form. Unlike hashing, encryption is reversible, because decrypting with the key recovers the original data.",
+   "example": "Shifting each letter of 'HI' forward by 3 gives 'KL' (a Caesar cipher), and the receiver shifts each letter back by 3 to read 'HI' again.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "bandwidth",
+    "network bandwidth"
+   ],
+   "text": "Bandwidth is the maximum amount of data a network connection can carry each second, measured in bits per second (bps), such as megabits per second (Mbps). It describes the capacity of the connection, not how fast any single piece of data travels.",
+   "example": "A 100 Mbps connection can carry at most 100 ÷ 8 = 12.5 megabytes of data each second.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "uptime",
+    "up time",
+    "availability"
+   ],
+   "text": "Uptime is the share of time a service is running and able to respond, usually written as a percentage: uptime % = (time up ÷ total time) × 100. For example, 99.9% uptime allows about 8.8 hours of downtime in a year.",
+   "example": "A service that is down for 2 hours in a 30-day month (720 hours) has uptime of (718 ÷ 720) × 100 ≈ 99.72%.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "rate limit",
+    "rate limiting",
+    "throttling"
+   ],
+   "text": "A rate limit caps how many requests a client can make in a set time window, such as 100 per minute, so one user or bot cannot overload a service. Requests over the limit are usually refused with HTTP status 429 (Too Many Requests).",
+   "example": "An API allowing 100 requests per minute rejects the 101st request in the same minute with a 429 error.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "array",
+    "arrays"
+   ],
+   "text": "An array is an ordered collection of values usually stored one after another in memory, each reached by its index (its position number). Most programming languages start indexes at 0, so the first item is at index 0.",
+   "example": "The array ['red', 'green', 'blue'] has length 3, and the item at index 1 is 'green'.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "sample",
+    "sampling",
+    "random sample"
+   ],
+   "text": "A sample is a smaller group that you actually measure, often chosen at random, so you can learn about a bigger group without checking every member. The number of items in it is the sample size, written n.",
+   "example": "Asking 50 of a school's 800 students whether they like pizza: the 50 students are the sample, so n = 50.",
+   "tries": [],
+   "topic": "stats"
+  },
+  {
+   "terms": [
+    "population",
+    "statistical population",
+    "target population"
+   ],
+   "text": "A population is the entire group you want to know something about, such as every customer a shop has ever had. Its size is written N, and a number that describes the whole population, like its true average, is called a parameter.",
+   "example": "All 800 students in a school form the population (N = 800), and their true average height is a population parameter.",
+   "tries": [],
+   "topic": "stats"
+  },
+  {
+   "terms": [
+    "hypothesis test",
+    "hypothesis testing",
+    "significance test",
+    "statistical test"
+   ],
+   "text": "A hypothesis test checks whether data give real evidence against a default claim, called the null hypothesis. It compares what you observed with what pure chance would usually produce, and if your result would be very unlikely under the default claim, you reject that claim.",
+   "example": "Getting 9 heads in 10 flips of a coin: the test asks whether a fair coin could easily do that by luck, or whether the coin is probably biased.",
+   "tries": [],
+   "topic": "stats"
+  },
+  {
+   "terms": [
+    "null hypothesis",
+    "h0",
+    "null"
+   ],
+   "text": "The null hypothesis (H₀) is the default claim that nothing interesting is going on, such as 'this coin is fair' or 'the new layout changes nothing'. A hypothesis test checks whether the data are too unusual for that claim to be true.",
+   "example": "H₀: the coin is fair, so P(heads) = 0.5.",
+   "tries": [],
+   "topic": "stats"
+  },
+  {
+   "terms": [
+    "p-value",
+    "p value",
+    "pvalue"
+   ],
+   "text": "A p-value is the chance of getting a result at least as extreme as yours if the null hypothesis were true. A small p-value (often below 0.05) means the data would be surprising under that claim, so it counts as evidence against it.",
+   "example": "9 or more heads in 10 fair flips has probability 11/1024 ≈ 0.011, so the one-sided p-value is about 0.011.",
+   "tries": [],
+   "topic": "stats"
+  },
+  {
+   "terms": [
+    "confidence interval",
+    "ci",
+    "interval estimate"
+   ],
+   "text": "A confidence interval is a range built from sample data that is designed to contain the true population value, such as the true average. A 95% confidence interval means the method would capture the true value in about 95 out of 100 repeated samples.",
+   "example": "A poll of 1,000 people finds 52% support, with a 95% confidence interval of roughly 49% to 55%.",
+   "tries": [],
+   "topic": "stats"
+  },
+  {
+   "terms": [
+    "normal distribution",
+    "gaussian",
+    "gaussian distribution",
+    "bell curve",
+    "normal curve"
+   ],
+   "text": "The normal distribution is a symmetric bell-shaped pattern where most values sit near the mean and fewer sit farther away. It is set by the mean μ and standard deviation σ, and about 68% of values fall within 1σ of the mean while about 95% fall within 2σ.",
+   "example": "Adult heights are roughly normal with mean 170 cm and σ = 10 cm, so about 68% of adults are between 160 cm and 180 cm.",
+   "tries": [],
+   "topic": "stats"
+  },
+  {
+   "terms": [
+    "binomial distribution",
+    "binomial",
+    "binomial probability"
+   ],
+   "text": "The binomial distribution gives the chance of exactly k successes in n independent yes-or-no tries, where each try succeeds with chance p. The formula is P(k) = C(n,k) · pᵏ · (1 − p)ⁿ⁻ᵏ, where C(n,k) counts the ways to choose which tries are successes.",
+   "example": "Flipping a fair coin 3 times, P(exactly 2 heads) = 3 × 0.5² × 0.5 = 0.375.",
+   "tries": [],
+   "topic": "stats"
+  },
+  {
+   "terms": [
+    "expected value",
+    "expectation",
+    "ev"
+   ],
+   "text": "The expected value is the long-run average of a random outcome: multiply each possible value by its probability and add the results. Written E(X) = Σ xᵢ · P(xᵢ), it is what the average gets close to after many repeats, even if you can never get exactly that value.",
+   "example": "A game pays $10 with probability 0.2 and $0 otherwise, so E = 10 × 0.2 + 0 × 0.8 = $2.",
+   "tries": [],
+   "topic": "stats"
+  },
+  {
+   "terms": [
+    "independence",
+    "independent",
+    "independent events",
+    "statistical independence"
+   ],
+   "text": "Two events are independent when one happening does not change the chance of the other, so P(A and B) = P(A) × P(B). Two coin flips are independent, but drawing two cards from a deck without putting the first back is not, because the first draw changes what is left.",
+   "example": "For two fair coin flips, P(heads then heads) = 0.5 × 0.5 = 0.25.",
+   "tries": [],
+   "topic": "stats"
+  },
+  {
+   "terms": [
+    "regression",
+    "linear regression",
+    "regression line",
+    "line of best fit",
+    "least squares"
+   ],
+   "text": "Regression finds the straight line that best predicts one value from another, usually by making the squared vertical gaps between the points and the line as small as possible. The line is written ŷ = a + b·x, where the slope b says how much y changes for each extra 1 of x.",
+   "example": "If predicted test score ŷ = 40 + 6x for x hours of study, then 5 hours predicts 40 + 6 × 5 = 70 points.",
+   "tries": [],
+   "topic": "stats"
+  },
+  {
+   "terms": [
+    "interquartile range",
+    "iqr",
+    "midspread"
+   ],
+   "text": "The interquartile range (IQR) is the width of the middle half of sorted data: Q3 − Q1, the 75th percentile minus the 25th percentile. Because it ignores the lowest and highest quarters, a few extreme outliers barely change it.",
+   "example": "For 2, 4, 6, 8, 10, 12, 14, 16, splitting into halves gives Q1 = 5 (median of 2, 4, 6, 8) and Q3 = 13 (median of 10, 12, 14, 16), so IQR = 13 − 5 = 8.",
+   "tries": [],
+   "topic": "stats"
+  },
+  {
+   "terms": [
+    "quartile",
+    "quartiles",
+    "q1",
+    "q3"
+   ],
+   "text": "Quartiles are three cut-points that split sorted data into four equal-sized parts. Q1 is the lower quartile (about the 25th percentile), Q2 is the median (50th percentile), and Q3 is the upper quartile (about the 75th percentile).",
+   "example": "For the numbers 1 to 8, splitting them into halves 1 to 4 and 5 to 8 gives Q1 = 2.5, Q2 = 4.5, Q3 = 6.5.",
+   "tries": [],
+   "topic": "stats"
+  },
+  {
+   "terms": [
+    "conditional probability",
+    "probability given",
+    "given probability"
+   ],
+   "text": "Conditional probability is the chance of event A once you already know event B happened, written P(A | B) and read 'probability of A given B'. It equals P(A and B) ÷ P(B), because you shrink the possibilities down to only the cases where B is true.",
+   "example": "A 52-card deck has 12 face cards, 4 of which are kings, so P(king | face card) = 4 ÷ 12 = 1/3.",
+   "tries": [],
+   "topic": "stats"
+  },
+  {
+   "terms": [
+    "random variable",
+    "rv",
+    "stochastic variable"
+   ],
+   "text": "A random variable is a quantity whose value depends on chance, such as the number rolled on a die or the number of heads in 3 coin flips. Each possible value, or range of values, has a probability, and together these form its probability distribution.",
+   "example": "Let X be the number of heads in 3 fair flips: X takes the values 0, 1, 2, 3 with probabilities 1/8, 3/8, 3/8, 1/8.",
+   "tries": [],
+   "topic": "stats"
+  },
+  {
+   "terms": [
+    "downtime",
+    "down time",
+    "outage time"
+   ],
+   "text": "Downtime is the time a service is unavailable or broken for its users, usually counted in minutes or hours. Downtime % = 100% − uptime %, so it is simply the other side of uptime.",
+   "example": "A site down for 90 minutes in a 30-day month (43,200 minutes) has downtime 90 ÷ 43,200 ≈ 0.21%.",
+   "tries": [],
+   "topic": "monitoring"
+  },
+  {
+   "terms": [
+    "sla",
+    "service level agreement",
+    "service-level agreement"
+   ],
+   "text": "An SLA (service level agreement) is a formal contract with customers that promises a service level, such as 99.9% uptime. If the promise is broken, the provider owes something, usually service credits or refunds.",
+   "example": "A contract promises 99.9% monthly uptime with a 10% credit if missed; a month at 99.5% triggers the credit.",
+   "tries": [],
+   "topic": "monitoring"
+  },
+  {
+   "terms": [
+    "slo",
+    "service level objective",
+    "service-level objective"
+   ],
+   "text": "An SLO (service level objective) is an internal target for an SLI, such as 'at least 99.9% of requests succeed over 30 days'. It is usually set tighter than the SLA so the team is warned before customers are hurt.",
+   "example": "Target: 99.9% of requests succeed over 30 days. Actual: 99.95%, so the SLO is met.",
+   "tries": [],
+   "topic": "monitoring"
+  },
+  {
+   "terms": [
+    "sli",
+    "service level indicator",
+    "service-level indicator"
+   ],
+   "text": "An SLI (service level indicator) is a measurement of how well a service is doing, written as a ratio: SLI = good events ÷ total events. Common examples are the share of requests that succeed or the share that finish under 300 ms.",
+   "example": "1,998,000 successful requests out of 2,000,000 gives SLI = 1,998,000 ÷ 2,000,000 = 99.9%.",
+   "tries": [],
+   "topic": "monitoring"
+  },
+  {
+   "terms": [
+    "error budget",
+    "error-budget",
+    "failure budget"
+   ],
+   "text": "An error budget is how much unreliability an SLO allows: error budget = 1 − SLO, so a 99.9% SLO leaves 0.1% of events allowed to fail. Teams spend the budget on risky releases and slow down when it runs out.",
+   "example": "With a 99.9% SLO over 30 days, the budget is 0.1% × 43,200 minutes ≈ 43 minutes of allowed downtime.",
+   "tries": [],
+   "topic": "monitoring"
+  },
+  {
+   "terms": [
+    "burn rate",
+    "error budget burn rate",
+    "budget burn rate"
+   ],
+   "text": "Burn rate is how fast the error budget is being used compared with the pace that would use it up exactly at the end of the SLO window: burn rate = observed error rate ÷ (1 − SLO). A burn rate of 1 lasts the full window, and 10 empties it in one tenth of the time.",
+   "example": "With a 99.9% SLO, a 1% error rate gives burn rate 0.01 ÷ 0.001 = 10, so a 30-day budget is gone in 3 days.",
+   "tries": [],
+   "topic": "monitoring"
+  },
+  {
+   "terms": [
+    "alert fatigue",
+    "alarm fatigue",
+    "pager fatigue"
+   ],
+   "text": "Alert fatigue is when people receive so many alerts, many of them false or unimportant, that they start ignoring them or respond slowly, so real problems get missed. The fix is usually fewer, more meaningful alerts where each one needs action.",
+   "example": "A team paged 200 times a week, mostly for noise, may miss the one page that signals a real outage.",
+   "tries": [],
+   "topic": "monitoring"
+  },
+  {
+   "terms": [
+    "mttr",
+    "mean time to recovery",
+    "mean time to repair",
+    "mean time to restore",
+    "mean time to resolve"
+   ],
+   "text": "MTTR (mean time to recovery, sometimes repair or resolve) is the average time from when a failure starts or is detected until service is working again: MTTR = total recovery time ÷ number of incidents. Lower MTTR means problems are fixed faster.",
+   "example": "Three outages lasting 20, 40 and 30 minutes give MTTR = (20 + 40 + 30) ÷ 3 = 30 minutes.",
+   "tries": [],
+   "topic": "monitoring"
+  },
+  {
+   "terms": [
+    "on-call",
+    "on call",
+    "oncall"
+   ],
+   "text": "On-call is a duty in which an engineer must be reachable and ready to respond to alerts for a set period, often a week, including outside working hours. Teams rotate the duty so the load is shared.",
+   "example": "Priya is on-call for one week, so a checkout failure at 3 a.m. pages her phone.",
+   "tries": [],
+   "topic": "monitoring"
+  },
+  {
+   "terms": [
+    "runbook",
+    "run book",
+    "playbook"
+   ],
+   "text": "A runbook is a written step-by-step guide that tells an on-call person how to check, diagnose and fix a known problem. Good runbooks let someone who has never seen the failure still act on the alert.",
+   "example": "Alert: checkout errors above 5%. Step 1: check the payment provider's status page. Step 2: roll back the last deploy.",
+   "tries": [],
+   "topic": "monitoring"
+  },
+  {
+   "terms": [
+    "postmortem",
+    "post-mortem",
+    "post mortem",
+    "incident review"
+   ],
+   "text": "A postmortem is a written review made after an incident is resolved, covering what happened, the impact, the root causes and the follow-up actions. Good postmortems are blameless, asking how the system and process allowed the failure rather than who made a mistake.",
+   "example": "After a 45-minute outage from a bad config push, the postmortem adds a config check so the same push cannot ship again.",
+   "tries": [],
+   "topic": "monitoring"
+  },
+  {
+   "terms": [
+    "false negative",
+    "type ii error",
+    "type 2 error",
+    "missed detection"
+   ],
+   "text": "A false negative is when a detector stays silent even though a real problem is happening, such as a metric crashing with no alert firing. Its rate = real problems missed ÷ all real problems, and lowering it usually raises false positives, so the two trade off.",
+   "example": "Ten real outages happen and the alert fires for only seven: 3 false negatives, a 30% miss rate.",
+   "tries": [],
+   "topic": "monitoring"
+  },
+  {
+   "terms": [
+    "tangent line",
+    "tangent to a curve"
+   ],
+   "text": "A tangent line is the straight line that touches a curve at a point and has the same steepness as the curve right there. If y = f(x), the tangent at x = a has slope f′(a) and equation y − f(a) = f′(a)(x − a).",
+   "example": "For y = x² at x = 3, the slope is f′(3) = 6, so the tangent line is y = 6x − 9.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "secant line",
+    "secant"
+   ],
+   "text": "A secant line is a straight line that cuts through two points on a curve. Its slope, (f(b) − f(a)) ÷ (b − a), is the average rate of change of the function between x = a and x = b.",
+   "example": "For y = x² from x = 1 to x = 3, the secant slope is (9 − 1) ÷ (3 − 1) = 4.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "chain rule",
+    "chain rule derivative",
+    "chain rule differentiation"
+   ],
+   "text": "The chain rule gives the derivative of a function nested inside another function, like f(g(x)). Take the derivative of the outer function, leave the inside alone, and multiply by the derivative of the inside: d/dx f(g(x)) = f′(g(x)) · g′(x).",
+   "example": "For (3x + 1)⁵, the derivative is 5(3x + 1)⁴ · 3 = 15(3x + 1)⁴.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "product rule",
+    "product rule derivative"
+   ],
+   "text": "The product rule gives the derivative of two functions multiplied together: take the derivative of the first times the second, plus the first times the derivative of the second. Formula: (f · g)′ = f′ · g + f · g′.",
+   "example": "For x² · sin x, the derivative is 2x · sin x + x² · cos x.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "quotient rule",
+    "quotient rule derivative"
+   ],
+   "text": "The quotient rule gives the derivative of one function divided by another. Formula: (f ÷ g)′ = (f′ · g − f · g′) ÷ g², meaning (bottom × derivative of top − top × derivative of bottom) ÷ bottom².",
+   "example": "For x ÷ (x + 1), the derivative is ((1)(x + 1) − x(1)) ÷ (x + 1)² = 1 ÷ (x + 1)².",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "definite integral",
+    "definite integration"
+   ],
+   "text": "A definite integral, written ∫ from a to b of f(x) dx, gives the exact signed area between the curve y = f(x) and the x-axis from x = a to x = b. Area above the x-axis counts as positive and area below it counts as negative.",
+   "example": "∫ from 0 to 2 of x dx = 2, because the triangle under y = x from 0 to 2 has area ½ · 2 · 2 = 2.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "continuity",
+    "continuous",
+    "continuous function"
+   ],
+   "text": "A function is continuous at a point if its graph has no gap, jump or hole there, so you could draw through that point without lifting your pencil. Formally, the limit as x → a of f(x) must exist and equal f(a).",
+   "example": "f(x) = x² is continuous at x = 2, since the limit as x → 2 of x² is 4 = f(2).",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "asymptote",
+    "asymptotes",
+    "vertical asymptote",
+    "horizontal asymptote"
+   ],
+   "text": "An asymptote is a line that a curve keeps getting closer to, usually as x or y runs off toward infinity or near a point where the curve blows up. A vertical asymptote x = a means f(x) shoots toward ±∞ as x nears a, and a horizontal asymptote y = L means f(x) → L as x → ±∞.",
+   "example": "f(x) = 1/x has a vertical asymptote at x = 0 and a horizontal asymptote at y = 0.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "local maximum",
+    "local max",
+    "relative maximum",
+    "relative max"
+   ],
+   "text": "A local maximum is a peak: a point where the function's value is at least as large as at every nearby point, even if the function is higher somewhere far away. For a smooth curve, the slope is zero there (f′(x) = 0), and the graph switches from rising to falling.",
+   "example": "f(x) = −x² + 4 has a local maximum at x = 0, where f′(0) = 0 and f(0) = 4.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "local minimum",
+    "local min",
+    "relative minimum",
+    "relative min"
+   ],
+   "text": "A local minimum is a valley: a point where the function's value is no larger than at every nearby point, even if the function is lower somewhere far away. For a smooth curve, the slope is zero there (f′(x) = 0), and the graph switches from falling to rising.",
+   "example": "f(x) = x² − 6x + 10 has a local minimum at x = 3, where f(3) = 1 and f′(3) = 0.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "inflection point",
+    "inflection",
+    "point of inflection"
+   ],
+   "text": "An inflection point is where a curve changes the way it bends, switching from curving up (like a cup) to curving down (like a frown) or the other way around. It occurs where the second derivative f″(x) changes sign.",
+   "example": "f(x) = x³ has an inflection point at x = 0, because f″(x) = 6x changes from negative to positive there.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "differential equation",
+    "differential equations",
+    "ordinary differential equation",
+    "ode"
+   ],
+   "text": "A differential equation is an equation that links an unknown function with its derivatives, so it describes how something changes. For example, dy/dt = ky says the rate of change of y is proportional to y, and its solution is y(t) = y₀ · e^(kt), where y₀ is the value of y at t = 0.",
+   "example": "dy/dt = 2y with y(0) = 5 has the solution y(t) = 5e^(2t), since its derivative 10e^(2t) equals 2 · 5e^(2t).",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "convergence",
+    "converge",
+    "converges",
+    "convergent"
+   ],
+   "text": "A sequence converges when its terms settle toward one specific finite number as you go further along, and a series converges when its running totals (partial sums) do; that number is the limit or sum. If they do not settle down, for example by growing forever or bouncing around, they diverge.",
+   "example": "The series 1 + ½ + ¼ + ⅛ + ... converges to 2, because its partial sums get ever closer to 2.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "fundamental theorem of calculus",
+    "fundamental theorem",
+    "ftc"
+   ],
+   "text": "The fundamental theorem of calculus says that integration and differentiation undo each other. In practice, the definite integral of f from a to b equals F(b) − F(a), where F is any antiderivative of f, so you can find areas without adding up tiny slices.",
+   "example": "∫ from 1 to 3 of 2x dx = [x²] from 1 to 3 = 9 − 1 = 8.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "odds",
+    "betting odds",
+    "odds in favor"
+   ],
+   "text": "The odds of an event are the chance it happens compared with the chance it doesn't. If the probability is p, the odds are p / (1 − p). Odds of 3 to 1 mean it is three times as likely to happen as not.",
+   "example": "A 75% chance of rain means odds of 0.75 / 0.25 = 3 to 1.",
+   "tries": [],
+   "topic": "stats"
+  },
+  {
+   "terms": [
+    "bayes theorem",
+    "bayes' theorem",
+    "bayes rule",
+    "bayes"
+   ],
+   "text": "Bayes' theorem is a formula for flipping a conditional probability: P(A|B) = P(B|A) · P(A) / P(B). It lets you update how likely something is after you see new evidence.",
+   "example": "A test that is 99% sensitive and 99% specific, for a disease with 1 case in 1,000 people, gives a positive result that means truly sick only about 9% of the time.",
+   "tries": [],
+   "topic": "stats"
+  },
+  {
+   "terms": [
+    "sample space",
+    "outcome space",
+    "event space"
+   ],
+   "text": "The sample space is the set of all possible outcomes of a random experiment, often written S or Ω. An event is any subset of the sample space.",
+   "example": "For one roll of a die, S = {1, 2, 3, 4, 5, 6}; for two coin flips, S = {HH, HT, TH, TT}.",
+   "tries": [],
+   "topic": "stats"
+  },
+  {
+   "terms": [
+    "covariance",
+    "cov",
+    "covariance formula"
+   ],
+   "text": "Covariance measures whether two variables tend to move together: it is positive when they rise together and negative when one rises as the other falls. For a sample it is cov(X, Y) = Σ(xᵢ − x̄)(yᵢ − ȳ) / (n − 1), and its units are the product of the two variables' units.",
+   "example": "Hours studied and exam scores usually have positive covariance.",
+   "tries": [],
+   "topic": "stats"
+  },
+  {
+   "terms": [
+    "regression to the mean",
+    "reversion to the mean",
+    "regression effect"
+   ],
+   "text": "Regression to the mean is the tendency for an extreme measurement to be followed by one closer to the average. Extreme results are partly due to luck, and luck does not repeat reliably.",
+   "example": "A student who scores unusually high on one quiz usually scores closer to their average on the next quiz.",
+   "tries": [],
+   "topic": "stats"
+  },
+  {
+   "terms": [
+    "central limit theorem",
+    "clt"
+   ],
+   "text": "The central limit theorem says that the average of many independent random values is approximately normally distributed (bell-shaped), no matter what the original distribution looks like (as long as its variance is finite), once the sample is large enough. The spread of that average shrinks as σ / √n.",
+   "example": "A single die roll is flat across 1 to 6, but the average of 30 rolls clusters in a bell shape around 3.5.",
+   "tries": [],
+   "topic": "stats"
+  },
+  {
+   "terms": [
+    "type i error",
+    "type 1 error",
+    "alpha error"
+   ],
+   "text": "A type I error happens when you reject the null hypothesis even though it is true, which is a false alarm. Its probability is called alpha (α), the significance level of the test.",
+   "example": "Concluding that a useless drug works when it actually does nothing is a type I error.",
+   "tries": [],
+   "topic": "stats"
+  },
+  {
+   "terms": [
+    "standard error",
+    "se",
+    "standard error of the mean",
+    "sem"
+   ],
+   "text": "The standard error is the standard deviation of a sample statistic, usually the sample mean, across many repeated samples. For a mean it is SE = s / √n, and it shows how precisely the sample estimates the true population value.",
+   "example": "With a standard deviation of 15 and a sample of 100 people, SE = 15 / √100 = 1.5.",
+   "tries": [],
+   "topic": "stats"
+  },
+  {
+   "terms": [
+    "skewness",
+    "skew"
+   ],
+   "text": "Skewness measures how lopsided a distribution is. Positive skew means a long tail to the right (the mean is pulled above the median), negative skew means a long tail to the left, and a symmetric distribution has skewness 0.",
+   "example": "Household incomes are usually positively skewed, because a few very high incomes stretch the right tail.",
+   "tries": [],
+   "topic": "stats"
+  },
+  {
+   "terms": [
+    "harmonic mean",
+    "harmonic average"
+   ],
+   "text": "The harmonic mean is n divided by the sum of the reciprocals of n values: H = n / (1/x₁ + … + 1/xₙ). It is the right average for rates measured over equal amounts of the other quantity, such as speeds over equal distances.",
+   "example": "Driving 60 km/h one way and 40 km/h back over the same distance averages 2 / (1/60 + 1/40) = 48 km/h, not 50.",
+   "tries": [],
+   "topic": "stats"
+  },
+  {
+   "terms": [
+    "weighted average",
+    "weighted mean"
+   ],
+   "text": "A weighted average gives each value a weight showing how much it counts, computed as Σwᵢxᵢ / Σwᵢ. When all weights are equal, it is the ordinary mean.",
+   "example": "A course with a 30% homework grade of 80 and a 70% exam grade of 90 has a weighted average of 0.3 × 80 + 0.7 × 90 = 87.",
+   "tries": [],
+   "topic": "stats"
+  },
+  {
+   "terms": [
+    "margin of error",
+    "moe",
+    "sampling error margin"
+   ],
+   "text": "The margin of error is how far a sample estimate can plausibly be from the true value, usually written as ± and calculated as about z × SE at a chosen confidence level. Smaller samples and more variable data make it larger.",
+   "example": "A poll of 1,000 people showing 52% support has a 95% margin of error of about ±3 percentage points.",
+   "tries": [],
+   "topic": "stats"
+  },
+  {
+   "terms": [
+    "determinant",
+    "det",
+    "det(a)"
+   ],
+   "text": "A single number computed from a square matrix that shows how much the matrix scales area or volume. For a 2×2 matrix it equals ad − bc, and if it is 0 the matrix squashes space flat and has no inverse.",
+   "example": "For [[3,1],[2,4]], det = 3·4 − 1·2 = 10.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "eigenvalue",
+    "eigenvalues",
+    "characteristic value"
+   ],
+   "text": "A number λ such that a square matrix A only stretches a special vector v by λ, so Av = λv. You find eigenvalues by solving det(A − λI) = 0.",
+   "example": "For A = [[2,0],[0,3]], the eigenvalues are 2 and 3.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "eigenvector",
+    "eigenvectors",
+    "characteristic vector"
+   ],
+   "text": "A nonzero vector v that keeps its direction when a matrix A acts on it, so Av = λv and only its length changes, by the factor λ.",
+   "example": "For A = [[2,0],[0,3]], the vector (1, 0) is an eigenvector with eigenvalue 2.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "identity matrix",
+    "identity",
+    "unit matrix",
+    "i"
+   ],
+   "text": "A square matrix with 1s down the main diagonal and 0s everywhere else. Multiplying any matrix by it leaves that matrix unchanged, just as multiplying a number by 1 does: AI = IA = A.",
+   "example": "The 2×2 identity matrix is [[1,0],[0,1]].",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "transpose",
+    "matrix transpose",
+    "aᵀ",
+    "a^t"
+   ],
+   "text": "The matrix Aᵀ made by flipping A over its main diagonal, so rows become columns and columns become rows. The entry in row i, column j moves to row j, column i.",
+   "example": "[[1,2,3],[4,5,6]]ᵀ = [[1,4],[2,5],[3,6]].",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "dot product",
+    "scalar product",
+    "inner product",
+    "a·b"
+   ],
+   "text": "Multiplies two vectors of the same length and gives a single number: a·b = a₁b₁ + a₂b₂ + … + aₙbₙ, which also equals |a||b|cos θ. The result is positive when the vectors point roughly the same way and zero when they are perpendicular.",
+   "example": "(1, 2, 3)·(4, −5, 6) = 4 − 10 + 18 = 12.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "cross product",
+    "vector product",
+    "a×b"
+   ],
+   "text": "Multiplies two 3D vectors to give a new 3D vector perpendicular to both, with length |a||b|sin θ. That length equals the area of the parallelogram the two vectors span.",
+   "example": "(1, 0, 0) × (0, 1, 0) = (0, 0, 1).",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "modular arithmetic",
+    "clock arithmetic"
+   ],
+   "text": "Arithmetic where numbers wrap around after a fixed value called the modulus n, like hours on a clock. a mod n is the remainder when a is divided by n.",
+   "example": "(9 + 5) mod 12 = 14 mod 12 = 2.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "congruence",
+    "congruent modulo n",
+    "congruent mod n",
+    "≡"
+   ],
+   "text": "a ≡ b (mod n) means a and b leave the same remainder when divided by n, which is the same as saying n divides a − b.",
+   "example": "17 ≡ 5 (mod 12), because 17 − 5 = 12.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "union",
+    "set union",
+    "a ∪ b"
+   ],
+   "text": "The set of everything that is in set A, in set B, or in both. It is written A ∪ B and repeated elements are listed only once.",
+   "example": "{1, 2, 3} ∪ {3, 4} = {1, 2, 3, 4}.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "intersection",
+    "set intersection",
+    "a ∩ b"
+   ],
+   "text": "The set of elements that are in both set A and set B, written A ∩ B. If the two sets share nothing, the intersection is the empty set ∅.",
+   "example": "{1, 2, 3} ∩ {3, 4} = {3}.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "graph",
+    "network",
+    "graph theory",
+    "graph (network)"
+   ],
+   "text": "A collection of dots, called vertices or nodes, joined by lines, called edges, that show which pairs are connected. Graphs model things like road maps, social networks and the internet, and they are not the same as charts of data.",
+   "example": "Four cities with roads joining some pairs of them form a graph.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "tree",
+    "graph tree",
+    "tree graph"
+   ],
+   "text": "A connected graph with no cycles, meaning no route that loops back to where it started. A tree with n vertices always has exactly n − 1 edges, and one vertex is often chosen as the root.",
+   "example": "A family tree or a folder structure on a computer is a tree.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "proof by contradiction",
+    "reductio ad absurdum",
+    "indirect proof"
+   ],
+   "text": "To prove a statement P, assume P is false and show this leads to something impossible, such as a statement that contradicts itself. Since the assumption causes a contradiction, P must be true.",
+   "example": "To prove √2 is irrational, assume √2 = p/q in lowest terms; then p and q are both even, which contradicts being in lowest terms.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "proof by induction",
+    "mathematical induction",
+    "induction",
+    "inductive proof"
+   ],
+   "text": "A way to prove a statement holds for every whole number n ≥ 1: first check the base case n = 1, then show that if it holds for n = k it also holds for n = k + 1. These two steps knock down a chain of dominoes covering every case.",
+   "example": "To prove 1 + 2 + … + n = n(n + 1)/2, check n = 1 gives 1 = 1, then assume it for k and add k + 1 to both sides.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "logarithm rules",
+    "log rules",
+    "log laws",
+    "logarithm laws",
+    "log properties"
+   ],
+   "text": "Shortcuts for working with logarithms, for positive numbers x and y: log(xy) = log x + log y, log(x/y) = log x − log y, log(xᵏ) = k·log x, and log_b x = (log x)/(log b) for any base b. They turn multiplication into addition, which is why logarithms were once used for calculation.",
+   "example": "log₂(8 · 4) = log₂8 + log₂4 = 3 + 2 = 5.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "summation notation",
+    "sigma notation",
+    "sum notation",
+    "σ"
+   ],
+   "text": "A compact way to write a sum using the Greek capital letter Σ (sigma). The index below Σ gives the starting value, the number above gives the ending value, and the expression to the right is added for each value: Σ from i = 1 to n of aᵢ means a₁ + a₂ + … + aₙ.",
+   "example": "Σ from i = 1 to 4 of i² = 1 + 4 + 9 + 16 = 30.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "temperature",
+    "temp"
+   ],
+   "text": "Temperature measures how hot or cold something is, and it reflects the average kinetic energy of its particles. It is measured in kelvin (K), degrees Celsius (°C), or degrees Fahrenheit (°F).",
+   "example": "Water freezes at 273.15 K, which is 0 °C.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "heat",
+    "thermal energy transfer",
+    "heat transfer"
+   ],
+   "text": "Heat is energy that flows from a hotter object to a cooler one because of a temperature difference. It is measured in joules (J).",
+   "example": "A hot pan warms the cold water inside it until they reach the same temperature.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "specific heat capacity",
+    "specific heat",
+    "c"
+   ],
+   "text": "Specific heat capacity is the energy needed to raise the temperature of 1 kg of a substance by 1 K (or 1 °C). It is calculated as c = Q / (m · ΔT) and measured in J/(kg·K).",
+   "example": "Water has a specific heat capacity of about 4186 J/(kg·K), so it takes a lot of energy to heat it.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "entropy",
+    "thermodynamic entropy"
+   ],
+   "text": "Entropy is a measure of how spread out or disordered energy and matter are in a system. In an isolated system it tends to increase, and it is measured in J/K.",
+   "example": "When ice melts, its molecules move into a less ordered state, so the entropy increases.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "thermal equilibrium",
+    "thermal balance"
+   ],
+   "text": "Thermal equilibrium is the state in which objects in contact have the same temperature, so no net heat flows between them. It is the endpoint of heat transfer.",
+   "example": "A cup of coffee left in a room eventually reaches thermal equilibrium with the room's air.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "refraction",
+    "light refraction"
+   ],
+   "text": "Refraction is the bending of a wave, such as light, when it passes from one material into another where its speed changes. The amount of bending is given by Snell's law: n₁ · sin θ₁ = n₂ · sin θ₂.",
+   "example": "A straw in a glass of water looks bent at the surface because light refracts as it leaves the water.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "reflection",
+    "light reflection"
+   ],
+   "text": "Reflection is the bouncing back of a wave off a surface. For light bouncing off a smooth surface, the angle of incidence equals the angle of reflection.",
+   "example": "A mirror shows your image because light reflects off its smooth surface.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "speed of light",
+    "light speed"
+   ],
+   "text": "The speed of light is the speed at which light travels through a vacuum, exactly 299,792,458 m/s, or about 3 × 10⁸ m/s. Nothing with mass can reach this speed.",
+   "example": "Sunlight takes about 8 minutes to travel from the Sun to Earth.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "photon",
+    "light particle"
+   ],
+   "text": "A photon is a particle of light, the smallest unit of light or other electromagnetic radiation. Its energy is E = h · f, where h is Planck's constant and f is the frequency.",
+   "example": "Each photon that leaves your phone screen carries a tiny amount of energy that depends only on its color (frequency).",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "half-life",
+    "half life"
+   ],
+   "text": "Half-life is the time it takes for half of the radioactive nuclei in a sample to decay. It is a fixed property of each radioactive isotope.",
+   "example": "Carbon-14 has a half-life of about 5,730 years, so half of it is gone after that time.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "radioactivity",
+    "radioactive decay"
+   ],
+   "text": "Radioactivity is the spontaneous release of radiation, such as alpha, beta, or gamma rays, from unstable atomic nuclei as they change into more stable forms. Activity is measured in becquerels (Bq), where 1 Bq equals one decay per second.",
+   "example": "Uranium in rocks gives off radiation as its nuclei decay over time.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "escape velocity",
+    "escape speed"
+   ],
+   "text": "Escape velocity is the minimum speed an object needs at a planet's surface to break free of its gravity without any further thrust. It is calculated as v = √(2GM / r).",
+   "example": "Earth's escape velocity is about 11.2 km/s.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "gravitational field",
+    "gravitational field strength",
+    "g"
+   ],
+   "text": "A gravitational field is the region around a mass where another mass feels an attractive force. Its strength is g = F / m, measured in N/kg, which is the same as m/s².",
+   "example": "Near Earth's surface the gravitational field strength is about 9.8 N/kg.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "buoyancy",
+    "buoyant force"
+   ],
+   "text": "Buoyancy is the upward push a fluid exerts on any object placed in it. This push makes objects feel lighter when they are in water.",
+   "example": "A wooden boat floats because the water pushes it upward with a force equal to its weight.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "archimedes principle",
+    "archimedes' principle",
+    "archimedes law"
+   ],
+   "text": "Archimedes' principle states that an object in a fluid feels an upward buoyant force equal to the weight of the fluid it displaces. It is written as F_b = ρ_fluid · V · g, where V is the displaced volume.",
+   "example": "A steel ship floats because its hull pushes aside enough water to weigh as much as the ship.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "friction coefficient",
+    "coefficient of friction",
+    "mu",
+    "μ"
+   ],
+   "text": "The friction coefficient (μ) is a unitless number that describes how grippy two surfaces are against each other. The friction force is F = μ · N, where N is the normal force pressing the surfaces together.",
+   "example": "Rubber tires on dry asphalt have a friction coefficient of roughly 0.7 to 0.9.",
+   "tries": [],
+   "topic": "physics"
+  },
+  {
+   "terms": [
+    "cell",
+    "cells",
+    "cell biology"
+   ],
+   "text": "A cell is the smallest unit of life: a tiny, membrane-wrapped bubble of chemistry that can take in food, make energy, and copy itself. Every plant, animal, and human is built from one or more cells.",
+   "example": "Your skin, muscle, and blood are made of trillions of cells, and a single bacterium is one cell.",
+   "tries": [],
+   "topic": "science"
+  },
+  {
+   "terms": [
+    "dna",
+    "deoxyribonucleic acid"
+   ],
+   "text": "DNA is a long, twisted molecule (a double helix) that stores the instructions for building and running a living thing. It is made of four chemical letters, A, T, C, and G, arranged in a specific order.",
+   "example": "Humans have about 3 billion DNA letters in each cell, split into 46 chromosomes.",
+   "tries": [],
+   "topic": "science"
+  },
+  {
+   "terms": [
+    "gene",
+    "genes"
+   ],
+   "text": "A gene is a segment of DNA that carries the instructions for making one specific protein or functional molecule. Genes are passed from parents to children and help determine traits such as eye color.",
+   "example": "A gene for blue eyes and a gene for brown eyes are two possible versions of the same eye-color gene.",
+   "tries": [],
+   "topic": "science"
+  },
+  {
+   "terms": [
+    "protein",
+    "proteins"
+   ],
+   "text": "A protein is a large molecule built from a chain of smaller units called amino acids, folded into a specific 3D shape that lets it do a job. Proteins make up muscles, carry oxygen, and act as the body's messengers and tools.",
+   "example": "Hemoglobin is a protein in red blood cells that carries oxygen from your lungs to the rest of your body.",
+   "tries": [],
+   "topic": "science"
+  },
+  {
+   "terms": [
+    "enzyme",
+    "enzymes"
+   ],
+   "text": "An enzyme is a protein that speeds up a chemical reaction in a living thing without being used up itself. Each enzyme usually works on only one kind of molecule, like a key that fits one lock.",
+   "example": "Amylase is an enzyme in your saliva that starts breaking down starch in bread into sugar.",
+   "tries": [],
+   "topic": "science"
+  },
+  {
+   "terms": [
+    "virus",
+    "viruses"
+   ],
+   "text": "A virus is a tiny infectious particle made of genetic material (DNA or RNA) inside a protein coat. It cannot grow or reproduce on its own and must invade a host cell to make copies of itself.",
+   "example": "Influenza and the common cold are caused by viruses, which is why antibiotics do not cure them.",
+   "tries": [],
+   "topic": "science"
+  },
+  {
+   "terms": [
+    "bacteria",
+    "bacterium"
+   ],
+   "text": "Bacteria are single-celled living organisms that are much simpler than plant or animal cells and can reproduce on their own. Most bacteria are harmless or helpful, such as those in your gut, while some cause infections.",
+   "example": "Escherichia coli lives in the human gut, and Streptococcus can cause strep throat.",
+   "tries": [],
+   "topic": "science"
+  },
+  {
+   "terms": [
+    "vaccine",
+    "vaccination",
+    "vaccines"
+   ],
+   "text": "A vaccine is a substance that trains the immune system to recognize a germ, using a harmless piece of it or a weakened or inactivated version, so the body can fight the real infection faster later. Vaccines prevent disease without usually causing the illness itself.",
+   "example": "The measles vaccine teaches the body to make antibodies so a later measles infection is stopped early.",
+   "tries": [],
+   "topic": "science"
+  },
+  {
+   "terms": [
+    "antibody",
+    "antibodies",
+    "immunoglobulin"
+   ],
+   "text": "An antibody is a Y-shaped protein made by the immune system that attaches to a specific germ or toxin and marks it for destruction. Each antibody is shaped to match one particular target, like a custom lock for one key.",
+   "example": "After you recover from chickenpox, antibodies stay in your blood and help protect you from getting it again.",
+   "tries": [],
+   "topic": "science"
+  },
+  {
+   "terms": [
+    "metabolism",
+    "metabolic rate",
+    "basal metabolic rate"
+   ],
+   "text": "Metabolism is the total of all chemical reactions in a living thing that break down food to release energy and build up the molecules the body needs. The basal metabolic rate is the energy a person burns at complete rest just to keep vital functions running.",
+   "example": "Your liver, brain, and muscles all use metabolism to turn food into the energy that powers your heartbeat and movement.",
+   "tries": [],
+   "topic": "science"
+  },
+  {
+   "terms": [
+    "calorie",
+    "calories",
+    "kcal",
+    "kilocalorie",
+    "food calorie"
+   ],
+   "text": "A calorie is a unit of energy, the amount needed to raise 1 gram of water by 1 °C. On food labels, the word calorie really means a kilocalorie (kcal), which is 1,000 of those small calories, or about 4,184 joules.",
+   "example": "A medium apple has about 95 kcal, which is the energy your body can get from eating it.",
+   "tries": [],
+   "topic": "science"
+  },
+  {
+   "terms": [
+    "bmi",
+    "body mass index"
+   ],
+   "text": "Body mass index (BMI) is a rough number that compares a person's weight to their height, calculated as BMI = weight (kg) ÷ height (m)². It is a quick screening tool and does not measure body fat or fitness directly.",
+   "example": "A person who weighs 70 kg and is 1.75 m tall has a BMI of 70 ÷ (1.75 × 1.75) ≈ 22.9.",
+   "tries": [],
+   "topic": "science"
+  },
+  {
+   "terms": [
+    "resting heart rate",
+    "resting pulse",
+    "rhr",
+    "heart rate at rest"
+   ],
+   "text": "Resting heart rate is the number of times your heart beats per minute while you are calm and inactive, usually measured after waking up. For most adults, a normal range is about 60 to 100 beats per minute, and well-trained athletes often have lower numbers.",
+   "example": "If you count 72 beats in one minute while sitting quietly, your resting heart rate is 72 bpm.",
+   "tries": [],
+   "topic": "science"
+  },
+  {
+   "terms": [
+    "photosynthesis"
+   ],
+   "text": "Photosynthesis is the process by which plants, algae, and some bacteria use sunlight, water, and carbon dioxide to make sugar and release oxygen. It is the main way energy from the Sun enters almost all food chains on Earth.",
+   "example": "6 CO₂ + 6 H₂O + light energy → C₆H₁₂O₆ + 6 O₂ is the overall equation for photosynthesis.",
+   "tries": [],
+   "topic": "science"
+  },
+  {
+   "terms": [
+    "evolution",
+    "biological evolution",
+    "natural selection"
+   ],
+   "text": "Evolution is the gradual change in the inherited traits of a population of living things over many generations. Individuals with traits that help them survive and reproduce in their environment tend to pass those traits on more often, which is called natural selection.",
+   "example": "Over generations, moths in polluted areas became darker because dark moths were harder for birds to spot.",
+   "tries": [],
+   "topic": "science"
+  },
+  {
+   "terms": [
+    "ecosystem",
+    "ecosystems"
+   ],
+   "text": "An ecosystem is a community of living things, such as plants, animals, and microbes, together with the non-living parts of their environment, like water, soil, and air, all interacting with each other. Energy flows through an ecosystem and nutrients are recycled within it.",
+   "example": "A coral reef, a forest, and a pond are each their own ecosystem.",
+   "tries": [],
+   "topic": "science"
+  },
+  {
+   "terms": [
+    "taylor series",
+    "taylor expansion",
+    "maclaurin series"
+   ],
+   "text": "A way to write a function as an infinite sum of powers of (x − a), built from the function's derivatives at one point a. Each added term makes the sum match the function better near that point; a Maclaurin series is the special case a = 0. The general form is f(x) = Σ f⁽ⁿ⁾(a)(x − a)ⁿ / n!.",
+   "example": "eˣ = 1 + x + x²/2! + x³/3! + ...",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "partial derivative",
+    "partial derivatives",
+    "∂f/∂x",
+    "partial"
+   ],
+   "text": "The rate of change of a function with several inputs when only one input changes and the others are held fixed. It is written ∂f/∂x, where the curly ∂ means 'partial'.",
+   "example": "For f(x, y) = x²y, ∂f/∂x = 2xy.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "l'hopital's rule",
+    "l'hospital's rule",
+    "l'hôpital's rule",
+    "lhopital's rule",
+    "lhopital rule"
+   ],
+   "text": "A shortcut for limits that give 0/0 or ∞/∞: differentiate the top and the bottom separately, then take the limit of that new ratio. It only applies when the original limit is one of these indeterminate forms.",
+   "example": "lim(x→0) sin x / x is 0/0; differentiating gives cos x / 1, which approaches 1.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "improper integral",
+    "improper integrals",
+    "integral to infinity"
+   ],
+   "text": "An integral over an interval that goes on forever, or one where the function blows up inside the interval. You evaluate it as a limit of ordinary integrals: if the limit is a finite number it converges, otherwise it diverges.",
+   "example": "∫₁^∞ 1/x² dx = 1, so it converges.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "ratio test",
+    "d'alembert's ratio test",
+    "d'alembert ratio test"
+   ],
+   "text": "A rule for checking whether an infinite series Σaₙ converges, using L = lim(n→∞) |aₙ₊₁ / aₙ|. If L < 1 the series converges, if L > 1 it diverges, and if L = 1 the test gives no answer.",
+   "example": "For Σ 1/n!, the ratio is 1/(n+1), which goes to 0, so the series converges.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "natural logarithm",
+    "ln",
+    "natural log",
+    "log base e"
+   ],
+   "text": "The logarithm with base e (about 2.71828), written ln x. It answers the question 'what power of e gives x?', so ln(eˣ) = x and e^(ln x) = x.",
+   "example": "ln(e³) = 3 and ln(1) = 0.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "exponential function",
+    "e^x",
+    "eˣ",
+    "exp",
+    "e to the x"
+   ],
+   "text": "A function that raises the constant e (about 2.71828) to the input power, written eˣ or exp(x). It is its own derivative, d/dx eˣ = eˣ, which is why it models continuous growth so well.",
+   "example": "e² ≈ 7.39.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "implicit differentiation",
+    "implicit derivative"
+   ],
+   "text": "A method for finding dy/dx when y is tied to x by an equation but is not isolated as y = f(x). You differentiate both sides with respect to x, multiply each y-term by dy/dx using the chain rule, and then solve for dy/dx.",
+   "example": "For x² + y² = 25, 2x + 2y·dy/dx = 0, so dy/dx = −x/y.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "related rates",
+    "related rate",
+    "related rates problem"
+   ],
+   "text": "Problems where several quantities change over time and are linked by an equation. You differentiate that equation with respect to time t, usually with implicit differentiation, then plug in the known values to find the unknown rate.",
+   "example": "For a sphere, V = (4/3)πr³ gives dV/dt = 4πr² · dr/dt.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "riemann sum",
+    "riemann sums",
+    "left riemann sum",
+    "right riemann sum"
+   ],
+   "text": "An estimate of the area under a curve made by adding the areas of many thin rectangles. Each rectangle has width Δx = (b − a)/n and a height taken from the function at a sample point, and the sum approaches the exact integral as n grows.",
+   "example": "Four left rectangles for ∫₀² x² dx give 1.75, while the exact value is 8/3 ≈ 2.67.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "area under a curve",
+    "area under the curve",
+    "signed area under a curve"
+   ],
+   "text": "The amount of space between a graph and the x-axis over a given interval. Area above the axis counts as positive and area below counts as negative, and it is found exactly with the definite integral ∫ₐᵇ f(x) dx.",
+   "example": "Under y = 2x from x = 0 to 3, the area is 9, which is a triangle with base 3 and height 6.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "buffer",
+    "buffer solution",
+    "ph buffer"
+   ],
+   "text": "A buffer is a solution that resists big changes in pH when small amounts of acid or base are added. It is made from a weak acid and its conjugate base (or a weak base and its conjugate acid).",
+   "example": "Blood is buffered to stay near pH 7.4, so a small amount of acid from exercise does not make it dangerously acidic.",
+   "tries": [],
+   "topic": "chemistry"
+  },
+  {
+   "terms": [
+    "titration",
+    "acid-base titration",
+    "titrate"
+   ],
+   "text": "Titration is a lab method where a solution of known concentration is added slowly to another solution until the reaction is just complete. The measured volume used lets you calculate the unknown concentration.",
+   "example": "Adding sodium hydroxide from a burette to vinegar until the color changes shows how much acetic acid the vinegar contains.",
+   "tries": [],
+   "topic": "chemistry"
+  },
+  {
+   "terms": [
+    "indicator",
+    "acid-base indicator",
+    "chemical indicator"
+   ],
+   "text": "An indicator is a substance that changes color at a specific pH or chemical condition, showing when a reaction has reached its endpoint. It is usually a weak dye that is added in small amounts.",
+   "example": "Phenolphthalein is colorless in acid and turns pink in base.",
+   "tries": [],
+   "topic": "chemistry"
+  },
+  {
+   "terms": [
+    "endothermic reaction",
+    "endothermic"
+   ],
+   "text": "An endothermic reaction absorbs heat from its surroundings, so the surroundings get colder. Its enthalpy change is positive (ΔH > 0).",
+   "example": "Dissolving ammonium nitrate in water makes the water feel cold.",
+   "tries": [],
+   "topic": "chemistry"
+  },
+  {
+   "terms": [
+    "exothermic reaction",
+    "exothermic"
+   ],
+   "text": "An exothermic reaction releases heat into its surroundings, so the surroundings get warmer. Its enthalpy change is negative (ΔH < 0).",
+   "example": "Burning wood or the reaction inside a hand warmer releases heat.",
+   "tries": [],
+   "topic": "chemistry"
+  },
+  {
+   "terms": [
+    "combustion",
+    "burning"
+   ],
+   "text": "Combustion is a rapid reaction of a substance with oxygen that releases heat and usually light. Burning a hydrocarbon produces carbon dioxide and water.",
+   "example": "CH₄ + 2O₂ → CO₂ + 2H₂O is the combustion of methane in a gas stove.",
+   "tries": [],
+   "topic": "chemistry"
+  },
+  {
+   "terms": [
+    "reaction rate",
+    "rate of reaction",
+    "chemical reaction rate"
+   ],
+   "text": "Reaction rate is how fast reactants are used up or products are formed, measured as a change in concentration per unit time, in mol·L⁻¹·s⁻¹. Temperature, concentration, surface area and catalysts can all change it.",
+   "example": "A tablet dissolves faster in hot water than in cold water because the reaction rate is higher.",
+   "tries": [],
+   "topic": "chemistry"
+  },
+  {
+   "terms": [
+    "chemical equilibrium",
+    "equilibrium",
+    "dynamic equilibrium"
+   ],
+   "text": "Chemical equilibrium is the state where the forward and reverse reactions happen at the same rate, so the concentrations stop changing overall. The reaction has not stopped; the changes just cancel out.",
+   "example": "In a closed bottle of soda, the rate of CO₂ leaving the liquid equals the rate of it re-entering, so the fizz level stays steady.",
+   "tries": [],
+   "topic": "chemistry"
+  },
+  {
+   "terms": [
+    "solubility",
+    "soluble"
+   ],
+   "text": "Solubility is the maximum amount of a substance (the solute) that can dissolve in a given amount of solvent at a given temperature. It is often given in grams per 100 g of water or in mol/L.",
+   "example": "About 36 g of table salt dissolves in 100 g of water at 20 °C.",
+   "tries": [],
+   "topic": "chemistry"
+  },
+  {
+   "terms": [
+    "ppm",
+    "parts per million"
+   ],
+   "text": "ppm, or parts per million, is a concentration unit meaning one part of solute for every million parts of the whole mixture. For dilute water it equals 1 mg per liter.",
+   "example": "A fluoride level of 1 ppm means there is 1 mg of fluoride in each liter of water.",
+   "tries": [],
+   "topic": "chemistry"
+  },
+  {
+   "terms": [
+    "valence electrons",
+    "valence electron"
+   ],
+   "text": "Valence electrons are the electrons in an atom's outermost shell. They are the electrons that take part in chemical bonding.",
+   "example": "Carbon has 4 valence electrons, which is why it forms four bonds in methane.",
+   "tries": [],
+   "topic": "chemistry"
+  },
+  {
+   "terms": [
+    "ideal gas law",
+    "pv=nrt",
+    "gas law"
+   ],
+   "text": "The ideal gas law says PV = nRT, linking a gas's pressure P, volume V, amount n in moles and temperature T in kelvin. R = 8.314 J·mol⁻¹·K⁻¹ is the gas constant.",
+   "example": "At 273 K and 1 atm, one mole of gas occupies about 22.4 L.",
+   "tries": [],
+   "topic": "chemistry"
+  },
+  {
+   "terms": [
+    "stoichiometry",
+    "stoichiometric calculation",
+    "reaction stoichiometry"
+   ],
+   "text": "Stoichiometry uses the coefficients of a balanced chemical equation as mole ratios to work out how much reactant is needed or how much product forms. It turns the equation into quantities you can measure.",
+   "example": "In 2H₂ + O₂ → 2H₂O, 2 mol of hydrogen reacts with 1 mol of oxygen to make 2 mol of water.",
+   "tries": [],
+   "topic": "chemistry"
+  },
+  {
+   "terms": [
+    "mrr",
+    "monthly recurring revenue"
+   ],
+   "text": "Monthly recurring revenue is the predictable money a subscription business expects to collect each month from its paying customers. It is calculated as MRR = number of paying customers × average monthly fee per customer.",
+   "example": "100 customers paying $50 a month gives an MRR of $5,000.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "arr",
+    "annual recurring revenue"
+   ],
+   "text": "Annual recurring revenue is the yearly value of a company's subscriptions, found by multiplying MRR by 12 (ARR = MRR × 12). It is the standard way to measure how big a subscription business is.",
+   "example": "An MRR of $5,000 means an ARR of $60,000.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "churn rate",
+    "customer churn",
+    "churn"
+   ],
+   "text": "Churn rate is the share of customers (or revenue) lost over a set period, calculated as customers lost ÷ customers at the start of the period × 100%. A high churn rate means people are leaving faster than new ones arrive.",
+   "example": "Losing 20 of 400 customers in one month is a 5% monthly churn rate.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "ltv",
+    "lifetime value",
+    "customer lifetime value",
+    "clv"
+   ],
+   "text": "Lifetime value is the total profit a business expects to earn from one customer over the whole time they stay. A common estimate is LTV = ARPU × gross margin ÷ churn rate, so it shows what a customer is worth in the long run.",
+   "example": "A customer paying $50 a month, with 80% gross margin and 5% monthly churn, has an LTV of about $50 × 0.8 ÷ 0.05 = $800.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "cac",
+    "customer acquisition cost"
+   ],
+   "text": "Customer acquisition cost is how much a company spends on sales and marketing to win one new paying customer. It is calculated as total acquisition spending ÷ number of new customers won.",
+   "example": "Spending $10,000 on ads and sales to win 50 customers gives a CAC of $200.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "runway",
+    "cash runway"
+   ],
+   "text": "Runway is how many months a company can keep operating before it runs out of cash. It is calculated as cash on hand ÷ monthly net burn rate.",
+   "example": "$480,000 in the bank with a $40,000 monthly net burn gives 12 months of runway.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "net margin",
+    "net profit margin"
+   ],
+   "text": "Net margin is the percentage of revenue that is left as profit after every expense is paid, including rent, salaries, interest and taxes. It is calculated as net income ÷ revenue × 100%.",
+   "example": "A company with $1,000,000 in revenue and $80,000 in net income has an 8% net margin.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "ebitda",
+    "earnings before interest, taxes, depreciation, and amortization"
+   ],
+   "text": "EBITDA measures a company's profit from its core operations before interest, taxes, depreciation and amortization are subtracted. It is calculated as operating profit + depreciation + amortization, and it is often used to compare businesses.",
+   "example": "A company with $200,000 in operating profit and $30,000 in depreciation has an EBITDA of $230,000.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "cohort",
+    "cohort analysis"
+   ],
+   "text": "A cohort is a group of customers who share a starting point, such as signing up in the same month. Cohort analysis tracks how each group behaves over time, to see whether newer customers stick around better than older ones.",
+   "example": "All users who signed up in January form the January cohort.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "retention rate",
+    "customer retention",
+    "user retention"
+   ],
+   "text": "Retention rate is the share of customers from the start of a period who are still active at the end of it. It is calculated as (customers at end − new customers added) ÷ customers at start × 100%, and it is the mirror image of churn rate.",
+   "example": "Keeping 380 of 400 customers over a month is a 95% retention rate.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "funnel",
+    "conversion funnel",
+    "sales funnel"
+   ],
+   "text": "A funnel is the series of steps people go through on the way to a goal, such as visit, sign up, try and pay. It is drawn as stages that get narrower because fewer people reach each one, which helps teams find where most people drop off.",
+   "example": "1,000 visitors, 200 sign-ups and 40 paying customers make a three-step funnel.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "conversion rate",
+    "cvr"
+   ],
+   "text": "Conversion rate is the percentage of visitors or leads who complete a desired action, such as buying or signing up. It is calculated as conversions ÷ total visitors × 100%.",
+   "example": "40 buyers out of 1,000 visitors is a 4% conversion rate.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "arpu",
+    "average revenue per user",
+    "average revenue per account"
+   ],
+   "text": "ARPU is the average amount of money a company earns from each user in a given period. It is calculated as total revenue ÷ number of users for that period.",
+   "example": "$50,000 in monthly revenue from 2,000 users gives an ARPU of $25 per month.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "nps",
+    "net promoter score"
+   ],
+   "text": "Net Promoter Score measures customer loyalty by asking how likely people are to recommend a business on a 0 to 10 scale. It is the percentage of promoters (scores 9 to 10) minus the percentage of detractors (scores 0 to 6), giving a result from −100 to +100.",
+   "example": "If 50% of customers are promoters and 10% are detractors, the NPS is +40.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "dau",
+    "daily active users"
+   ],
+   "text": "Daily active users is the number of unique people who use a product on a given day. It shows how many people come back in the short term.",
+   "example": "If 3,000 different people open an app today, its DAU is 3,000.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "mau",
+    "monthly active users"
+   ],
+   "text": "Monthly active users is the number of unique people who use a product at least once during a calendar month. Dividing DAU by MAU gives a stickiness ratio, which shows how often monthly users return each day.",
+   "example": "A product with 10,000 DAU and 40,000 MAU has a DAU/MAU ratio of 0.25.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "unit economics",
+    "per-unit economics"
+   ],
+   "text": "Unit economics is the profit a business makes on one unit of what it sells, such as one customer, and it asks whether each sale pays for itself. Common checks compare LTV to CAC and look at the payback period.",
+   "example": "A customer worth $800 in lifetime value who cost $200 to acquire gives an LTV to CAC ratio of 4 to 1, which is generally considered healthy.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "payback period",
+    "cac payback",
+    "customer payback period"
+   ],
+   "text": "Payback period is the number of months it takes for a customer's gross profit to repay the cost of acquiring them. It is calculated as CAC ÷ (ARPU × gross margin), and shorter is better because cash comes back sooner.",
+   "example": "A $200 CAC with $50 monthly revenue at 80% gross margin pays back in 200 ÷ 40 = 5 months.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "supply and demand",
+    "supply demand",
+    "law of supply and demand"
+   ],
+   "text": "The economic model of how prices get set. Buyers want more of a good when it is cheaper, sellers offer more when it sells for more, and the price settles where the amount buyers want matches the amount sellers offer.",
+   "example": "If many people want concert tickets but only a few are sold, the price rises until fewer buyers are willing to pay it.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "supply",
+    "market supply",
+    "quantity supplied"
+   ],
+   "text": "How much of a product sellers are willing and able to offer at a given price. Sellers usually offer more when the price is higher.",
+   "example": "At $10 a bottle a shop might stock 50 bottles, but at $15 it might stock 80.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "demand",
+    "market demand",
+    "quantity demanded"
+   ],
+   "text": "How much of a product buyers want and can afford at a given price. Buyers usually want more when the price is lower.",
+   "example": "If a pizza costs $5, more people buy it than when it costs $20.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "price elasticity",
+    "price elasticity of demand",
+    "elasticity",
+    "elasticity of demand"
+   ],
+   "text": "A measure of how much the quantity people buy changes when the price changes. Formula: elasticity = (% change in quantity demanded) ÷ (% change in price). An absolute value bigger than 1 means buyers react strongly to price; a value between 0 and 1 means they barely react.",
+   "example": "If a 10% price rise cuts sales by 20%, the elasticity is −2, so buyers are sensitive to price.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "nominal gdp",
+    "gdp at current prices"
+   ],
+   "text": "GDP measured at today's market prices, without adjusting for inflation. If prices double while output stays the same, nominal GDP doubles even though the economy did not grow.",
+   "example": "",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "real gdp",
+    "real gross domestic product",
+    "gdp in constant prices"
+   ],
+   "text": "GDP adjusted for inflation, so it measures the actual quantity of output at constant prices. Formula: real GDP = nominal GDP ÷ GDP deflator × 100.",
+   "example": "If nominal GDP rises 6% but prices rise 4%, real GDP grew about 2%.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "interest rate policy",
+    "monetary policy",
+    "central bank rate"
+   ],
+   "text": "The decisions a central bank makes about its benchmark interest rate and related tools to steer the economy. Cutting rates encourages borrowing and spending to fight a slowdown; raising rates cools spending to fight inflation.",
+   "example": "If the central bank raises its benchmark rate from 2% to 4%, mortgage and loan costs rise and spending tends to slow.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "marginal cost",
+    "mc"
+   ],
+   "text": "The extra cost of producing one more unit of a good. Formula: MC = change in total cost ÷ change in quantity.",
+   "example": "If making 100 mugs costs $500 and making 101 costs $505, the marginal cost of the 101st mug is $5.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "economies of scale",
+    "economy of scale",
+    "scale economies"
+   ],
+   "text": "Cost savings a business gets as it produces more. The average cost per unit falls as output grows because fixed costs are spread over more units and bulk buying and specialization lower costs.",
+   "example": "A car factory that builds 1 million cars a year pays less per car for its plant and machines than one that builds 10,000.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "monopoly",
+    "monopolist"
+   ],
+   "text": "A market with only one seller of a product that has no close substitutes. Without competition, the seller can set prices higher than competition would allow.",
+   "example": "A town's only water utility, with no other company allowed to sell water there, is a monopoly.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "inflation rate",
+    "annual inflation rate",
+    "cpi inflation"
+   ],
+   "text": "The percentage change in the general price level over a year, usually measured with a price index such as the consumer price index (CPI). Formula: inflation rate = (CPI now − CPI a year ago) ÷ CPI a year ago × 100%.",
+   "example": "If a basket of goods rises from a CPI of 300 to 306, the inflation rate is 2%.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "purchasing power",
+    "buying power",
+    "purchasing power of money"
+   ],
+   "text": "How much goods and services a unit of money can buy. It falls when prices rise and rises when prices fall. Formula: real value = nominal amount ÷ price index × 100.",
+   "example": "$100 buys 20 meals at $5 each, but if meals rise to $6, the same $100 buys only about 16.7.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "exchange rate",
+    "fx rate",
+    "currency exchange rate"
+   ],
+   "text": "The price of one currency expressed in another currency. A stronger home currency makes imports and foreign travel cheaper, while a weaker one makes exports cheaper for foreign buyers.",
+   "example": "If 1 US dollar buys 0.90 euros, the exchange rate is 0.90 EUR per USD.",
+   "tries": [],
+   "topic": "finance"
+  },
+  {
+   "terms": [
+    "deployment",
+    "deploy",
+    "software deployment"
+   ],
+   "text": "Deployment is putting a new version of an application onto the servers or machines where real users reach it. Deploying takes code that has passed testing and makes it live.",
+   "example": "Copying version 2.4 of a web app onto production servers so customers start using it.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "rollback",
+    "roll back",
+    "revert deployment"
+   ],
+   "text": "A rollback sends a system back to a previous, known-working version after a bad release. It is usually the fastest way to undo a deployment that causes problems.",
+   "example": "After version 2.5 starts throwing errors, the team rolls back to version 2.4 within minutes.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "canary release",
+    "canary deployment",
+    "canary"
+   ],
+   "text": "A canary release sends a new version to a small slice of users first, such as 1% or 5% of traffic, and watches it before rolling out to everyone. The name comes from the canary birds miners used to detect dangerous gas.",
+   "example": "Route 5% of requests to the new version; if error rates stay normal, raise it to 25%, then 100%.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "feature flag",
+    "feature toggle",
+    "feature switch"
+   ],
+   "text": "A feature flag is a switch in code or configuration that turns a feature on or off without redeploying. It lets teams ship code with a feature turned off and enable it later for some users or for everyone.",
+   "example": "A new checkout button ships hidden, and the team turns it on for employees first.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "ci/cd",
+    "cicd",
+    "continuous integration and continuous delivery"
+   ],
+   "text": "CI/CD is an automated pipeline that builds code and runs tests on every change (continuous integration), then packages or ships the passing code automatically (continuous delivery or deployment). It turns releases into a repeatable machine process instead of a series of manual steps.",
+   "example": "Every push runs the unit tests, and passing builds are deployed to a staging server automatically.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "container",
+    "docker container",
+    "containerization"
+   ],
+   "text": "A container packages an application together with the libraries and settings it needs into one portable unit that runs the same way on any machine. Containers share the host's operating system kernel, so they start in seconds and use less memory than full virtual machines.",
+   "example": "A Docker image bundling a Python app and its dependencies runs the same on a laptop and on a cloud server.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "kubernetes",
+    "k8s",
+    "kube"
+   ],
+   "text": "Kubernetes is an open-source system that runs and manages many containers across a cluster of machines. It starts, restarts, scales, and routes containers automatically according to rules you declare.",
+   "example": "You tell Kubernetes to keep 5 copies of a web service running, and if one crashes it starts a replacement.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "load balancer",
+    "load balancing",
+    "lb"
+   ],
+   "text": "A load balancer sits in front of several servers and spreads incoming requests among them so that no single server is overloaded. It usually also stops sending traffic to servers that fail their health checks.",
+   "example": "Ten thousand requests per minute are split across four web servers, with each handling about 2,500.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "circuit breaker",
+    "circuit breaker pattern"
+   ],
+   "text": "A circuit breaker stops a service from repeatedly calling another service that keeps failing. After enough failures it opens and fails fast without calling, then tries again after a cooldown so the broken service has time to recover.",
+   "example": "After 5 timeouts in 10 seconds calling the payment service, the breaker opens and returns an error immediately for 30 seconds.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "idempotency",
+    "idempotent",
+    "idempotent operation"
+   ],
+   "text": "An operation is idempotent if doing it several times has the same effect as doing it once. This matters because retried requests can otherwise charge a card twice or create duplicate orders.",
+   "example": "Setting a user's email to a fixed value is idempotent, but adding 10 dollars to a balance is not unless the request carries a unique key.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "observability",
+    "observable"
+   ],
+   "text": "Observability is how well you can understand what is happening inside a running system by looking at the data it produces. It usually rests on three kinds of signals: logs, metrics, and traces.",
+   "example": "A dashboard shows the error rate rising, and a trace points to a slow database query as the cause.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "distributed tracing",
+    "tracing",
+    "trace"
+   ],
+   "text": "Distributed tracing follows a single request as it passes through many services and records how long each step took. Each step is a span, and the spans together form a trace that shows where the time went.",
+   "example": "A checkout request's trace shows 40 ms in the cart service and 900 ms waiting on the payment service.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "logging",
+    "logs"
+   ],
+   "text": "Logging means writing timestamped records of events a program is doing, such as errors, requests, or state changes. Logs help engineers find out what happened after something goes wrong.",
+   "example": "2026-10-28 10:14:02 ERROR payment declined order_id=8812",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "cdn",
+    "content delivery network",
+    "edge cache"
+   ],
+   "text": "A CDN is a network of servers spread around the world that stores copies of static content such as images, videos, and scripts close to users. Users download from a nearby copy, which makes pages load faster and reduces load on the origin server.",
+   "example": "A user in Tokyo loads a product image from a Tokyo edge server instead of one in Virginia.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "dns",
+    "domain name system",
+    "domain name resolution"
+   ],
+   "text": "DNS is the internet's phone book: it translates human-friendly domain names like example.com into the IP addresses that computers use to connect. Devices cache each answer for a period set by the record's TTL (time to live).",
+   "example": "Typing example.com makes your browser ask DNS, which replies with 203.0.113.10.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "http status code",
+    "status code",
+    "http status"
+   ],
+   "text": "An HTTP status code is a three-digit number a server sends back to say how a request went. The first digit groups them: 2xx means success, 3xx means redirect, 4xx means the client made an error, and 5xx means the server failed.",
+   "example": "200 OK means success, 404 Not Found means the page does not exist, and 503 Service Unavailable means the server is down or overloaded.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "timeout",
+    "request timeout",
+    "time out"
+   ],
+   "text": "A timeout is the maximum time a program will wait for an operation, such as a network reply, before giving up and treating it as failed. Without timeouts, one stuck call can hold resources indefinitely.",
+   "example": "A service waits at most 2 seconds for a reply from the inventory service, then returns an error.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "retry with backoff",
+    "exponential backoff",
+    "backoff",
+    "retry"
+   ],
+   "text": "Retry with backoff means trying a failed operation again after a wait that grows each time, such as 1 s, then 2 s, then 4 s, often with a small random jitter added. The growing gaps keep a struggling service from being flooded with retries.",
+   "example": "A failed upload retries after 1 s, then 2 s, then 4 s, and gives up after five tries.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "machine learning",
+    "ml"
+   ],
+   "text": "Machine learning is a way of building software that learns patterns from example data instead of following hand-written rules. You show the computer many examples, and it adjusts itself until it can make good predictions on new data.",
+   "example": "A spam filter that learns what spam looks like from thousands of emails already marked as spam or not spam.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "training set",
+    "training data",
+    "train set"
+   ],
+   "text": "The training set is the part of your data a model learns from by adjusting its internal settings. It is usually the largest chunk, often 70 to 80 percent of the total.",
+   "example": "Showing 8,000 of 10,000 labeled photos to a model so it can learn to tell cats from dogs.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "test set",
+    "test data",
+    "testing set",
+    "held-out set"
+   ],
+   "text": "The test set is a separate portion of data that the model never sees during training. It is used at the end to check how well the model works on new examples, which gives an honest score.",
+   "example": "Holding back 2,000 photos and using them only once to report the final accuracy.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "overfitting",
+    "overfit",
+    "over-fitting"
+   ],
+   "text": "Overfitting happens when a model memorizes the quirks and noise of its training data so closely that it does poorly on new data. It is like a student who memorizes last year's exam answers and fails when the questions change.",
+   "example": "A model scores 99 percent on its training data but only 70 percent on the test set.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "underfitting",
+    "underfit",
+    "under-fitting"
+   ],
+   "text": "Underfitting happens when a model is too simple to capture the real pattern in the data, so it does poorly on both training and new data. It is like drawing a straight line through points that clearly curve.",
+   "example": "Predicting house prices with a single flat average that ignores size and location.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "precision",
+    "positive predictive value",
+    "ppv"
+   ],
+   "text": "Precision is the share of the things a model labeled positive that really were positive. Formula: precision = TP ÷ (TP + FP), where TP is true positives and FP is false positives.",
+   "example": "If a spam filter flags 100 emails and 90 are really spam, precision is 90 percent.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "recall",
+    "true positive rate",
+    "tpr"
+   ],
+   "text": "Recall is the share of all the real positives that the model successfully found. Formula: recall = TP ÷ (TP + FN), where FN is false negatives, the positives the model missed.",
+   "example": "If there are 50 fraud cases and the model catches 40 of them, recall is 80 percent.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "f1 score",
+    "f1",
+    "f-measure",
+    "f1-score"
+   ],
+   "text": "The F1 score is one number that balances precision and recall using their harmonic mean. Formula: F1 = 2 × (precision × recall) ÷ (precision + recall). It is high only when both precision and recall are high.",
+   "example": "Precision 0.9 and recall 0.5 give an F1 of about 0.64, which is lower than their simple average of 0.7.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "accuracy",
+    "acc"
+   ],
+   "text": "Accuracy is the fraction of all predictions the model got right. Formula: accuracy = (TP + TN) ÷ total predictions. It can be misleading when one class is very rare.",
+   "example": "A model that always says not fraud is 99 percent accurate if only 1 percent of transactions are fraud, yet it catches no fraud at all.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "confusion matrix",
+    "error matrix"
+   ],
+   "text": "A confusion matrix is a table that counts each kind of correct and incorrect prediction. Actual labels run down one side and predicted labels run across the top. For two classes it has four cells: true positives, true negatives, false positives and false negatives.",
+   "example": "A 2×2 table showing 40 true positives, 5 false positives, 10 false negatives and 945 true negatives.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "classifier",
+    "classification model",
+    "classification"
+   ],
+   "text": "A classifier is a model that sorts inputs into named categories, such as spam or not spam. Its final answer is a label, though many classifiers also compute a probability score for each label.",
+   "example": "A model that reads an email and answers urgent or not urgent.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "regression model",
+    "regressor"
+   ],
+   "text": "A regression model predicts a continuous number, such as a price, temperature or height, rather than a category. It learns how the inputs relate to that number.",
+   "example": "Predicting a house's price in dollars from its size and number of bedrooms.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "feature",
+    "features",
+    "input variable",
+    "predictor variable"
+   ],
+   "text": "A feature is one measurable input the model uses to make a prediction, like a column in a spreadsheet. Good features describe a situation in a way that helps the model tell the possible answers apart.",
+   "example": "For house prices, square footage, number of bedrooms and postcode are all features.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "gradient descent",
+    "stochastic gradient descent",
+    "sgd"
+   ],
+   "text": "Gradient descent is the method models use to improve by repeatedly nudging their settings a small step in the direction that lowers the error. The direction comes from the gradient, which is the slope of the error with respect to each setting.",
+   "example": "Like walking downhill in fog by feeling the slope under your feet and taking small steps down.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "neural network",
+    "neural net",
+    "artificial neural network",
+    "ann"
+   ],
+   "text": "A neural network is a model built from layers of simple connected units, called neurons. Each neuron combines its inputs using adjustable weights and passes the result on. Stacking many layers lets the network learn complex patterns such as faces or speech.",
+   "example": "A network that takes in pixel values and outputs cat or dog after passing through several hidden layers.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "cross-validation",
+    "cross validation",
+    "k-fold cross-validation",
+    "k-fold"
+   ],
+   "text": "Cross-validation tests a model more reliably by splitting the data into several parts, called folds. The model is trained and tested on different combinations of folds, and the scores are averaged. With k = 5 folds, each fold serves as the test set once.",
+   "example": "Splitting 1,000 rows into 5 folds of 200 rows, getting five scores, and averaging them.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "anomaly detection",
+    "outlier detection",
+    "novelty detection"
+   ],
+   "text": "Anomaly detection finds data points that are unusual compared with the normal pattern, often without labeled examples of the unusual cases. It is used to spot things like fraud, equipment failure or network intrusions.",
+   "example": "Flagging a $9,000 credit card charge when the cardholder usually spends under $50.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "time series",
+    "timeseries",
+    "time-series data"
+   ],
+   "text": "A time series is data recorded in order over time, such as a stock price each day or a temperature each hour. Because nearby points are related, forecasting models use the order of the data and its past values to predict what comes next.",
+   "example": "Daily website visits over a year, used to forecast next week's traffic.",
+   "tries": [],
+   "topic": "computing"
+  },
+  {
+   "terms": [
+    "significant figures",
+    "sig figs",
+    "significant digits",
+    "sf"
+   ],
+   "text": "The digits in a number that show its precision, counted from the first non-zero digit. Leading zeros never count, but zeros after the first non-zero digit usually do when a decimal point is present.",
+   "example": "3.2050 has 5 significant figures, and 0.0720 has 3.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "rounding",
+    "round",
+    "round off",
+    "rounding off"
+   ],
+   "text": "Replacing a number with a nearby simpler value, such as the nearest whole number or tenth, so it is easier to read or use. Look at the digit just after the place you are keeping: 5 or more rounds up, 4 or less rounds down.",
+   "example": "3.46 rounded to one decimal place is 3.5.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "estimation",
+    "estimate",
+    "ballpark",
+    "rough calculation"
+   ],
+   "text": "Finding a quick, approximate answer by swapping numbers for easier nearby values and doing rough mental arithmetic. It tells you whether an exact answer is in a sensible range.",
+   "example": "198 × 52 is about 200 × 50 = 10,000; the exact answer is 10,296.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "percent change",
+    "percentage change",
+    "percent increase",
+    "percent decrease"
+   ],
+   "text": "How much a quantity went up or down, as a percentage of its original value. Formula: percent change = (new − old) ÷ old × 100%. A rise gives a positive result and a fall gives a negative one.",
+   "example": "A price rises from £40 to £46: (46 − 40) ÷ 40 × 100% = +15%.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "percentage point",
+    "percent point",
+    "pp",
+    "ppt"
+   ],
+   "text": "The simple difference between two percentages, written as pp. It measures how far a rate moved, not how much it changed relative to its starting value.",
+   "example": "Unemployment falls from 6% to 5%: that is a fall of 1 percentage point, but a percent change of about −16.7%.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "compound growth",
+    "compounding",
+    "compounded growth",
+    "growth compounding"
+   ],
+   "text": "Growth where each period's increase is added to the total before the next period, so earlier growth also grows. Formula: final = start × (1 + r)ⁿ, where r is the rate per period as a decimal and n is the number of periods.",
+   "example": "£100 growing 10% a year for 2 years: 100 × 1.1² = £121.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "ratio and proportion"
+   ],
+   "text": "A ratio compares two or more quantities of the same kind, written a:b. A proportion says two ratios are equal, meaning the quantities scale together in a fixed way.",
+   "example": "Paint mixed 2:3 (blue to white): 4 litres of blue needs 6 litres of white, because 2:3 = 4:6.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "unit rate",
+    "rate per unit",
+    "unit price",
+    "price per unit"
+   ],
+   "text": "A rate expressed per one unit of something, which makes two different amounts easy to compare. Formula: unit rate = total ÷ number of units.",
+   "example": "A 500 g pack costs £2.50, so the unit rate is £2.50 ÷ 500 g = £0.005 per gram, or 0.5p per gram.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "average speed",
+    "mean speed"
+   ],
+   "text": "The total distance travelled divided by the total time taken, regardless of how speed changed along the way. Formula: average speed = distance ÷ time, in units such as km/h or m/s.",
+   "example": "Driving 120 km in 2 hours gives an average speed of 60 km/h, even if you went faster at times.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "mixed number",
+    "mixed fraction"
+   ],
+   "text": "A whole number written together with a proper fraction, such as 2 3/4, meaning 2 + 3/4. Its value sits between two whole numbers.",
+   "example": "2 3/4 means 2 + 3/4, which is 2.75.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "improper fraction",
+    "top-heavy fraction",
+    "top heavy fraction"
+   ],
+   "text": "A fraction whose numerator is equal to or larger than its denominator, so its value is 1 or more. To convert a mixed number: multiply the whole part by the denominator, add the numerator, and keep the same denominator.",
+   "example": "2 3/4 = (2 × 4 + 3)/4 = 11/4.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "prime factorisation",
+    "prime factorization",
+    "prime decomposition",
+    "factorise into primes"
+   ],
+   "text": "Writing a whole number greater than 1 as a product of prime numbers only. Apart from the order of the factors, each such number has exactly one prime factorisation.",
+   "example": "60 = 2 × 2 × 3 × 5, which can be written 2² × 3 × 5.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "cube number",
+    "perfect cube",
+    "cube",
+    "cubed"
+   ],
+   "text": "The result of multiplying a whole number by itself three times, written n³. Geometrically, it is the volume of a cube with side length n. The first few are 1, 8, 27, 64.",
+   "example": "3³ = 3 × 3 × 3 = 27.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "negative number",
+    "negative",
+    "minus number"
+   ],
+   "text": "A number less than zero, written with a minus sign, such as −4. On a number line it sits to the left of zero. Multiplying two negatives gives a positive, and adding a negative moves you left.",
+   "example": "−3 × −2 = 6, and −3 + 5 = 2.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "order of operations",
+    "bidmas",
+    "bodmas",
+    "pemdas",
+    "operator precedence"
+   ],
+   "text": "The agreed sequence for evaluating an expression: brackets first, then powers (indices), then multiplication and division from left to right, then addition and subtraction from left to right. Mnemonics: BIDMAS or BODMAS.",
+   "example": "2 + 3 × 4 = 14, not 20, because the multiplication is done first.",
+   "tries": [],
+   "topic": "maths"
+  },
+  {
+   "terms": [
+    "p99 latency",
+    "99th percentile latency"
+   ],
+   "text": "p99 latency is the response time that 99 out of every 100 requests beat, so the slowest 1% take at least this long. It shows the experience of the unluckiest users, which averages and p95 can hide.",
+   "example": "If p99 latency is 2.4 s, then 1 in 100 requests takes 2.4 s or longer.",
+   "tries": [],
+   "topic": "monitoring"
+  },
+  {
+   "terms": [
+    "mttd",
+    "mean time to detect",
+    "mean time to discovery"
+   ],
+   "text": "MTTD is the average time between when a problem begins and when the team notices it, usually through an alert or a customer report. Shorter detection means less damage happens before anyone responds.",
+   "example": "If a problem starts at 10:00 and an alert fires at 10:12, that incident's detection time is 12 minutes.",
+   "tries": [],
+   "topic": "monitoring"
+  },
+  {
+   "terms": [
+    "true positive",
+    "tp",
+    "true alert"
+   ],
+   "text": "A true positive is a case where a test or alert correctly signals that a real problem exists. In monitoring, it is an alert that fires during a genuine incident.",
+   "example": "The checkout alert fires at 3 a.m. because checkout is really failing, so it is a true positive.",
+   "tries": [],
+   "topic": "monitoring"
+  },
+  {
+   "terms": [
+    "saturation",
+    "resource saturation",
+    "utilization saturation"
+   ],
+   "text": "Saturation measures how full a resource is, such as CPU, memory, disk, a connection pool or a queue, and how much work is waiting because the resource cannot keep up. A system near saturation slows down sharply, even when its average throughput still looks fine.",
+   "example": "A database connection pool with 98 of 100 connections in use and requests queuing is near saturation.",
+   "tries": [],
+   "topic": "monitoring"
+  },
+  {
+   "terms": [
+    "golden signals",
+    "four golden signals",
+    "sre golden signals",
+    "latency traffic errors saturation"
+   ],
+   "text": "The four golden signals are key measurements for watching a user-facing service: latency (how long requests take), traffic (how much demand there is), errors (how often requests fail) and saturation (how full the system is). Together they give a quick picture of health.",
+   "example": "A dashboard showing p99 latency, requests per second, the 5xx error rate and CPU use covers all four signals.",
+   "tries": [],
+   "topic": "monitoring"
+  }
+ ],
+ "contrasts": [
+  {
+   "a": "perimeter",
+   "b": "area",
+   "text": "Perimeter measures the length of the boundary of a 2D shape, while area measures the flat space inside it."
+  },
+  {
+   "a": "radius",
+   "b": "diameter",
+   "text": "Radius runs from the center out to the edge, while diameter runs straight across through the center and is twice as long."
+  },
+  {
+   "a": "surface area",
+   "b": "volume",
+   "text": "Surface area counts the square units covering the outside of a 3D solid, while volume counts the cubic units of space it fills."
+  },
+  {
+   "a": "equity",
+   "b": "bond",
+   "text": "Equity makes you a part-owner who shares in a company's profits and losses, while a bond makes you a lender who is owed regular interest and repayment of the face value."
+  },
+  {
+   "a": "annuity",
+   "b": "amortisation",
+   "text": "An annuity is the fixed series of payments itself, while amortisation is the process of paying a debt down through those payments."
+  },
+  {
+   "a": "recession",
+   "b": "deflation",
+   "text": "A recession is a sustained fall in total economic output (real GDP), while deflation is a sustained fall in the general price level."
+  },
+  {
+   "a": "return on investment",
+   "b": "net present value",
+   "text": "ROI is a percentage gain relative to what was spent, while NPV is a dollar amount in today's money after discounting future cash flows."
+  },
+  {
+   "a": "charge",
+   "b": "current",
+   "text": "Charge is the quantity of electricity, measured in coulombs, while current is how fast that charge flows, measured in amperes."
+  },
+  {
+   "a": "series circuit",
+   "b": "parallel circuit",
+   "text": "In a series circuit the same current passes through every component and the voltage is shared between them, while in a parallel circuit every branch gets the full voltage and the current splits between the branches."
+  },
+  {
+   "a": "watt",
+   "b": "kilowatt-hour",
+   "text": "A watt measures power, the rate at which energy is used, while a kilowatt-hour measures energy itself, so it equals power multiplied by time."
+  },
+  {
+   "a": "electric field",
+   "b": "magnetic field",
+   "text": "An electric field pushes on any charge, moving or still, and comes from electric charges, while a magnetic field only pushes on moving charges and comes from magnets or currents."
+  },
+  {
+   "a": "atom",
+   "b": "molecule",
+   "text": "An atom is a single particle of an element, while a molecule is a group of atoms bonded together."
+  },
+  {
+   "a": "element",
+   "b": "compound",
+   "text": "An element has only one kind of atom, while a compound has two or more different elements bonded in a fixed ratio."
+  },
+  {
+   "a": "ion",
+   "b": "isotope",
+   "text": "An ion differs in electric charge because it gained or lost electrons, while an isotope differs in neutron count and keeps the same charge."
+  },
+  {
+   "a": "covalent bond",
+   "b": "ionic bond",
+   "text": "A covalent bond shares electrons between atoms, while an ionic bond transfers electrons so the resulting ions attract each other."
+  },
+  {
+   "a": "domain",
+   "b": "range",
+   "text": "The domain is the set of allowed inputs (x-values), while the range is the set of outputs (y-values) the function actually produces."
+  },
+  {
+   "a": "geometric mean",
+   "b": "mean",
+   "text": "The arithmetic mean adds the values and divides by how many there are, while the geometric mean multiplies the values and takes the nth root, so it suits growth factors instead of plain amounts."
+  },
+  {
+   "a": "coefficient",
+   "b": "constant",
+   "text": "A coefficient is the number multiplying a variable (the 3 in 3x), while a constant is a fixed number with no variable attached (the 7 in 3x + 7)."
+  },
+  {
+   "a": "vector",
+   "b": "scalar",
+   "text": "A scalar is a single number with only a size, while a vector has both a size and a direction."
+  },
+  {
+   "a": "distance",
+   "b": "displacement",
+   "text": "Distance is the total length of the path travelled, while displacement is only the straight-line change from start to finish, including direction."
+  },
+  {
+   "a": "work",
+   "b": "power",
+   "text": "Work is the energy transferred by a force, while power is how quickly that work is done, measured in watts (W = J/s)."
+  },
+  {
+   "a": "frequency",
+   "b": "wavelength",
+   "text": "Frequency counts how many cycles pass each second (in hertz), while wavelength measures the length of one full cycle in space (in metres)."
+  },
+  {
+   "a": "gravity",
+   "b": "weight",
+   "text": "Gravity is the attractive pull between masses in general, while weight is the specific force gravity exerts on one object, equal to its mass times g (W = m·g)."
+  },
+  {
+   "a": "latency",
+   "b": "throughput",
+   "text": "Latency is how long one request takes to finish, while throughput is how many requests finish per unit of time."
+  },
+  {
+   "a": "bit",
+   "b": "byte",
+   "text": "A bit is a single 0 or 1, while a byte is a group of 8 bits, so network speeds are usually quoted in bits and file sizes in bytes."
+  },
+  {
+   "a": "hash",
+   "b": "encryption",
+   "text": "Hashing is one-way and produces a fixed-size fingerprint, while encryption is reversible with a key so the original data can be recovered."
+  },
+  {
+   "a": "bandwidth",
+   "b": "throughput",
+   "text": "Bandwidth is the maximum capacity a connection can carry, while throughput is the amount actually delivered in practice, which is usually lower."
+  },
+  {
+   "a": "sample",
+   "b": "population",
+   "text": "A sample is the part you actually measure, while the population is the whole group you want to learn about."
+  },
+  {
+   "a": "expected value",
+   "b": "mean",
+   "text": "The mean is the average of data you have already collected, while the expected value is the average you predict over many random outcomes, weighted by their probabilities."
+  },
+  {
+   "a": "regression",
+   "b": "correlation",
+   "text": "Correlation only measures how strongly two quantities move together in a straight-line way, from -1 to 1, while regression goes further and predicts one from the other using a line."
+  },
+  {
+   "a": "hypothesis test",
+   "b": "p-value",
+   "text": "A hypothesis test is the whole decision procedure, while the p-value is the single number it produces to show how surprising the data would be if the null hypothesis were true."
+  },
+  {
+   "a": "sla",
+   "b": "slo",
+   "text": "An SLA is the external promise to customers, with penalties if it is broken, while an SLO is the internal target the team actually aims for, usually set stricter than the SLA."
+  },
+  {
+   "a": "sli",
+   "b": "slo",
+   "text": "An SLI is the measurement of how the service is really performing, while an SLO is the target that measurement is judged against."
+  },
+  {
+   "a": "false negative",
+   "b": "false positive",
+   "text": "A false positive is an alarm with no real problem behind it, while a false negative is a real problem that raises no alarm."
+  },
+  {
+   "a": "tangent line",
+   "b": "secant line",
+   "text": "A tangent line touches a curve at a point and has the curve's exact slope there, while a secant line cuts through two points on the curve and has the average slope between them."
+  },
+  {
+   "a": "definite integral",
+   "b": "integral",
+   "text": "A definite integral is a single number (the signed area between two x-values), while an antiderivative is a function whose derivative is the original function."
+  },
+  {
+   "a": "chain rule",
+   "b": "product rule",
+   "text": "The chain rule differentiates a function nested inside another, f(g(x)), while the product rule differentiates two functions multiplied together, f(x) · g(x)."
+  },
+  {
+   "a": "local maximum",
+   "b": "inflection point",
+   "text": "A local maximum is a peak where the curve switches from rising to falling, while an inflection point is where the curve switches between bending up and bending down."
+  },
+  {
+   "a": "odds",
+   "b": "probability",
+   "text": "Probability is the chance of an event out of all possible outcomes, while odds compare the chance it happens with the chance it doesn't. A probability of 0.8 corresponds to odds of 4 to 1."
+  },
+  {
+   "a": "type i error",
+   "b": "false negative",
+   "text": "A type I error rejects a true null hypothesis (a false positive), while a type II error fails to reject a false null hypothesis (a false negative). Lowering one usually raises the other."
+  },
+  {
+   "a": "covariance",
+   "b": "correlation",
+   "text": "Covariance shows the direction of a relationship but its size depends on the units of the variables. Correlation is covariance rescaled to run from −1 to 1, so it measures strength on a common scale."
+  },
+  {
+   "a": "standard error",
+   "b": "standard deviation",
+   "text": "Standard deviation describes how spread out the individual values in one sample are. Standard error describes how much a sample statistic, such as the mean, would vary across repeated samples, and it shrinks as the sample grows."
+  },
+  {
+   "a": "conditional probability",
+   "b": "independence",
+   "text": "Conditional probability is the chance of A given that B happened, which is generally different from P(A). Independent events are the special case where knowing B leaves the chance of A unchanged."
+  },
+  {
+   "a": "interquartile range",
+   "b": "standard deviation",
+   "text": "The standard deviation uses every value and is pulled strongly by outliers. The interquartile range uses only the middle 50% of the data, so it is more robust to extreme values."
+  },
+  {
+   "a": "union",
+   "b": "intersection",
+   "text": "A union keeps everything that is in either set, while an intersection keeps only what is in both."
+  },
+  {
+   "a": "eigenvalue",
+   "b": "eigenvector",
+   "text": "An eigenvalue is the number λ by which a matrix scales a vector, while an eigenvector is the vector v whose direction is preserved."
+  },
+  {
+   "a": "dot product",
+   "b": "cross product",
+   "text": "A dot product gives a single number in any dimension, while a cross product gives a new vector perpendicular to both inputs and is standardly defined only for 3D vectors."
+  },
+  {
+   "a": "graph",
+   "b": "tree",
+   "text": "A graph can have loops and be disconnected, while a tree is a connected graph with no cycles."
+  },
+  {
+   "a": "proof by contradiction",
+   "b": "proof by induction",
+   "text": "Proof by contradiction assumes the claim is false and reaches an impossibility, while proof by induction proves the claim for all cases by a base case and a step that passes it along."
+  },
+  {
+   "a": "modular arithmetic",
+   "b": "congruence",
+   "text": "Modular arithmetic is the wrap-around system of working with remainders, while congruence is the statement a ≡ b (mod n) that two numbers share a remainder."
+  },
+  {
+   "a": "temperature",
+   "b": "heat",
+   "text": "Temperature is how hot something is, while heat is the energy that flows between objects because they have different temperatures. A small object can have a high temperature but store little heat."
+  },
+  {
+   "a": "refraction",
+   "b": "reflection",
+   "text": "Reflection is a wave bouncing back off a surface, while refraction is a wave bending as it passes into a different material. Both happen to light at the same boundary."
+  },
+  {
+   "a": "specific heat capacity",
+   "b": "heat",
+   "text": "Heat is the energy that moves, while specific heat capacity is a property of a material that says how much energy it takes to warm 1 kg of it by 1 K. Heat is the quantity transferred, and specific heat capacity helps calculate it."
+  },
+  {
+   "a": "half-life",
+   "b": "radioactivity",
+   "text": "Radioactivity is the process of unstable nuclei emitting radiation, while half-life is the time it takes for half of those nuclei to decay. Half-life measures how fast radioactivity fades."
+  },
+  {
+   "a": "buoyancy",
+   "b": "archimedes principle",
+   "text": "Buoyancy is the general upward push a fluid exerts on an object, while Archimedes' principle is the rule that gives the size of that push: the weight of the displaced fluid."
+  },
+  {
+   "a": "gravitational field",
+   "b": "escape velocity",
+   "text": "A gravitational field describes the pull a mass exerts at each point in space, measured in N/kg. Escape velocity is the speed needed to get out of that field completely from a planet's surface."
+  },
+  {
+   "a": "virus",
+   "b": "bacteria",
+   "text": "A virus is not a cell and cannot reproduce on its own, so it must invade a host cell to multiply. Bacteria are living single-celled organisms that reproduce by themselves."
+  },
+  {
+   "a": "dna",
+   "b": "gene",
+   "text": "DNA is the whole long molecule that stores all of an organism's instructions. A gene is one specific segment of that DNA that codes for a particular protein or function."
+  },
+  {
+   "a": "gene",
+   "b": "protein",
+   "text": "A gene is the blueprint written in DNA, while a protein is the molecule built from that blueprint. Genes are instructions; proteins are the working parts that carry them out."
+  },
+  {
+   "a": "antibody",
+   "b": "vaccine",
+   "text": "A vaccine is a substance you receive to train your immune system to make antibodies against a germ. An antibody is the protein the immune system actually produces to attach to and neutralize that germ."
+  },
+  {
+   "a": "enzyme",
+   "b": "protein",
+   "text": "Every enzyme is a protein, but not every protein is an enzyme. An enzyme is a protein whose specific job is to speed up a chemical reaction, while other proteins build structures or carry substances."
+  },
+  {
+   "a": "metabolism",
+   "b": "calorie",
+   "text": "Metabolism is the whole set of chemical processes in a body that turns food into energy and builds new material. A calorie is only a unit used to measure how much energy those processes release or food contains."
+  },
+  {
+   "a": "partial derivative",
+   "b": "derivative",
+   "text": "A derivative measures change in a function of one variable. A partial derivative does the same for a function of several variables, changing only one input while holding the rest fixed."
+  },
+  {
+   "a": "slope",
+   "b": "partial derivative",
+   "text": "A partial derivative is a single rate of change along one input. The gradient gathers all the partial derivatives into one vector that points in the steepest direction."
+  },
+  {
+   "a": "riemann sum",
+   "b": "integral",
+   "text": "A Riemann sum is a finite sum of rectangle areas that approximates the area under a curve. The integral is the exact value that these sums approach as the rectangles get thinner."
+  },
+  {
+   "a": "natural logarithm",
+   "b": "logarithm",
+   "text": "A logarithm can use any base. The natural logarithm ln x always uses base e, so it is the logarithm with base e."
+  },
+  {
+   "a": "exponential function",
+   "b": "exponential growth",
+   "text": "The exponential function eˣ is a specific mathematical function with base e. Exponential growth is a pattern in which a quantity increases by a fixed percentage over equal time steps, and eˣ is one way to model it."
+  },
+  {
+   "a": "implicit differentiation",
+   "b": "chain rule",
+   "text": "The chain rule is the basic rule for differentiating a function inside another function. Implicit differentiation applies the chain rule to both sides of an equation where y is not written alone, so the derivative dy/dx can be solved for."
+  },
+  {
+   "a": "endothermic reaction",
+   "b": "exothermic reaction",
+   "text": "An endothermic reaction absorbs heat and makes its surroundings colder, while an exothermic reaction releases heat and makes its surroundings warmer."
+  },
+  {
+   "a": "titration",
+   "b": "indicator",
+   "text": "Titration is the whole lab procedure of adding a known solution until a reaction is complete, while an indicator is the dye that changes color to show that completion point during a titration."
+  },
+  {
+   "a": "oxidation",
+   "b": "valence electrons",
+   "text": "Valence electrons are the actual outer-shell electrons of an atom that take part in bonding, while an oxidation state is a bookkeeping number that tracks electron gain or loss in a compound."
+  },
+  {
+   "a": "reaction rate",
+   "b": "chemical equilibrium",
+   "text": "Reaction rate is how fast a reaction proceeds, while chemical equilibrium is the state where forward and reverse reactions balance so concentrations stop changing overall."
+  },
+  {
+   "a": "solubility",
+   "b": "ppm",
+   "text": "Solubility is the maximum amount of a solute that can dissolve in a solvent at a given temperature, while ppm is a unit used to express how concentrated a mixture is."
+  },
+  {
+   "a": "combustion",
+   "b": "exothermic reaction",
+   "text": "Combustion is a specific type of reaction in which a substance reacts rapidly with oxygen, while exothermic describes any reaction that releases heat; combustion is always exothermic, but not every exothermic reaction is combustion."
+  },
+  {
+   "a": "mrr",
+   "b": "arr",
+   "text": "MRR is the recurring revenue for one month, while ARR is the same revenue annualized over a full year, so ARR = MRR × 12."
+  },
+  {
+   "a": "gross margin",
+   "b": "net margin",
+   "text": "Gross margin subtracts only the direct costs of delivering what you sell, while net margin subtracts every expense, including overhead, interest and taxes, so net margin is usually the smaller of the two."
+  },
+  {
+   "a": "churn rate",
+   "b": "retention rate",
+   "text": "Churn rate measures the share of customers lost over a period, while retention rate measures the share kept; together they add up to 100%."
+  },
+  {
+   "a": "burn rate",
+   "b": "runway",
+   "text": "Burn rate is how fast a company spends its cash each month, while runway is how many months that cash will last at that burn rate."
+  },
+  {
+   "a": "cac",
+   "b": "ltv",
+   "text": "CAC is the cost to win one new customer, while LTV is the total profit that customer brings over their whole relationship, and a business is healthy when LTV is clearly higher than CAC."
+  },
+  {
+   "a": "dau",
+   "b": "mau",
+   "text": "DAU counts unique users active on a single day, while MAU counts unique users active at least once in a month, so MAU is always at least as large as DAU."
+  },
+  {
+   "a": "nominal gdp",
+   "b": "real gdp",
+   "text": "Nominal GDP uses current prices, so it rises with inflation as well as output. Real GDP strips out price changes, so it shows whether the economy actually produced more."
+  },
+  {
+   "a": "opportunity cost",
+   "b": "marginal cost",
+   "text": "Opportunity cost is the value of the best alternative you give up when choosing. Marginal cost is the extra cost to a producer of making one more unit."
+  },
+  {
+   "a": "supply",
+   "b": "demand",
+   "text": "Supply is how much sellers are willing to offer at a price. Demand is how much buyers want to buy at that price. Supply and demand together set the market price."
+  },
+  {
+   "a": "price elasticity",
+   "b": "supply and demand",
+   "text": "Supply and demand is the model of how a price is set. Price elasticity measures how much the quantity bought or sold changes when the price changes."
+  },
+  {
+   "a": "purchasing power",
+   "b": "exchange rate",
+   "text": "Purchasing power is how much your money buys within your own country. The exchange rate is the price of your currency in another currency."
+  },
+  {
+   "a": "deployment",
+   "b": "canary release",
+   "text": "A deployment is the act of putting a new version onto servers. A canary release is a strategy for deploying, where the new version first reaches only a small share of users."
+  },
+  {
+   "a": "rollback",
+   "b": "feature flag",
+   "text": "A rollback reverts the whole system to an earlier version, usually by deploying it again. A feature flag turns one feature off in the running system without any redeploy."
+  },
+  {
+   "a": "observability",
+   "b": "logging",
+   "text": "Logging is one tool that records events as text. Observability is the broader ability to understand a system's state from its logs, metrics, and traces together."
+  },
+  {
+   "a": "load balancer",
+   "b": "dns",
+   "text": "DNS turns a domain name into an address before any connection happens. A load balancer spreads requests across several servers after they arrive."
+  },
+  {
+   "a": "circuit breaker",
+   "b": "retry with backoff",
+   "text": "Retry with backoff keeps trying a failed call, waiting longer each time. A circuit breaker stops calls to a failing service entirely after repeated failures, so requests fail fast."
+  },
+  {
+   "a": "idempotency",
+   "b": "retry with backoff",
+   "text": "Idempotency is a property of an operation: repeating it has the same effect as doing it once. Retry with backoff is a strategy that is only safe to use on operations that are idempotent."
+  },
+  {
+   "a": "precision",
+   "b": "recall",
+   "text": "Precision asks how many of the model's positive predictions were correct, while recall asks how many of the real positives it found. A spam filter with high precision rarely flags good email; high recall means it catches most of the spam."
+  },
+  {
+   "a": "overfitting",
+   "b": "underfitting",
+   "text": "An overfit model learns noise and does well on training data but poorly on new data. An underfit model is too simple and does poorly on both."
+  },
+  {
+   "a": "training set",
+   "b": "test set",
+   "text": "The training set is used to learn the model's settings. The test set is held back and used only to check how well the finished model performs."
+  },
+  {
+   "a": "classifier",
+   "b": "regression model",
+   "text": "A classifier predicts a category, such as yes or no. A regression model predicts a continuous number, such as a price."
+  },
+  {
+   "a": "accuracy",
+   "b": "precision",
+   "text": "Accuracy counts all correct predictions, both positive and negative, out of all predictions. Precision looks only at the predictions labeled positive and asks how many of those were right."
+  },
+  {
+   "a": "test set",
+   "b": "cross-validation",
+   "text": "A single test set gives one score from one split of the data. Cross-validation rotates through several splits and averages the scores, so the estimate is less dependent on one lucky or unlucky split."
+  },
+  {
+   "a": "percent change",
+   "b": "percentage point",
+   "text": "Percent change is the relative change from the starting value, so it depends on the base. A percentage point is the plain difference between two percentages, so going from 10% to 13% is a rise of 3 percentage points but a 30% percent change."
+  },
+  {
+   "a": "rounding",
+   "b": "estimation",
+   "text": "Rounding applies a fixed rule to a specific number to cut it to a chosen place. Estimation approximates the result of a whole calculation by swapping in easier numbers, so the answer is only a rough guide."
+  },
+  {
+   "a": "significant figures",
+   "b": "rounding",
+   "text": "Significant figures describe how precise a number is by counting its meaningful digits. Rounding is the action of cutting digits off, and you often round a number to a chosen count of significant figures."
+  },
+  {
+   "a": "perfect square",
+   "b": "cube number",
+   "text": "A square number is n × n (two multiplications, area of a square). A cube number is n × n × n (three multiplications, volume of a cube). For example, 4 is a square number and 8 is a cube number."
+  },
+  {
+   "a": "ratio and proportion",
+   "b": "ratio",
+   "text": "A ratio is a comparison of two quantities, such as 2:3. A proportion goes further and states that two ratios are equal, such as 2:3 = 4:6."
+  },
+  {
+   "a": "mixed number",
+   "b": "improper fraction",
+   "text": "A mixed number and an improper fraction can have the same value but are written differently. 2 3/4 is a mixed number, and 11/4 is the improper fraction for the same amount."
+  },
+  {
+   "a": "error budget",
+   "b": "burn rate",
+   "text": "The error budget is the total unreliability allowed in the window. Burn rate is how fast that budget is being spent right now."
+  },
+  {
+   "a": "mttd",
+   "b": "mttr",
+   "text": "MTTD measures how long it takes to notice a problem. MTTR measures how long it takes to restore service, from the start of the incident to recovery."
+  },
+  {
+   "a": "true positive",
+   "b": "false negative",
+   "text": "A true positive is an alert that correctly fires for a real problem. A false negative is a real problem that never triggers an alert."
+  },
+  {
+   "a": "runbook",
+   "b": "postmortem",
+   "text": "A runbook is written before an incident and tells responders what to do during one. A postmortem is written after an incident and explains what happened and how to prevent a repeat."
+  }
+ ]
+}
